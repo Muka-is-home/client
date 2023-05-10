@@ -31,32 +31,32 @@ const InputForm = ({ label, lg, sm, lastSm }) => {
       .catch((error) => console.log("Error", error));
   }, []);
 
-  let minPrice =
-    value?.length !== 0 &&
-    value?.reduce(function (res, obj) {
-      return Math.round(obj?.price) < Math.round(res?.price) ? obj : res;
-    });
-  let maxPrice =
-    value?.length !== 0 &&
-    value?.reduce(function (res, obj) {
-      return Math.round(obj?.price) > Math.round(res?.price) ? obj : res;
-    });
-  let minSqft =
-    value?.length !== 0 &&
-    value?.reduce(function (res, obj) {
-      return Math.round(obj?.sqft) < Math.round(res?.sqft) ? obj : res;
-    });
-  let maxSqft =
-    value?.length !== 0 &&
-    value?.reduce(function (res, obj) {
-      return Math.round(obj?.sqft) > Math.round(res?.sqft) ? obj : res;
-    });
+  // let minPrice =
+  //   value?.length !== 0 &&
+  //   value?.reduce(function (res, obj) {
+  //     return Math.round(obj?.price) < Math.round(res?.price) ? obj : res;
+  //   });
+  // let maxPrice =
+  //   value?.length !== 0 &&
+  //   value?.reduce(function (res, obj) {
+  //     return Math.round(obj?.price) > Math.round(res?.price) ? obj : res;
+  //   });
+  // let minSqft =
+  //   value?.length !== 0 &&
+  //   value?.reduce(function (res, obj) {
+  //     return Math.round(obj?.sqft) < Math.round(res?.sqft) ? obj : res;
+  //   });
+  // let maxSqft =
+  //   value?.length !== 0 &&
+  //   value?.reduce(function (res, obj) {
+  //     return Math.round(obj?.sqft) > Math.round(res?.sqft) ? obj : res;
+  //   });
 
   return (
     <Row className="gx-3">
       <DropdownInputFields filterValues={filterValues} setFilterValues={setFilterValues} label={label} start={0} end={6} lg={lg} sm={sm} lastSm={lastSm} />
-      <RangeInputFields label="Price" name="price" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minPrice?.price)} max={Math.round(maxPrice?.price)} lg={lg} sm={sm} />
-      <RangeInputFields label="Area" name="area" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minSqft?.sqft)} max={Math.round(maxSqft?.sqft)} lg={lg} sm={sm} />
+      {/* <RangeInputFields label="Price" name="price" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minPrice?.price)} max={Math.round(maxPrice?.price)} lg={lg} sm={sm} />
+      <RangeInputFields label="Area" name="area" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minSqft?.sqft)} max={Math.round(maxSqft?.sqft)} lg={lg} sm={sm} /> */}
       <Col lg={lg || 12}>
         <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-gradient mt-3">
             Search

@@ -9,7 +9,7 @@ const LoadingScreen = () => {
         </div>
         <div className="col-12">
           <div>
-            <h3 className="mb-0">Please wait Real estate Template loading...</h3>
+            <h3 className="mb-0">Loading...</h3>
           </div>
         </div>
       </div>

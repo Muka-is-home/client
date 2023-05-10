@@ -1,7 +1,7 @@
 import { createReducer } from "@reduxjs/toolkit";
 
 const initialState = {
-  propertyStatus: "Property Status",
+  propertyStatus: "State",
   price: [2500, 8500],
   area: [2500, 8500],
 };

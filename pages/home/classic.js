@@ -4,13 +4,13 @@
  * ...(await serverSideTranslations(locale, ['common']))
  */
 import React, { useEffect } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import BodyContent from "../../components/home/classic";
 import NavbarFour from "../../layout/headers/NavbarFour";
 import FooterFour from "../../layout/footers/FooterFour";
 import { ConfigDB } from "../../config/themeCustomizerConfig";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 const Classic = () => {
   useEffect(() => {
     setTimeout(() => {

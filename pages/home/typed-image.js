@@ -4,11 +4,11 @@
  * @returns The TypedImage component is being returned.
  */
 import React, { useEffect } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import { Logo4, Logo7 } from "../../components/elements/Logo";
 import NavbarFive from "../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import FooterOne from "../../layout/footers/FooterOne";
 import BodyContent from "../../components/home/typed-image";
 import { ConfigDB } from "../../config/themeCustomizerConfig";

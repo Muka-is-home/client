@@ -4,10 +4,10 @@
  * merged with the component’s existing props.
  */
 import React from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import NavbarFive from "../../../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import Breadcrumb3 from "../../../../layout/Breadcrumb/Breadcrumb3";
 import FooterThree from "../../../../layout/footers/FooterThree";
 import MapView from "../../../../components/listing/gridView/map/MapView";

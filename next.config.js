@@ -2,7 +2,6 @@
  * @type {import('next').NextConfig}
  */
 
-const { i18n } = require("./next-i18next.config");
 const withPWA = require("next-pwa")({
   dest: "public",
   register: true,
@@ -11,8 +10,8 @@ const withPWA = require("next-pwa")({
 
 module.exports = withPWA({
   reactStrictMode: false,
-  i18n,
   env: {
-    API_URL: "http://localhost:3000/api",
+    API_URL: "https://3000-mukaishome-client-le0ub46k9fo.ws-us97.gitpod.io/api", // use with GitPod
+    // API_URL: "https://localhost:3000/api", //use for local
   },
 });

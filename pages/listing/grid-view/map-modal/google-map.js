@@ -3,10 +3,10 @@
  * @returns The GoogleMap component is being returned.
  */
 import React, { useState } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import NavbarThree from "../../../../layout/headers/NavbarThree";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import FooterThree from "../../../../layout/footers/FooterThree";
 import Breadcrumb from "../../../../layout/Breadcrumb/Breadcrumb";
 import GridView from "../../../../components/listing/gridView/grid/GridView";

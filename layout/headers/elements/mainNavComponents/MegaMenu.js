@@ -5,11 +5,9 @@
 import React from "react";
 import Link from "next/link";
 import { Col, Container, Row } from "reactstrap";
-import { useTranslation } from "next-i18next";
 import useMobileSize from "../../../../utils/useMobileSize";
 
 const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNestedChild }) => {
-  const { t } = useTranslation("common");
   const mobileSize = useMobileSize();
   return (
     <li className="mega-menu">
@@ -21,7 +19,7 @@ const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNes
           setIsOpen(navTitle.title);
           isOpen === navTitle.title && setIsOpen();
         }}>
-        {t(navTitle.title)}
+        {navTitle.title}
         <span className="according-menu">{isOpen === navTitle.title ? "-" : "+"}</span>
       </a>
       <div className={`mega-menu-container menu-content ${isOpen === navTitle.title ? "d-block" : ""} `}>

@@ -1,13 +1,13 @@
 import React from "react";
 import { User, Lock } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import Link from "next/link";
 import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
 import FooterThree from "../../../layout/footers/FooterThree";
 import NavbarThree from "../../../layout/headers/NavbarThree";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 
 const Login = () => {
   return (

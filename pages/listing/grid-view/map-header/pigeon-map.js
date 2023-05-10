@@ -4,10 +4,10 @@
  * @returns The PigeonMap component is being returned.
  */
 import React from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import NavbarSix from "../../../../layout/headers/NavbarSix";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import FooterThree from "../../../../layout/footers/FooterThree";
 import GridView from "../../../../components/listing/gridView/grid/GridView";
 import Pigeon from "../../../../components/listing/gridView/map/PigeonMap";

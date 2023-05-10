@@ -3,11 +3,11 @@
  * @returns a React component.
  */
 import React from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import dynamic from "next/dynamic";
 import NavbarFive from "../../../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import FooterThree from "../../../../layout/footers/FooterThree";
 import MapView from "../../../../components/listing/gridView/map/MapView";
 import Breadcrumb4 from "../../../../layout/Breadcrumb/Breadcrumb4";

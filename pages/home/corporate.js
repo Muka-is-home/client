@@ -3,14 +3,14 @@
  * key is an object with the key of ...(await serverSideTranslations(locale, ['common']))
  * @returns The return value of the function is an object with a props property.
  */
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import { useEffect } from "react";
 import NavbarTwo from "../../layout/headers/NavbarTwo";
 import FooterTwo from "../../layout/footers/FooterTwo";
 import BodyContent from "../../components/home/corporate";
 import { ConfigDB } from "../../config/themeCustomizerConfig";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 const Corporate = () => {
   useEffect(() => {
     setTimeout(() => {

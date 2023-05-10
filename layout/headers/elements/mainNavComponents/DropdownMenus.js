@@ -4,13 +4,11 @@
  */
 import React from "react";
 import Link from "next/link";
-import { useTranslation } from "next-i18next";
 
 import useMobileSize from "../../../../utils/useMobileSize";
 import { useRouter } from "next/router";
 
 const DropdownMenus = ({ navTitle, isOpen, setIsOpen, isOpenChild, setIsOpenChild, isOpenNestedChild, setIsOpenNestedChild, icon }) => {
-  const { t } = useTranslation("common");
   const router = useRouter();
   // get window width
   const mobileSize = useMobileSize();
@@ -25,7 +23,7 @@ const DropdownMenus = ({ navTitle, isOpen, setIsOpen, isOpenChild, setIsOpenChil
           isOpen === navTitle.title && setIsOpen();
         }}>
         {!mobileSize && icon && navTitle.icon}
-        {t(navTitle.title)}
+        {navTitle.title}
         <span className="according-menu">{isOpen === navTitle.title ? "-" : "+"}</span>
       </a>
       <ul className={`nav-submenu menu-content ${mobileSize && isOpen === navTitle.title ? "d-block" : "d-none d-xl-block"}`}>

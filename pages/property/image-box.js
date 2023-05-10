@@ -4,12 +4,12 @@
  */
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import BodyContent from "../../components/property/tabPanelPages";
 import FooterThree from "../../layout/footers/FooterThree";
 import NavbarFive from "../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import ImgBox from "../../components/property/tabPanelPages/ImageBox";
 import { getData } from "../../utils/getData";
 

@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="brand-logo">
       <Link href="/">
-        <img src="/assets/images/logo/6.png" alt="" className="img-fluid" />
+        <img src="/assets/images/logo/muka-logo-teal.svg" alt="" className="img-fluid" />
       </Link>
     </div>
   );

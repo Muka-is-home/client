@@ -4,11 +4,11 @@
  * @returns The return value of the function is an object with a props property.
  */
 import React, { useEffect } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import { Logo5 } from "../../components/elements/Logo";
 import NavbarTwo from "../../layout/headers/NavbarTwo";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import FooterTwo from "../../layout/footers/FooterTwo";
 import BodyContent from "../../components/home/parallax-image";
 import { ConfigDB } from "../../config/themeCustomizerConfig";

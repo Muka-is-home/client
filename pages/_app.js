@@ -2,7 +2,6 @@ import "../public/assets/scss/app.scss";
 import Head from "next/head";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
-import { appWithTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import TapToTop from "../layout/TapToTop";
@@ -31,11 +30,11 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Sheltos - Filter search with slider home page" />
-        <meta name="keywords" content="sheltos" />
-        <meta name="author" content="sheltos" />
+        <meta name="description" content="Muka" />
+        <meta name="keywords" content="Muks" />
+        <meta name="author" content="muka" />
         <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
-        <title>Sheltos - Filter search with slider home page</title>
+        <title>Muka</title>
       </Head>
       <Provider store={store}>
         <>
@@ -50,4 +49,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;

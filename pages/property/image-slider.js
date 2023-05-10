@@ -5,13 +5,13 @@
  */
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import BodyContent from "../../components/property/tabPanelPages";
 import SliderSection from "../../components/property/tabPanelPages/Slider";
 import FooterThree from "../../layout/footers/FooterThree";
 import NavbarFive from "../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 import { getData } from "../../utils/getData";
 
 const View360 = () => {

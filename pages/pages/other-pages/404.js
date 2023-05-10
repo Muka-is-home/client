@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 import Link from "next/link";
 import NavbarFive from "../../../layout/headers/NavbarFive";
 
-export const getStaticProps = async ({ locale }) => ({ props: { ...(await serverSideTranslations(locale, ["common"])) } });
+
 
 const Page404 = () => {
   return (
