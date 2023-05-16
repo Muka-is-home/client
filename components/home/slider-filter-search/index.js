@@ -9,6 +9,9 @@ import AboutSection from "./About";
 import BannerSection from "./Banner";
 import BrandSection from "./Brand";
 import CitiesWisePropertySection from "./CitiesWiseProperty";
+import PropertyServicesSection from "../classic/PropertyServices";
+import LatestBlogSection from "../enterprise/LatestBlog";
+
 import FeatureSection from "./Feature";
 import HomeBannerSection from "./HomeBanner";
 import OfferSection from "./Offer";
@@ -36,15 +39,11 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
-      <SalePropertySection value={value?.LatestForSalePropertyData} />
-      <FeatureSection value={value?.FeaturedProperty} />
-      <PropertySection value={value?.LatestPropertyData} />
-      <OfferSection value={AppPropertyData.OurNewOffer} />
-      <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
-      <BannerSection />
-      <AboutSection value={clientData?.MeetOurAgent} />
-      <TestimonialSection value={clientData?.HappyClient} normal={true} />
       <BrandSection />
+      <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
+      <LatestBlogSection value={value?.LatestBlogInEnterprise} />
+      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      <AboutSection value={clientData?.MeetOurAgent} />
     </>
   );
 };

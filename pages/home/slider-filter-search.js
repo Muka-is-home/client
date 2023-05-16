@@ -20,7 +20,7 @@ const SliderFilterSearch = () => {
   }, []);
   return (
     <>
-      <NavbarOne />
+      {/* <NavbarOne /> */}
       <BodyContent />
       <FooterOne />
     </>
