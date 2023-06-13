@@ -29,7 +29,7 @@ const Step2 = ({ setActiveTab, setData }) => {
         <Form>
           <div className="wizard-step-2">
             <h2>Address</h2>
-            <p className="font-roboto">Add your property Location</p>
+            <p className="font-primary">Add your property Location</p>
             <Row className=" gx-3">
               <Col sm="6" className="form-group">
                 <Field type="text" name="address" component={ReactstrapInput} className="form-control" label="Address" placeholder="Address of your property" />

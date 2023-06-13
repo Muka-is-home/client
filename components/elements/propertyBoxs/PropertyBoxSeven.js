@@ -38,7 +38,7 @@ const PropertyBoxSeven = ({ data }) => {
       </div>
 
       <div className="property-details">
-        <span className="font-roboto">{data?.country}</span>
+        <span className="font-primary">{data?.country}</span>
         <Link href={Array.isArray(data.img) ? `/property/image-slider/?id=${data.id}` : `/property/image-box/?id=${data.id}`}>
           <h3>{data?.title}</h3>
         </Link>
@@ -46,7 +46,7 @@ const PropertyBoxSeven = ({ data }) => {
           {symbol}
           {(data?.price * currencyValue).toFixed(2)}*
         </h6>
-        <p className="font-roboto">{data?.details}</p>
+        <p className="font-primary">{data?.details}</p>
         <ul>
           <li>
             <img src="/assets/images/svg/icon/double-bed.svg" className="img-fluid" alt="" />

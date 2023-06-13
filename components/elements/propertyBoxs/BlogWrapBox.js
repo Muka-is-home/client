@@ -27,7 +27,7 @@ const BlogWrapBox = ({ data, masonry }) => {
         <h3>
           <Link href="/pages/blog-detail-pages/left-sidebar">{data?.title}</Link>
         </h3>
-        <p className="font-roboto">{data?.detail}</p>
+        <p className="font-primary">{data?.detail}</p>
         <Link href="/pages/blog-detail-pages/left-sidebar">read more</Link>
       </div>
     </div>

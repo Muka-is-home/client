@@ -29,7 +29,7 @@ const MapFilter = () => {
                     <div className="media-body">
                       <h4>Any Country</h4>
                       <div className="dropdown">
-                        <Fragment className="dropdown-toggle font-roboto">
+                        <Fragment className="dropdown-toggle font-primary">
                           <span>Any Location In Country</span>
                         </Fragment>
                       </div>
@@ -52,7 +52,7 @@ const MapFilter = () => {
                     <div className="media-body">
                       <h4>Any City</h4>
                       <div className="dropdown">
-                        <Fragment className="dropdown-toggle font-roboto">
+                        <Fragment className="dropdown-toggle font-primary">
                           <span>Any Location In City</span>
                         </Fragment>
                       </div>
@@ -75,7 +75,7 @@ const MapFilter = () => {
                     <div className="media-body">
                       <h4>Property Type</h4>
                       <div className="dropdown">
-                        <Fragment className="dropdown-toggle font-roboto">
+                        <Fragment className="dropdown-toggle font-primary">
                           <span>Any property type</span>
                         </Fragment>
                       </div>

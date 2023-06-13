@@ -15,7 +15,7 @@ const PropertyBoxFive = ({ data }) => {
         <div className="overlay-property">
           <div className="overlay-box">
             <h4>{data?.title}</h4>
-            <p className="font-roboto">{data?.details}</p>
+            <p className="font-primary">{data?.details}</p>
             <Link href={`/property/image-box/?id=${data.id}`}>View Details</Link>
           </div>
         </div>

@@ -23,7 +23,7 @@ const TestimonialSection = ({ value }) => {
               <h2>
                 Our <span>Client</span>
               </h2>
-              <p className="font-roboto">{PropertyServicesDetail}</p>
+              <p className="font-primary">{PropertyServicesDetail}</p>
             </div>
             <NoSsr>
               <Slider className="testimonial-3 modern-dot" {...testimonial3}>
@@ -38,7 +38,7 @@ const TestimonialSection = ({ value }) => {
                         </Col>
                         <Col md="6">
                           <div className="client-right">
-                            <p className="font-roboto">{data.details}</p>
+                            <p className="font-primary">{data.details}</p>
                             <ul className="client-rating">
                               <ReviewStarr rating={data.rating} />
                             </ul>

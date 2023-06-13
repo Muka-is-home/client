@@ -20,7 +20,7 @@ const CommentSection = () => {
               </div>
             </div>
             <div className='comment-detail'>
-              <p className='font-roboto'>
+              <p className='font-primary'>
                 Residences can be classified by and how they are connected to neighbouring residences and land. Different types of housing tenure can be used for the same physical type. For example,
                 connected residences might be owned by a single entity and leased out.
               </p>
@@ -46,7 +46,7 @@ const CommentSection = () => {
               </div>
             </div>
             <div className='comment-detail'>
-              <p className='font-roboto'>
+              <p className='font-primary'>
                 For example, connected residences might be owned by a single entity and leased out, Residences can be classified by and how they are connected to neighbouring residences and land.
                 Different types of housing tenure can be used for the same physical type.
               </p>
@@ -74,7 +74,7 @@ const CommentSection = () => {
               </div>
             </div>
             <div className='comment-detail'>
-              <p className='font-roboto'>
+              <p className='font-primary'>
                 Different types of housing tenure can be used for the same physical type. For example, connected residences might be owned by a single entity and leased out, Residences can be
                 classified by and how they are connected to neighbouring residences and land.
               </p>

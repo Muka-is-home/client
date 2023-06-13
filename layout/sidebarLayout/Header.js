@@ -62,7 +62,7 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
           <li>
             {(AdvancedSearchShow || mobileSize) && (
               <div className="filter-bottom-title">
-                <h6 className="mb-0 font-roboto" onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
+                <h6 className="mb-0 font-primary" onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
                   Advance search <AlignCenter className="float-end ms-2" />
                 </h6>
               </div>
@@ -71,7 +71,7 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
 
           <li>
             <Dropdown isOpen={isOpen} toggle={() => setIsOpen(!isOpen)}>
-              <DropdownToggle className=" font-rubik">
+              <DropdownToggle className=" font-secondary">
                 <span>{sortBy || "Sort by Newest"}</span> <i className="fas fa-angle-down ms-lg-3 ms-2"></i>
               </DropdownToggle>
               <DropdownMenu className=" text-start">

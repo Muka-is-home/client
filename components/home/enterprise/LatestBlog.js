@@ -34,7 +34,7 @@ const LatestBlogSection = ({ value }) => {
                           <h3>
                             <Link href="/pages/blog-detail-pages/left-sidebar">{data.titles}</Link>
                           </h3>
-                          <p className="font-roboto">{data.details}</p>
+                          <p className="font-primary">{data.details}</p>
                           <Link href="/pages/blog-detail-pages/left-sidebar" className="btn btn-gradient btn-pill btn-lg">
                             read more
                           </Link>

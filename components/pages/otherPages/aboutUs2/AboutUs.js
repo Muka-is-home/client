@@ -9,7 +9,7 @@ const AboutUsSection = () => {
           <div className='col'>
             <div className='title-2'>
               <h2>About Us</h2>
-              <p className='font-roboto'>Elegant retreat in Coral Gables setting. This home provides entertaining spaces with kitchen opening</p>
+              <p className='font-primary'>Elegant retreat in Coral Gables setting. This home provides entertaining spaces with kitchen opening</p>
             </div>
             <div className='user-about'>
               <Row>
@@ -28,7 +28,7 @@ const AboutUsSection = () => {
                 <div className='col-xl-5 col-lg-7'>
                   <div className='about-content'>
                     <h3>We are the expert of team communication</h3>
-                    <p className='font-roboto'>
+                    <p className='font-primary'>
                       Residences can be classified by and how they are connected to neighbouring residences and land. Different types of housing tenure can be used for the same physical type{" "}
                     </p>
                   </div>

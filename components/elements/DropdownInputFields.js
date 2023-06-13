@@ -25,7 +25,7 @@ const DropdownInputFields = ({ label, filterValues, setFilterValues, lg, sm, sta
                 setIsOpen(value.label);
                 isOpen === value.label && setIsOpen();
               }}>
-              <DropdownToggle className="font-rubik" caret>
+              <DropdownToggle className="font-secondary" caret>
                 {inputFilter[`${value.name}`] || value.label}
                 <i className='fas fa-angle-down'></i>
               </DropdownToggle>

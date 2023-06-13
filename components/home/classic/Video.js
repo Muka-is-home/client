@@ -25,7 +25,7 @@ const VideoSection = () => {
                 {AreYouWorried} <br />
                 {SlickAboutMovingOut}
               </h2>
-              <p className="font-roboto">{VideoDetail}</p>
+              <p className="font-primary">{VideoDetail}</p>
               <Link href="/listing/grid-view/2-grid/left-sidebar" className="btn btn-gradient btn-lg">
                   {SearchNow}
               </Link>

@@ -132,11 +132,12 @@ $i: 10;
 /*====== Image-sizes css ends ======*/
 
 /*====== font family css starts ======*/
-.font-roboto {
+.font-primary {
   font-family: $font_primary_regular, sans-serif;
 }
-.font-rubik {
+.font-secondary {
   font-family: $font_primary_regular, sans-serif;
+  //update with complimentary font if needed
 }
 /*====== font family css end ======*/
 

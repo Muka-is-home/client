@@ -49,7 +49,7 @@ const MyProfileTab = () => {
                 <span>Licensed for 2 years</span>
               </li>
             </ul>
-            <p className="font-roboto">
+            <p className="font-primary">
               Residences can be classified by and how they are connected to neighbouring residences and land. Different types of housing tenure can be used for the same physical type.
             </p>
           </div>

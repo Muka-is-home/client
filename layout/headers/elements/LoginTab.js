@@ -34,7 +34,7 @@ const LoginTab = () => {
         <Label className="d-block mb-0" htmlFor="chk-ani">
           <Input className="checkbox_animated color-3" id="chk-ani" type="checkbox" /> <span>Remember me</span>
         </Label>
-        <Link href="/pages/other-pages/forgot-password" className="font-rubik text-color-3">
+        <Link href="/pages/other-pages/forgot-password" className="font-secondary text-color-3">
           Forgot password ?
         </Link>
       </div>
