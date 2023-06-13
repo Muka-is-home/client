@@ -63,7 +63,7 @@ button,
   }
   &::placeholder {
     font-size: 14px;
-    font-family: $font_1, $font_3;
+    font-family: $font_primary_regular, sans-serif;
     color: rgba($title-color, 0.4);
   }
 }

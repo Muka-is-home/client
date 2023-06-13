@@ -1,8 +1,8 @@
 
 :root {
     --theme-default: #27c1a3;
-    --theme-default2: #9516d7;
-    --theme-default3: #27c1a3;
+    --theme-default2: #CE22CC;
+    --theme-default3: #6436B9;
     --theme-gradient1: linear-gradient(to right, var(--theme-default3) 0%, var(--theme-default3) 51%, #039DA4 100%);
     --theme-gradient2: linear-gradient(to right, var(--theme-default) 0%, var(--theme-default2) 100%);
     --theme-gradient3: linear-gradient(48deg, var(--theme-default) 0%, var(--theme-default2) 100%);
@@ -38,19 +38,15 @@ $font_primary_light: Averta Light;
 $font_primary_regular: Averta Regular;
 $font_primary_bold: Averta Bold;
 $font_primary_extra_bold: Averta Extra Bold;
-$font_0: Montserrat;
-$font_1: Roboto;
-$font_2: Rubik;
-$font_3: sans-serif;
 $font-awesome: "Font Awesome 5 free";
 
 //colors
-$theme-font-color: #1c2d3a;
-$theme-main-font-color: rgba(59, 66, 73, 0.7);
+$theme-font-color: #3F3B3B;
+$theme-main-font-color: #3F3B3B;
 $theme-sub-font-color:#3b4249;
 $black: #000000;
 $white: #ffffff;
-$light-bg: #f8f8f8;
+$light-bg: #FDF9F5;
 $light-color: #959595;
 $light-border: #eee;
 $light-gray: #efefef;
