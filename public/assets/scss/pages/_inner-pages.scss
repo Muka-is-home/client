@@ -876,7 +876,7 @@
 
         &::placeholder {
           color: var(--theme-default);
-          font-family: $font_0, $font_3;
+          font-family: $font_primary_regular, sans-serif;
           font-weight: 300;
         }
       }
@@ -2369,7 +2369,7 @@
 
   label {
     font-weight: 500;
-    font-family: $font_0, $font_3;
+    font-family: $font_primary_regular, $font_3;
   }
   .form-control {
     color: rgba($title-color, 0.6);
