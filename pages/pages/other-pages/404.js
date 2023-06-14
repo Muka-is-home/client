@@ -16,7 +16,7 @@ const Page404 = () => {
             <div className="col text-center not-found">
               <img src="/assets/images/inner-pages/2.svg" className="img-fluid" alt="" />
               <h2>Whoops! something went wrong ?</h2>
-              <p className="font-roboto">we are sorry but the page you are looking for doesn&apos;t exist or has been removed. please check or search again.</p>
+              <p className="font-primary">we are sorry but the page you are looking for doesn&apos;t exist or has been removed. please check or search again.</p>
               <div className="btns">
                 <Link href="/home/classic" className="btn btn-gradient">
                   go to home page

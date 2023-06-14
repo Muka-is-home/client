@@ -51,7 +51,7 @@ const FeaturedPropertySection = ({ value }) => {
                                   <Link href={Array.isArray(data.img) ? `/property/image-slider/?id=${data.id}` : `/property/image-box/?id=${data.id}`}>{data.title}</Link>
                                 </h3>
                                 <span>{data.place}</span>
-                                <p className="font-roboto">{data.details}</p>
+                                <p className="font-primary">{data.details}</p>
                               </div>
                               <ul className="detail-list">
                                 <li>

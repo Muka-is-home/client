@@ -42,7 +42,7 @@ const BodyContent = () => {
               <h2>
                 Provided <span>Services</span>
               </h2>
-              <p className='font-roboto'>Elegant retreat in Coral setting. This home provides entertaining spaces with kitchen opening</p>
+              <p className='font-primary'>Elegant retreat in Coral setting. This home provides entertaining spaces with kitchen opening</p>
             </div>
           </div>
         </div>

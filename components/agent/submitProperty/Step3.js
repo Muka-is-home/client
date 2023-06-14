@@ -22,7 +22,7 @@ const Step3 = ({ setActiveTab, setData }) => {
         <Form>
           <div className="wizard-step-3 ">
             <h2>Gallery</h2>
-            <p className="font-roboto">Add your property Media</p>
+            <p className="font-primary">Add your property Media</p>
             <label>Media</label>
             <div className="dropzone" id="multiFileUpload">
               <div className="dz-message needsclick">

@@ -21,7 +21,7 @@ const NavbarTwo = ({ logo }) => {
                 <MainNav icon={true} />
                 <div className="contact-number">
                   <i className="fas fa-phone-alt"></i>
-                  <span className="font-roboto">(880)-123 789 / (800)- 561 456</span>
+                  <span className="font-primary">(880)-123 789 / (800)- 561 456</span>
                 </div>
               </div>
             </div>

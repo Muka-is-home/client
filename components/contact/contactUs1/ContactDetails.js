@@ -16,7 +16,7 @@ const ContactDetailsSection = () => {
             <div className='contact_wrap'>
               <MapPin />
               <h4>Where ?</h4>
-              <p className='font-roboto'>
+              <p className='font-primary'>
                 549 Sulphur Springs Road <br />
                 Downers Grove, IL 60515 <br />
                 +91 361264100
@@ -27,7 +27,7 @@ const ContactDetailsSection = () => {
             <div className='contact_wrap'>
               <MapPin />
               <h4>Second branch</h4>
-              <p className='font-roboto'>
+              <p className='font-primary'>
                 5415 Spring garden Road <br />
                 Halifax, IL 97230 <br />
                 +91 187230014

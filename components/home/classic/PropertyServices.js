@@ -16,7 +16,7 @@ const PropertyServicesSection = ({ value }) => {
       <Container>
         <div className="title-3 text-start">
           <h2>{PropertyServices}</h2>
-          <p className="font-roboto">{PropertyServicesDetail}</p>
+          <p className="font-primary">{PropertyServicesDetail}</p>
         </div>
       </Container>
       <Container fluid={true}>
@@ -37,7 +37,7 @@ const PropertyServicesSection = ({ value }) => {
                           <h3>
                             <Link href="/pages/other-pages/services">{data.title}</Link>
                           </h3>
-                          <p className="font-roboto">{data.details}</p>
+                          <p className="font-primary">{data.details}</p>
                           <Link href="/pages/other-pages/services">View details</Link>
                         </div>
                       </div>

@@ -32,7 +32,7 @@ const CitiesWisePropertySection = ({ value }) => {
                             <h4>{Math.floor(Math.random() * 100)}+ Property</h4>
                           </NoSsr>
                           <h2>{data.city}</h2>
-                          <h6 className='font-roboto'>{data.title}</h6>
+                          <h6 className='font-primary'>{data.title}</h6>
                         </div>
                       </div>
                     </div>

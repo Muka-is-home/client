@@ -23,7 +23,7 @@ const ComingSoon2 = () => {
               </div>
               <div className="site-construction">
                 <h4>Site under construction, we are currently working</h4>
-                <p className="font-roboto">Connected residences might be owned by a single entity and leased out, or owned separately with an agreement covering the relationship between.</p>
+                <p className="font-primary">Connected residences might be owned by a single entity and leased out, or owned separately with an agreement covering the relationship between.</p>
               </div>
               <form action="#" className="theme-form w-100">
                 <div className="form-group">

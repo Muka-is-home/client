@@ -16,7 +16,7 @@ const SubscribeSection = () => {
             <div className='video-details'>
               <span className='label label-light label-flat'># {Realestate}</span>
               <h2>{StayUpToDate}</h2>
-              <p className='font-roboto'>{VideoDetail}</p>
+              <p className='font-primary'>{VideoDetail}</p>
               <form>
                 <div className='form-group'>
                   <input type='email' className='form-control' placeholder='Enter Your Email Address' required />

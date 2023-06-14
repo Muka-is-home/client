@@ -12,7 +12,7 @@ const Breadcrumb = ({ right }) => {
   return (
     <section className="breadcrumb-section p-0 ">
       <Img src="/assets/images/inner-background.jpg" className="bg-img img-fluid" alt="" />
-      <Container>
+      {/* <Container>
         <div className={`breadcrumb-content ${right ? "breadcrumb-right" : ""}`}>
           <div>
             <h2>{path && path[path.length - 1].replaceAll("-", " ")}</h2>
@@ -31,7 +31,7 @@ const Breadcrumb = ({ right }) => {
             </nav>
           </div>
         </div>
-      </Container>
+      </Container> */}
     </section>
   );
 };

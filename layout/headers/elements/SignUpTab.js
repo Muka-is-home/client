@@ -46,7 +46,7 @@ const SignUpTab = () => {
       <Button type="submit" className="btn btn-solid color-3 btn-flat">
         Create account
       </Button>
-      <span className="d-block mt-3 font-rubik">
+      <span className="d-block mt-3 font-secondary">
         Already have an acoount ?
         <Link href="/pages/other-pages/login" className="float-end text-color-3">
           Login here
