@@ -11,11 +11,11 @@ const OfferSection = ({ value }) => {
       <Container>
         <Row>
           <Col>
-            <div className="title-1 text-white">
+            {/* <div className="title-1 text-white">
               <span className="label label-gradient">{NewOffer}</span>
               <h2>{OurNewOffer}</h2>
               <hr />
-            </div>
+            </div> */}
             <NoSsr>
               <Slider className="offer-slider" {...offerSlider}>
                 {value &&

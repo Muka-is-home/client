@@ -1,6 +1,6 @@
 export const InputForm = [
-  { name: "propertyStatus", label: "State", size: "12", options: ["For", " Sale"] },
-  { name: "propertyType", label: "City", size: "12", options: ["Apartment", "Family House", "Cottage", "Condominium"] },
+  { name: "propertyStatus", label: "A Realtor", size: "12", options: ["A Realtor", "A Vendor"] },
+  { name: "propertyType", label: "Nashville, TN", size: "12", options: ["Atlanta, GA", "Albuquerque, NM", "Boston, MA", "Nashville, TN", "Los Angeles, CA"] },
   // { name: "maxRooms", label: "Rooms", size: "6", options: ["Max Rooms", 1, 2, 3, 4, 5, 6] },
   // { name: "bed", label: "Bed", size: "6", options: ["Bed", 1, 2, 3, 4] },
   // { name: "bath", label: "Bath", size: "6", options: ["Bath", 1, 2, 3, 4] },

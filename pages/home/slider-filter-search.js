@@ -12,15 +12,15 @@ import NavbarOne from "../../layout/headers/NavbarOne";
 
 
 const SliderFilterSearch = () => {
-  useEffect(() => {
-    setTimeout(() => {
-      !ConfigDB.PrimaryColor && document.documentElement.style.setProperty("--theme-default", "#2c2e97");
-      !ConfigDB.SecondaryColor && document.documentElement.style.setProperty("--theme-default2", "#4b55c4");
-    }, 0.1);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     !ConfigDB.PrimaryColor && document.documentElement.style.setProperty("--theme-default", "#2c2e97");
+  //     !ConfigDB.SecondaryColor && document.documentElement.style.setProperty("--theme-default2", "#4b55c4");
+  //   }, 0.1);
+  // }, []);
   return (
     <>
-      {/* <NavbarOne /> */}
+      <NavbarOne />
       <BodyContent />
       <FooterOne />
     </>

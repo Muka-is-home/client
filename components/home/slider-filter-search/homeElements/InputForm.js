@@ -54,12 +54,13 @@ const InputForm = ({ label, lg, sm, lastSm }) => {
 
   return (
     <Row className="gx-3">
+      <p>I'm looking for..</p>
       <DropdownInputFields filterValues={filterValues} setFilterValues={setFilterValues} label={label} start={0} end={6} lg={lg} sm={sm} lastSm={lastSm} />
       {/* <RangeInputFields label="Price" name="price" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minPrice?.price)} max={Math.round(maxPrice?.price)} lg={lg} sm={sm} />
       <RangeInputFields label="Area" name="area" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minSqft?.sqft)} max={Math.round(maxSqft?.sqft)} lg={lg} sm={sm} /> */}
       <Col lg={lg || 12}>
         <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-gradient mt-3">
-            Search
+            Search Muka Community
         </Link>
       </Col>
     </Row>

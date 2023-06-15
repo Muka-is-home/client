@@ -39,6 +39,7 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
+      <OfferSection value={AppPropertyData.OurNewOffer} />
       <BrandSection />
       <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
       <LatestBlogSection value={value?.LatestBlogInEnterprise} />
