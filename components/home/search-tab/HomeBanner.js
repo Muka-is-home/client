@@ -25,7 +25,7 @@ const HomeBannerSection = () => {
                   <br />
                   professionals
                 </h1>
-                <h6 className="font-roboto mb-0">Residences can be classified by and connected to residences. Different types of housing can be use same physical type.</h6>
+                <h6 className="font-primary mb-0">Residences can be classified by and connected to residences. Different types of housing can be use same physical type.</h6>
               </div>
               <div className="search-with-tab">
                 {/* <ul className="nav nav-tabs" id="home-tab" role="tablist">

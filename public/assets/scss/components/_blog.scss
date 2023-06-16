@@ -437,7 +437,7 @@
       margin-bottom: calc(10px + (25 - 10) * ((100vw - 300px) / (1920 - 300)));
       line-height: calc(20px + (24 - 20) * ((100vw - 300px) / (1920 - 300)));
       font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
-      font-family: $font_1, $font_3;
+      font-family: $font_primary_regular, sans-serif;
     }
   }
 

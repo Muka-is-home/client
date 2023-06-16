@@ -28,8 +28,8 @@ const UserPanelSidebar = ({ activeTab, setActiveTab }) => {
             </div>
             <div className='media-body'>
               <h5>Zack Lee</h5>
-              <h6 className='font-roboto'>zackle@gmail.com</h6>
-              <h6 className='font-roboto mb-0'>+91 846 - 547 - 210</h6>
+              <h6 className='font-primary'>zackle@gmail.com</h6>
+              <h6 className='font-primary mb-0'>+91 846 - 547 - 210</h6>
             </div>
           </div>
           <div className='connected-social'>

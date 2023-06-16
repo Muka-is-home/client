@@ -15,7 +15,7 @@ const DownloadAppSection = () => {
           <Col lg='6'>
             <div className='download-wrap'>
               <h3>Download Our Apps</h3>
-              <p className='font-roboto'>Created for convenience and ease to make it's memorable</p>
+              <p className='font-primary'>Created for convenience and ease to make it's memorable</p>
               <ul>
                 <li>
                   <a href='https://appstoreconnect.apple.com'>
@@ -56,7 +56,7 @@ const DownloadAppSection = () => {
                   Send me
                 </Button>
               </div>
-              <p className='font-roboto mb-0'>Standard SMS rates may apply</p>
+              <p className='font-primary mb-0'>Standard SMS rates may apply</p>
             </Form>
           </Col>
         </Row>

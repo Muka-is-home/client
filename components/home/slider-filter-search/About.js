@@ -53,11 +53,11 @@ const AboutSection = ({ value }) => {
                               </h6>
                             </Link>
                             <h3>{data.work}</h3>
-                            <span className="font-roboto">
+                            <span className="font-primary">
                               <Mail className="me-1" />
                               {data.email}
                             </span>
-                            <p className="font-roboto">{data.detail}</p>
+                            <p className="font-primary">{data.detail}</p>
                             <Link href="/agent/agent-profile" className="btn btn-gradient btn-pill mt-2">
                               <Eye />
                               {ViewPortfolio}

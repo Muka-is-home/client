@@ -22,7 +22,7 @@ const FooterBlog = () => {
                   <h6>
                     <Link href="/pages/blog-page/left-sidebar">Real Estate Industry</Link>
                   </h6>
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     <Link href="/pages/blog-page/right-sidebar">An Electronic version of the real estate industry.</Link>
                   </p>
                 </div>
@@ -39,7 +39,7 @@ const FooterBlog = () => {
                   <h6>
                     <Link href="/pages/blog-page/left-sidebar">Entertaining Spaces</Link>
                   </h6>
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     <Link href="/pages/blog-detail-pages/left-sidebar">This home provides wonderful entertaining spaces.</Link>
                   </p>
                 </div>
@@ -56,7 +56,7 @@ const FooterBlog = () => {
                   <h6>
                     <Link href="/pages/blog-page/left-sidebar">Estate Agents Work</Link>
                   </h6>
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     <Link href="/pages/blog-detail-pages/right-sidebar">The market of buying and selling real estate.</Link>
                   </p>
                 </div>
@@ -73,7 +73,7 @@ const FooterBlog = () => {
                   <h6>
                     <Link href="/pages/blog-page/left-sidebar">Increase in Demand</Link>
                   </h6>
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     <Link href="/pages/blog-detail-pages/right-sidebar">The effects of an increase demand in short run.</Link>
                   </p>
                 </div>

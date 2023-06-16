@@ -30,7 +30,7 @@ const PropertyBoxFour = ({ data }) => {
             <h3>
               <Link href="/pages/agency/agency-profile">{data?.name}</Link>
             </h3>
-            <p className="font-roboto">Real estate Agent</p>
+            <p className="font-primary">Real estate Agent</p>
             <ul className="agent-contact">
               <li>
                 <i className="fas fa-phone-alt"></i>

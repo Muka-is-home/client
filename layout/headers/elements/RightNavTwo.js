@@ -18,7 +18,7 @@ const RightNavTwo = () => {
               setSearchDropDown(!searchDropDown);
             }}></i>
           <span
-            className="font-roboto"
+            className="font-primary"
             onClick={() => {
               setSearchDropDown(true);
               setInputFocus(true);

@@ -23,7 +23,7 @@ const TestimonialSection = ({ value }) => {
           <Col>
             <div className="title-3 text-start">
               <h2>{OurHappyClient}</h2>
-              <p className="font-roboto">{LatestPropertyDetail}</p>
+              <p className="font-primary">{LatestPropertyDetail}</p>
             </div>
             <div className="testimonial-4">
               <NoSsr>
@@ -62,8 +62,8 @@ const TestimonialSection = ({ value }) => {
                                 </ul>
                               </div>
                               <h6>{data.title}</h6>
-                              <p className="font-roboto">{data.details}</p>
-                              <span className="font-roboto">{data.email}</span>
+                              <p className="font-primary">{data.details}</p>
+                              <span className="font-primary">{data.email}</span>
                             </div>
                           ))}
                       </Slider>

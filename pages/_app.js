@@ -18,11 +18,11 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     router.events.on("routeChangeComplete", () => {
-      document.documentElement.style.setProperty("--theme-default", ConfigDB.PrimaryColor ? ConfigDB.PrimaryColor : "#ff5c41");
-      document.documentElement.style.setProperty("--theme-default2", ConfigDB.SecondaryColor ? ConfigDB.SecondaryColor : "#ff8c41");
+      // document.documentElement.style.setProperty("--theme-default", ConfigDB.PrimaryColor ? ConfigDB.PrimaryColor : "#ff5c41");
+      // document.documentElement.style.setProperty("--theme-default2", ConfigDB.SecondaryColor ? ConfigDB.SecondaryColor : "#ff8c41");
     });
-    document.documentElement.style.setProperty("--theme-default", ConfigDB.PrimaryColor ? ConfigDB.PrimaryColor : "#ff5c41");
-    document.documentElement.style.setProperty("--theme-default2", ConfigDB.SecondaryColor ? ConfigDB.SecondaryColor : "#ff8c41");
+    // document.documentElement.style.setProperty("--theme-default", ConfigDB.PrimaryColor ? ConfigDB.PrimaryColor : "#ff5c41");
+    // document.documentElement.style.setProperty("--theme-default2", ConfigDB.SecondaryColor ? ConfigDB.SecondaryColor : "#ff8c41");
   }, [router.events]);
 
   return (
