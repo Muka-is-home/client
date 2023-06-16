@@ -1,11 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import { Col, Container, Row } from "reactstrap";
+import Link from "next/link";
+import { Button, Col, Container, Row } from "reactstrap";
 import { UserType } from "../../../constValues/constValues";
 import { offerSlider } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 
-const OfferSection = ({ value }) => {
+const UserSection = ({ value }) => {
   return (
     <section className="offer-section banner-section banner-4 slick-between ">
       <Container>
@@ -29,6 +30,9 @@ const OfferSection = ({ value }) => {
                           <div className="media-body">
                             <h3>{data.title}</h3>
                             <p>{data.details}</p>
+                            <Link href="/" className="btn btn-solid mt-3">
+                                Find a Realtor
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -42,4 +46,4 @@ const OfferSection = ({ value }) => {
     </section>
   );
 };
-export default OfferSection;
+export default UserSection;

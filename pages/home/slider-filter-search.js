@@ -6,7 +6,7 @@
 import { useEffect } from "react";
 import BodyContent from "../../components/home/slider-filter-search";
 import { ConfigDB } from "../../config/themeCustomizerConfig";
-import FooterOne from "../../layout/footers/FooterOne";
+import FooterOne from "../../layout/footers/FooterThree";
 import NavbarOne from "../../layout/headers/NavbarOne";
 
 

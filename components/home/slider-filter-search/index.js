@@ -10,7 +10,7 @@ import VendorServicesSection from "../classic/PropertyServices";
 //import LatestBlogSection from "../enterprise/LatestBlog";
 
 import HomeBannerSection from "./HomeBanner";
-import OfferSection from "./Offer";
+import UserSection from "./Users";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -32,7 +32,7 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
-      <OfferSection value={AppPropertyData.UserType} />
+      <UserSection value={AppPropertyData.UserType} />
       <VendorServicesSection value={AppPropertyData.VendorServices} />
       <div className="bg-light">
         <AboutSection value={clientData?.MeetOurAgent} />
