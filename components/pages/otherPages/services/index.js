@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AppPropertyData } from "../../../../data/appPropertyData";
 import { getData } from "../../../../utils/getData";
 import BlogSection from "../../../home/corporate/Blog";
-import PropertyServicesSection from "../../../home/enterprise/Propertyservices";
+import VendorServicesSection from "../../../home/enterprise/Propertyservices";
 import TestimonialSection from "../../../home/enterprise/Testimonial";
 import ServiceSection from "./Service";
 
@@ -25,7 +25,7 @@ const BodyContent = () => {
   return (
     <>
       <ServiceSection />
-      <PropertyServicesSection value={AppPropertyData.PropertyServices} />
+      <VendorServicesSection value={AppPropertyData.PropertyServices} />
       <div className="bg-light">
         <TestimonialSection value={clientData?.WhatPeopleSay} />
       </div>      

@@ -6,18 +6,11 @@ import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
 import { AppPropertyData } from "../../../data/appPropertyData";
 import AboutSection from "./About";
-import BannerSection from "./Banner";
-import BrandSection from "./Brand";
-import CitiesWisePropertySection from "./CitiesWiseProperty";
-import PropertyServicesSection from "../classic/PropertyServices";
-import LatestBlogSection from "../enterprise/LatestBlog";
+import VendorServicesSection from "../classic/PropertyServices";
+//import LatestBlogSection from "../enterprise/LatestBlog";
 
-import FeatureSection from "./Feature";
 import HomeBannerSection from "./HomeBanner";
 import OfferSection from "./Offer";
-import PropertySection from "./Property";
-import SalePropertySection from "./SaleProperty";
-import TestimonialSection from "./Testimonial";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -39,12 +32,11 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
-      <OfferSection value={AppPropertyData.OurNewOffer} />
-      <BrandSection />
-      <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
-      <LatestBlogSection value={value?.LatestBlogInEnterprise} />
-      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
-      <AboutSection value={clientData?.MeetOurAgent} />
+      <OfferSection value={AppPropertyData.UserType} />
+      <VendorServicesSection value={AppPropertyData.VendorServices} />
+      <div className="bg-light">
+        <AboutSection value={clientData?.MeetOurAgent} />
+      </div> 
     </>
   );
 };

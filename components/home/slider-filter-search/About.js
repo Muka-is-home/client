@@ -25,6 +25,7 @@ const AboutSection = ({ value }) => {
               <h2>{OurStoryHeadline}</h2>
               <p>{OurStoryDesc}</p>
               <hr />
+              <p>Display video or text here?</p>
             </div>
             <NoSsr>
               <Slider className="about-wrap arrow-white" {...about1}>

@@ -1,4 +1,8 @@
 // path: home/slider-filter-search
+/* Muka content*/
+export const VendorServices = "Connect with Minority Vendors";
+export const VendorServicesDesc = "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry";
+
 export const MainTitle = "Reality Properties solve your problems";
 export const LatestForSale = "Latest For Sale";
 export const SubmitProperty = "submit property";

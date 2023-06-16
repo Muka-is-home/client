@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { NewOffer, OurNewOffer } from "../../../constValues/constValues";
+import { UserType } from "../../../constValues/constValues";
 import { offerSlider } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 
@@ -27,7 +27,6 @@ const OfferSection = ({ value }) => {
                             <img src={data.img} alt="" />
                           </div>
                           <div className="media-body">
-                            <h6>Sheltos</h6>
                             <h3>{data.title}</h3>
                             <p>{data.details}</p>
                           </div>

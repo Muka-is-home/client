@@ -59,7 +59,7 @@ const InputForm = ({ label, lg, sm, lastSm }) => {
       {/* <RangeInputFields label="Price" name="price" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minPrice?.price)} max={Math.round(maxPrice?.price)} lg={lg} sm={sm} />
       <RangeInputFields label="Area" name="area" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minSqft?.sqft)} max={Math.round(maxSqft?.sqft)} lg={lg} sm={sm} /> */}
       <Col lg={lg || 12}>
-        <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-gradient mt-3">
+        <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-solid mt-3">
             Search Muka Community
         </Link>
       </Col>

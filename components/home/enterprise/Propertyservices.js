@@ -8,7 +8,7 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import { Discover, PropertyServices } from "../../../constValues/constValues";
 
-const PropertyServicesSection = ({ value }) => {
+const VendorServicesSection = ({ value }) => {
   return (
     <section className="service-section service-1">
       <Container>
@@ -38,4 +38,4 @@ const PropertyServicesSection = ({ value }) => {
   );
 };
 
-export default PropertyServicesSection;
+export default VendorServicesSection;
