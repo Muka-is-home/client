@@ -6,45 +6,33 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { PropertyServices, PropertyServicesDetail } from "../../../constValues/constValues";
+import { VendorServices, VendorServicesDesc } from "../../../constValues/constValues";
 import { serviceSlider } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 
-const PropertyServicesSection = ({ value }) => {
+const VendorServicesSection = ({ value }) => {
   return (
-    <section className="service-section service-bg">
+    <section className="service-section service-1">
       <Container>
-        <div className="title-3 text-start">
-          <h2>{PropertyServices}</h2>
-          <p className="font-primary">{PropertyServicesDetail}</p>
-        </div>
-      </Container>
-      <Container fluid={true}>
         <Row>
           <Col>
-            <NoSsr>
-              <Slider className="service-slider arrow-gradient arrow-right" {...serviceSlider}>
-                {value &&
-                  value.map((data, i) => (
-                    <div key={i}>
-                      <div className="service-wrapper">
-                        <div className="top-img-box">
-                          <div>
-                            <img src={data.img} className="img-fluid" alt="" />
-                          </div>
-                        </div>
-                        <div className="service-details">
-                          <h3>
-                            <Link href="/pages/other-pages/services">{data.title}</Link>
-                          </h3>
-                          <p className="font-primary">{data.details}</p>
-                          <Link href="/pages/other-pages/services">View details</Link>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-              </Slider>
-            </NoSsr>
+            <div className="title-1">
+              <h2>{VendorServices}</h2>
+              <p>{VendorServicesDesc}</p>
+            </div>
+            <Row className=" property-service column-space">
+              {value?.map((data, i) => (
+                <Col xl="4" md="6" className=" wow fadeInUp" key={i}>
+                  <div className="service-box">
+                    <div className="icon-round">{data.img}</div>
+                    <h3>
+                      <Link href="/pages/other-pages/services">{data.title}</Link>
+                    </h3>
+                    <p>{data.details}</p>
+                  </div>
+                </Col>
+              ))}
+            </Row>
           </Col>
         </Row>
       </Container>
@@ -52,4 +40,4 @@ const PropertyServicesSection = ({ value }) => {
   );
 };
 
-export default PropertyServicesSection;
+export default VendorServicesSection;

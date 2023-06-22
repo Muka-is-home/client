@@ -4,16 +4,13 @@
  * function.
  */
 import React from "react";
-import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { HappyClients, Our } from "../../../constValues/constValues";
-import { testimonial2 } from "../../../data/slickSlider";
-import NoSsr from "../../../utils/NoSsr";
-import ReviewStarr from "../../elements/ReviewStarr";
+import { docuts, WhatPeopleSay } from "../../../constValues/constValues";
 
 const TestimonialSection = ({ value, normal }) => {
   return (
-    <section className={`testimonial-bg ${normal ? "testimonial-layout6" : ""}`}>
+    <>
+    {/* <section className={`testimonial-bg ${normal ? "testimonial-layout6" : ""}`}>
       <Container>
         <Row>
           <Col>
@@ -57,7 +54,20 @@ const TestimonialSection = ({ value, normal }) => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section> */}
+    <section className="testimonial-style-1">
+    <Container>
+      <Row>
+        <Col>
+          <div className="title-2">
+            <h2>{WhatPeopleSay}</h2>
+            <p>{docuts}</p>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  </section>
+  </>
   );
 };
 

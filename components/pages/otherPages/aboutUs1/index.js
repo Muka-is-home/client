@@ -4,7 +4,7 @@ import { getData } from "../../../../utils/getData";
 import TestimonialSection from "../../../home/classic/Testimonial";
 import BlogSection from "../../../home/corporate/Blog";
 import BrandSection from "../../../home/enterprise/Brand";
-import PropertyServicesSection from "../../../home/enterprise/Propertyservices";
+import VendorServicesSection from "../../../home/enterprise/Propertyservices";
 import AboutUsSection from "./AboutUs";
 
 const BodyContent = () => {
@@ -27,7 +27,7 @@ const BodyContent = () => {
     <>
       <AboutUsSection />
       <div className="bg-light">
-        <PropertyServicesSection value={AppPropertyData.PropertyServices} />
+        <VendorServicesSection value={AppPropertyData.PropertyServices} />
       </div>
       <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />
       <div className="bg-light">

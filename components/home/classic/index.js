@@ -11,7 +11,7 @@ import FeaturedPropertySection from "./FeaturedProperty";
 import HomeBannerSection from "./HomeBanner";
 import LatestPropertySection from "./LatestProperty";
 import ListingPropertySection from "./ListingProperty";
-import PropertyServicesSection from "./PropertyServices";
+import VendorServicesSection from "./PropertyServices";
 import SubscribeSection from "./Subscribe";
 import TestimonialSection from "./Testimonial";
 import VideoSection from "./Video";
@@ -38,7 +38,7 @@ const BodyContent = () => {
       <HomeBannerSection value={value?.HomeBannerDataInClassicLayout} />
       <LatestPropertySection value={value?.LatestPropertyInClassicLayout} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
-      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      <VendorServicesSection value={AppPropertyData.PropertyServicesInClassic} />
       <ListingPropertySection value={value?.ListingPropertyInClassicLayout} />
       <VideoSection />
       <AboutSection value={clientData?.OurAgentInClassicLayout} />

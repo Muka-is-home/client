@@ -12,7 +12,7 @@ import LatestBlogSection from "./LatestBlog";
 import LatestPropertySection from "./LatestProperty";
 import ParallaxBannerSection from "./ParallaxBanner";
 import PropertyOfTheDaySection from "./PropertyOfTheDay";
-import PropertyServicesSection from "./Propertyservices";
+import VendorServicesSection from "./Propertyservices";
 import PropertyTabSection from "./PropertyTab";
 import TestimonialSection from "./Testimonial";
 
@@ -36,7 +36,7 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
-      <PropertyServicesSection value={AppPropertyData.PropertyServices} />
+      <VendorServicesSection value={AppPropertyData.PropertyServices} />
       <PropertyOfTheDaySection value={value?.PropertyOfTheDay} />
       <LatestPropertySection value={value?.LatestPropertyListingInEnterprise} />
       <PropertyTabSection value={value} />
