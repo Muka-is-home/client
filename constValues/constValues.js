@@ -2,7 +2,14 @@
 /* Muka content*/
 export const VendorServices = "Connect with Minority Vendors";
 export const VendorServicesDesc = "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry";
+export const Resources = "Resources";
+export const ResourcesDetail = "Browse our educational resources on budgeting, credit and savings to build generational wealth, and more."
+export const StayUpToDate = "Stay Up to Date";
+export const SubscribeDetails =
+  "If there is already a newsletter form, can we use this to capture more emails?";
+  
 
+/* Template data */
 export const MainTitle = "Reality Properties solve your problems";
 export const LatestForSale = "Latest For Sale";
 export const SubmitProperty = "submit property";
@@ -31,10 +38,7 @@ export const PropertyServicesDetail = "Residences can be classified into differe
 export const ListingProperty = "Listing Property";
 export const AreYouWorried = "Are you worried";
 export const SlickAboutMovingOut = "sick about moving out?";
-export const VideoDetail =
-  "We know how it feels! Elegant retreat in a quiet Coral Gables setting. This home provides wonderful entertaining spaces with a chef kitchen opening Elegant retreat in a quiet Coral Gables setting.";
 export const SearchNow = "Search now";
-export const StayUpToDate = "Stay Up to Date";
 export const OurHappyClient = "Our Happy Client";
 export const Discover = "Discover New York’s best things to do, restaurants, theatre, nightlife and more";
 export const PropertyOfTheDay = "Property of the day";
@@ -42,6 +46,8 @@ export const FeaturedCities = "Featured Cities";
 export const proCity = "See why ProCity is one of the best friends for exploring the city.";
 export const freeDownload = "free Download";
 export const homeSearch = "Take your home search everywhere You go....";
+export const VideoDetail =
+  "We know how it feels! Elegant retreat in a quiet Coral Gables setting. This home provides wonderful entertaining spaces with a chef kitchen opening Elegant retreat in a quiet Coral Gables setting.";
 export const searchAnyTime =
   "Search anytime, anywhere with ZipRealty's award-winning real estate app for iPhone, iPad and Android. See what's for sale around you and instantly request to tour homes you like.";
 export const WhatPeopleSay = "What People Say";

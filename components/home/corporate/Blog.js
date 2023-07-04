@@ -7,7 +7,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail } from "../../../constValues/constValues";
+import { Resources, ResourcesDetail } from "../../../constValues/constValues";
 import { blog2 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 import BlogWrapBox from "../../elements/propertyBoxs/BlogWrapBox";
@@ -23,9 +23,10 @@ const BlogSection = ({ value }) => {
                 <use xlinkHref="/assets/svg/icons.svg#title-line"></use>
               </svg>
               <h2>
-                Latest <span>Blog</span>
+              {Resources}
               </h2>
-              <p className="font-primary">{LatestPropertyDetail}</p>
+              <p className="font-primary">{ResourcesDetail}</p>
+              <span>DISPLAY LIST OF ITEMS HERE</span>
             </div>
             <NoSsr>
               <Slider className="blog-2" {...blog2}>
