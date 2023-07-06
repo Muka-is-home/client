@@ -7,7 +7,7 @@ import React from "react";
 import NavbarThree from "../../../layout/headers/NavbarOne";
 
 import FooterThree from "../../../layout/footers/FooterThree";
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
+import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
 import BodyContent from "../../../components/agent/agentProfile";
 
 const AgentProfile = () => {

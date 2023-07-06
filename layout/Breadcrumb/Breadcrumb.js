@@ -10,7 +10,7 @@ const Breadcrumb = ({ right }) => {
     setPath(router.pathname.split("/"));
   }, [router.pathname]);
   return (
-    <section className="breadcrumb-section p-0 ">
+    <section className="breadcrumb-section breadcrumb-sm p-0 ">
       <Img src="/assets/images/inner-background.jpg" className="bg-img img-fluid" alt="" />
       {/* <Container>
         <div className={`breadcrumb-content ${right ? "breadcrumb-right" : ""}`}>
