@@ -14,6 +14,18 @@ export const MainNavMenuItems = [
     path: "/COMPLETED/about"
   },
   {
+    title: "AGENTS",
+    icon: <Home />,
+    type: "link",
+    path: "/COMPLETED/agents"
+  },
+  {
+    title: "RESOURCES",
+    icon: <Home />,
+    type: "link",
+    path: "/COMPLETED/resources"
+  },
+  {
     title: "PAGES",
     icon: <Layers />,
     type: "mega-menu",
