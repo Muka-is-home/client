@@ -10,8 +10,8 @@ import BannerSection from "../slider-filter-search/Banner";
 import CitiesWisePropertySection from "../slider-filter-search/CitiesWiseProperty";
 import TestimonialSection from "../slider-filter-search/Testimonial";
 import AboutSection from "../slider-filter-search/About";
-import OfferSection from "../slider-filter-search/Offer";
-import { AppPropertyData } from "../../../data/appPropertyData";
+// import OfferSection from "../slider-filter-search/Offer";
+// import { AppPropertyData } from "../../../data/appPropertyData";
 import BrandSection from "./Brand";
 import HomeBannerSection from "./HomeBanner";
 
@@ -41,7 +41,7 @@ const BodyContent = () => {
       <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
       <TestimonialSection value={clientData?.HappyClient} normal={false} />
       <AboutSection value={clientData?.MeetOurAgent} />
-      <OfferSection value={AppPropertyData.OurNewOffer} />
+      {/* <OfferSection value={AppPropertyData.OurNewOffer} /> */}
       <BrandSection />
     </>
   );

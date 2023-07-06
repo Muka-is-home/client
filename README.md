@@ -18,3 +18,6 @@ npm install
 npm run dev
 ```
 
+
+## API Details
+[Documentation for API](https://www.postman.com/speeding-spaceship-78552/workspace/muka)
