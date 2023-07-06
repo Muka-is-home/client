@@ -33,7 +33,7 @@ const FeatureSection = ({ value }) => {
                           <Col xl="4" lg="3">
                             <div className="feature-left">
                               <div className="property-details">
-                                <span className="font-roboto">{data.city}</span>
+                                <span className="font-primary">{data.city}</span>
                                 <Link href={`/property/image-box/?id=${data.id}`}>
                                   <h3 className="d-flex">
                                     {data.title}
@@ -43,7 +43,7 @@ const FeatureSection = ({ value }) => {
                                   </h3>
                                 </Link>
                                 <h6>${data.price}*</h6>
-                                <p className="font-roboto">{data.description}</p>
+                                <p className="font-primary">{data.description}</p>
                                 <ul>
                                   <li>
                                     <img src="/assets/images/svg/icon/double-bed.svg" className="img-fluid" alt="" />

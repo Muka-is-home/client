@@ -64,7 +64,7 @@ const BodyContent = ({ side }) => {
                     <h3>
                       <Link href="/pages/blog-detail-pages/left-sidebar">Twice profit than before you ever got in business.</Link>
                     </h3>
-                    <p className="font-roboto">Sometimes complemented by advice and practical assistance. Decoration is the furnishing of a space with decorative elements, sometimes complemented by advice and practical assistance.</p>
+                    <p className="font-primary">Sometimes complemented by advice and practical assistance. Decoration is the furnishing of a space with decorative elements, sometimes complemented by advice and practical assistance.</p>
                     <Link href="/pages/blog-detail-pages/left-sidebar">read more</Link>
                   </div>
                 </div>

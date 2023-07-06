@@ -10,7 +10,7 @@ const RatioDescriptionSection = () => {
             <div className="card ratio-card">
               <div className="card-header">
                 <h5>Ratio Classes: Change your image proportion by just adding class</h5>
-                <p className="font-rubik mb-0">
+                <p className="font-secondary mb-0">
                   If you use image as background than add class
                   <code>.bg-img</code> in image and add below class in parent.
                 </p>

@@ -40,7 +40,7 @@ const Step1 = ({ setActiveTab, setData }) => {
         <Form>
           <div className="wizard-step-1 d-block">
             <h2>General</h2>
-            <p className="font-roboto">Basic information about property</p>
+            <p className="font-primary">Basic information about property</p>
             <Row className="gx-2 gx-sm-3">
               <Col sm="4" className="form-group">
                 <Field name="propertyType" component={ReactstrapInput} type="text" className="form-control" placeholder="villa"/>

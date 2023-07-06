@@ -32,7 +32,7 @@ const PropertyBoxThree = ({ data }) => {
         <h3>
           <Link href={`/property/image-slider?id=${data?.id}`}>{data?.title}</Link>
         </h3>
-        <p className="font-roboto">{data?.details}</p>
+        <p className="font-primary">{data?.details}</p>
         <ul className="icon-property">
           <li>
             <div className="d-flex">

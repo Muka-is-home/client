@@ -10,7 +10,7 @@ const AboutUsSection = () => {
           <div className='col'>
             <div className='title-2'>
               <h2>About Us</h2>
-              <p className='font-roboto'>Residences can be classified into different type of housing tenure can used for same physical type.</p>
+              <p className='font-primary'>Residences can be classified into different type of housing tenure can used for same physical type.</p>
             </div>
             <div className='user-about'>
               <Row>
@@ -20,7 +20,7 @@ const AboutUsSection = () => {
                       We are the <br />
                       expert of communication
                     </h3>
-                    <p className='font-roboto'>Decoration is the furnishing of a space with decorative elements, sometimes complemented by advice and practical assistance. sometimes complemented by advice and practical assistance.</p>
+                    <p className='font-primary'>Decoration is the furnishing of a space with decorative elements, sometimes complemented by advice and practical assistance. sometimes complemented by advice and practical assistance.</p>
                   </div>
                   <div className='about-listing'>
                     <ul>

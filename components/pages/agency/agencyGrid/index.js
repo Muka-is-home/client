@@ -23,7 +23,7 @@ const BodyContent = ({ clientData, listSize, size, style }) => {
     <section className="agent-section property-section">
       <Container>
         <Row className="row ratio2_3">
-          <Col xl="9" lg="8" className="property-grid-3 agent-grids">
+          <Col className="property-grid-3 agent-grids">
             <Header title={"Agency Listing"} grid={grid} gridDispatch={gridDispatch} gridBar={true} />
             <div className={`property-wrapper-grid ${grid.gridStyle === "list-view" ? "list-view" : ""}`}>
               <div className={`property-2 row column-sm property-label property-grid ${grid.gridStyle === "list-view" ? "list-view" : ""} `}>
@@ -43,11 +43,11 @@ const BodyContent = ({ clientData, listSize, size, style }) => {
               </div>
             </div>
           </Col>
-          <Sidebar>
+          {/* <Sidebar>
             <Exploration />
             <Featured />
             <RecentlyAdded />
-          </Sidebar>
+          </Sidebar> */}
         </Row>
       </Container>
     </section>

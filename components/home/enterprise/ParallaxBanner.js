@@ -28,7 +28,7 @@ const ParallaxBannerSection = () => {
                   <div className='banner-right'>
                     <h6>{freeDownload}</h6>
                     <h2>{homeSearch}</h2>
-                    <p className='font-roboto'>{searchAnyTime}</p>
+                    <p className='font-primary'>{searchAnyTime}</p>
                     <div className='button-banner'>
                       <a href='https://play.google.com/' className='btn btn-gradient btn-pill'>
                         <img src='/assets/images/playstore.png' alt='' className='me-1' /> Play Store

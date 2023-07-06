@@ -111,7 +111,7 @@
     }
   }
   h5 {
-    font-family: $font_2, $font_3;
+    font-family: $font_primary_regular, sans-serif;
   }
 
   .card-body {
@@ -132,7 +132,7 @@
         display: list-item;
 
         h6 {
-          font-family: $font_2, $font_3;
+          font-family: $font_primary_regular, sans-serif;
         }
 
         &:last-child {
@@ -569,7 +569,7 @@
 
       li {
         display: block;
-        font-family: $font_1, $font_3;
+        font-family: $font_primary_regular, sans-serif;
         color: rgba($title-color, 0.5);
         font-size: 15px;
         text-transform: lowercase;
@@ -876,7 +876,7 @@
 
         &::placeholder {
           color: var(--theme-default);
-          font-family: $font_0, $font_3;
+          font-family: $font_primary_regular, sans-serif;
           font-weight: 300;
         }
       }
@@ -1000,7 +1000,7 @@
 
     .dropdown-item {
       font-size: 14px;
-      font-family: $font_2, $font_3;
+      font-family: $font_primary_regular, sans-serif;
       transition: 0.5s;
       padding: 6px 20px;
 
@@ -1079,7 +1079,7 @@
         color: $title-color;
         display: block;
         transition: 0.5s;
-        font-family: $font_2, $font_3;
+        font-family: $font_primary_regular, sans-serif;
         position: relative;
 
         svg {
@@ -1266,11 +1266,11 @@
         li {
           display: block;
           color: $gray-60;
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
 
           a {
             color: $gray-60;
-            font-family: $font_1, $font_3;
+            font-family: $font_primary_regular, sans-serif;
             letter-spacing: 0.04rem;
 
             &:hover,
@@ -1520,7 +1520,7 @@
 
   .card-body {
     color: $light-color;
-    font-family: $font_1, $font_3;
+    font-family: $font_primary_regular, sans-serif;
     border-top: 1px solid $light-border;
     line-height: 1.6;
     padding: 30px;
@@ -1615,7 +1615,7 @@
       margin-bottom: -8px;
 
       li {
-        font-family: $font_1, $font_3;
+        font-family: $font_primary_regular, sans-serif;
         color: $light-color;
         display: block;
         line-height: 1.8;
@@ -2020,7 +2020,7 @@
 
       li {
         display: block;
-        font-family: $font_1, $font_3;
+        font-family: $font_primary_regular, sans-serif;
         color: $gray-60;
         text-align: left;
 
@@ -2131,7 +2131,7 @@
   h6,
   span {
     color: $light-color;
-    font-family: $font_2, $font_3;
+    font-family: $font_primary_regular, sans-serif;
     font-weight: 400;
   }
 }
@@ -2175,7 +2175,7 @@
 
               h5,
               h6 {
-                font-family: $font_2, $font_3;
+                font-family: $font_primary_regular, sans-serif;
               }
 
               h6 {
@@ -2369,7 +2369,7 @@
 
   label {
     font-weight: 500;
-    font-family: $font_0, $font_3;
+    font-family: $font_primary_regular, sans-serif;
   }
   .form-control {
     color: rgba($title-color, 0.6);
@@ -2513,7 +2513,7 @@
 
           .media-body {
             p {
-              font-family: $font_1, $font_3;
+              font-family: $font_primary_regular, sans-serif;
               text-transform: capitalize;
               margin-bottom: 5px;
               margin-top: -2px;
@@ -2644,7 +2644,7 @@
 
             p {
               margin-bottom: 5px;
-              font-family: $font_1, $font_3;
+              font-family: $font_primary_regular, sans-serif;
             }
 
             h4 {
@@ -2736,7 +2736,7 @@
         td {
           color: $light-color;
           vertical-align: middle;
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
           padding: 15px 12px 0;
 
           .d-flex {
@@ -2872,7 +2872,7 @@
 
     .nav-link {
       color: $theme-font-color;
-      font-family: $font_1, $font_3;
+      font-family: $font_primary_regular, sans-serif;
       border: none;
       border-left: 2px solid transparent;
       border-radius: 0;
@@ -3037,7 +3037,7 @@
         }
 
         span {
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
         }
       }
     }
@@ -3051,7 +3051,7 @@
       ul {
         li {
           display: block;
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
 
           span {
             &:first-child {
@@ -3228,7 +3228,7 @@ input[type='date'] {
 
 .gj-picker {
   div[role='navigator'] div[role='period'] {
-    font-family: $font_1, $font_3;
+    font-family: $font_primary_regular, sans-serif;
   }
 }
 
@@ -3236,7 +3236,7 @@ input[type='date'] {
   table {
     tr {
       td {
-        font-family: $font_1, $font_3;
+        font-family: $font_primary_regular, sans-serif;
 
         &.today {
           div {
@@ -3281,7 +3281,7 @@ input[type='date'] {
 
     .card-details {
       h6 {
-        font-family: $font_1, $font_3;
+        font-family: $font_primary_regular, sans-serif;
         color: $white;
       }
 
@@ -3335,7 +3335,7 @@ input[type='date'] {
 
         h5 {
           margin-bottom: 0;
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
           font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
           color: $white;
           text-transform: uppercase;
@@ -3405,7 +3405,7 @@ input[type='date'] {
           text-transform: capitalize;
           margin-bottom: 0;
           margin-top: 5px;
-          font-family: $font_1, $font_3;
+          font-family: $font_primary_regular, sans-serif;
         }
       }
     }

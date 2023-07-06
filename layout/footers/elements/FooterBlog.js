@@ -32,7 +32,7 @@ const FooterBlog = ({ isActive, setIsActive, img }) => {
                   <h6>
                     <Link href="/pages/blog-detail-pages/detail-with-gallery">{value.title}</Link>
                   </h6>
-                  <p className="font-roboto mb-0">
+                  <p className="font-primary mb-0">
                     <Link href={value.link}>{value.description}</Link>
                   </p>
                 </div>

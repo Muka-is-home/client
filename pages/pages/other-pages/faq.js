@@ -56,7 +56,7 @@ const Faq = () => {
               <div className='faq-image text-center'>
                 <img src='/assets/images/inner-pages/3.svg' className='img-fluid' alt='' />
                 <h3>Have Any Questions ?</h3>
-                <p className='font-roboto'>You can ask anything you want to know</p>
+                <p className='font-primary'>You can ask anything you want to know</p>
               </div>
               <form>
                 <div className='form-group mb-0'>

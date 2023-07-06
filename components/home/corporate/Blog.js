@@ -25,7 +25,7 @@ const BlogSection = ({ value }) => {
               <h2>
                 Latest <span>Blog</span>
               </h2>
-              <p className="font-roboto">{LatestPropertyDetail}</p>
+              <p className="font-primary">{LatestPropertyDetail}</p>
             </div>
             <NoSsr>
               <Slider className="blog-2" {...blog2}>

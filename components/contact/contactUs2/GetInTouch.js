@@ -23,7 +23,7 @@ const GetInTouchSection = () => {
               <Col lg='12' className='p-0'>
                 <div className='contact-content'>
                   <h2>Welcome to sheltos !!</h2>
-                  <p className='font-roboto'>
+                  <p className='font-primary'>
                     Connected residences might be owned by a single entity and leased out, or owned separately with an agreement covering the relationship between units and common areas and concerns.
                   </p>
                 </div>
@@ -32,7 +32,7 @@ const GetInTouchSection = () => {
                 <div className='contact_wrap shadow-none text-start ps-0'>
                   <MapPin />
                   <h4>Where ?</h4>
-                  <p className='font-roboto'>
+                  <p className='font-primary'>
                     549 Sulphur Springs Road <br />
                     Downers Grove, IL 60515 <br />
                     United state <br />

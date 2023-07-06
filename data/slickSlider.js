@@ -697,7 +697,7 @@ export const offerSlider = {
   dots: false,
   infinite: true,
   speed: 500,
-  arrows: false,
+  arrows: true,
   slidesToShow: 2,
   slidesToScroll: 1,
   responsive: [

@@ -10,7 +10,7 @@ import FeatureSection from "../enterprise/Feature";
 import LatestBlogSection from "../enterprise/LatestBlog";
 import ParallaxBannerSection from "../enterprise/ParallaxBanner";
 import PropertyOfTheDaySection from "../enterprise/PropertyOfTheDay";
-import PropertyServicesSection from "../enterprise/Propertyservices";
+import VendorServicesSection from "../enterprise/Propertyservices";
 import PropertyTabSection from "../enterprise/PropertyTab";
 import TestimonialSection from "../enterprise/Testimonial";
 import HomeBannerSection from "./HomeBanner";
@@ -39,7 +39,7 @@ const BodyContent = () => {
       <LatestPropertyListingSection value={value?.ListingPropertyInModernVideoLayout} />
       <PropertyTabSection value={value} />
       <PropertyOfTheDaySection value={value?.PropertyOfTheDay} />
-      <PropertyServicesSection value={AppPropertyData?.PropertyServices} />
+      <VendorServicesSection value={AppPropertyData?.PropertyServices} />
       <FeatureSection value={AppPropertyData?.FeaturedCitiesInEnterprise} />
       <ParallaxBannerSection />
       <TestimonialSection value={clientData?.WhatPeopleSay} />

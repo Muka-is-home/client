@@ -27,7 +27,7 @@ const HorizontalBlogSection = () => {
                       <h3>
                         <Link href="/listing/grid-view/2-grid/left-sidebar">Someone who is obsessed with fashion niche very well.</Link>
                       </h3>
-                      <p className="font-roboto">Residences can be classified by and how they are connected to neighbouring residences and land.</p>
+                      <p className="font-primary">Residences can be classified by and how they are connected to neighbouring residences and land.</p>
                       <Link href="/pages/blog-page/left-sidebar" className="btn btn-gradient btn-pill btn-lg">
                         read more
                       </Link>
@@ -44,7 +44,7 @@ const HorizontalBlogSection = () => {
                       <h3>
                         <Link href="/listing/grid-view/2-grid/left-sidebar">Residences can be classified by and how they are connected.</Link>
                       </h3>
-                      <p className="font-roboto">How they are connected to neighbouring residences and land. Residences can be classified</p>
+                      <p className="font-primary">How they are connected to neighbouring residences and land. Residences can be classified</p>
                       <Link href="/pages/blog-page/left-sidebar" className="btn btn-gradient btn-pill btn-lg">
                         read more
                       </Link>
@@ -61,7 +61,7 @@ const HorizontalBlogSection = () => {
                       <h3>
                         <Link href="/listing/grid-view/2-grid/left-sidebar">See why ProCity is one of best friends for exploring city.</Link>
                       </h3>
-                      <p className="font-roboto">Area classified by and how they are connected to neighbouring residences and land.</p>
+                      <p className="font-primary">Area classified by and how they are connected to neighbouring residences and land.</p>
                       <Link href="/pages/blog-page/left-sidebar" className="btn btn-gradient btn-pill btn-lg">
                         read more
                       </Link>

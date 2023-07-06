@@ -13,7 +13,7 @@ import BrandSection from "../classic/Brand";
 import FeaturedPropertySection from "../classic/FeaturedProperty";
 import LatestPropertySection from "../classic/LatestProperty";
 import ListingPropertySection from "../classic/ListingProperty";
-import PropertyServicesSection from "../classic/PropertyServices";
+import VendorServicesSection from "../classic/PropertyServices";
 import SubscribeSection from "../classic/Subscribe";
 import TestimonialSection from "../classic/Testimonial";
 import VideoSection from "../classic/Video";
@@ -44,7 +44,7 @@ const BodyContent = ({ map }) => {
       {map !== "VSearch" && <MapFilter />}
       <LatestPropertySection value={value?.LatestPropertyInClassicLayout} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
-      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      <VendorServicesSection value={AppPropertyData.PropertyServicesInClassic} />
       <ListingPropertySection value={value?.ListingPropertyInClassicLayout} />
       <VideoSection />
       <AboutSection value={clientData?.OurAgentInClassicLayout} />

@@ -6,21 +6,16 @@
 import { useEffect } from "react";
 import BodyContent from "../../components/home/slider-filter-search";
 import { ConfigDB } from "../../config/themeCustomizerConfig";
-import FooterOne from "../../layout/footers/FooterOne";
+import FooterOne from "../../layout/footers/FooterThree";
 import NavbarOne from "../../layout/headers/NavbarOne";
 
 
 
 const SliderFilterSearch = () => {
-  useEffect(() => {
-    setTimeout(() => {
-      !ConfigDB.PrimaryColor && document.documentElement.style.setProperty("--theme-default", "#2c2e97");
-      !ConfigDB.SecondaryColor && document.documentElement.style.setProperty("--theme-default2", "#4b55c4");
-    }, 0.1);
-  }, []);
+  useEffect(() => {}, []);
   return (
     <>
-      {/* <NavbarOne /> */}
+      <NavbarOne />
       <BodyContent />
       <FooterOne />
     </>

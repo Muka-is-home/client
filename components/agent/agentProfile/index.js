@@ -100,17 +100,17 @@ const BodyContent = () => {
               <h3>About the agent</h3>
               <Row>
                 <Col sm="4">
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     Residences can be classified by and how they are connected residences and land. Different types of housing tenure can be used for the same physical type.
                   </p>
                 </Col>
                 <Col sm="4">
-                  <p className="font-roboto">
+                  <p className="font-primary">
                     Connected residences owned by a single entity leased out, or owned separately with an agreement covering the relationship between units and common areas.
                   </p>
                 </Col>
                 <Col sm="4">
-                  <p className="font-roboto">Residential real estate may contain either a single family or multifamily structure that is available for occupation or for non-business purposes.</p>
+                  <p className="font-primary">Residential real estate may contain either a single family or multifamily structure that is available for occupation or for non-business purposes.</p>
                 </Col>
               </Row>
             </div>

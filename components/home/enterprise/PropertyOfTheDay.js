@@ -41,7 +41,7 @@ const PropertyOfTheDaySection = ({ value }) => {
                         </Link>
                       </h3>
                       <span>{value?.address}</span>
-                      <p className="font-roboto">{value?.details}</p>
+                      <p className="font-primary">{value?.details}</p>
                     </div>
                     <ul className="detail-list">
                       <li>

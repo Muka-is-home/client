@@ -21,7 +21,7 @@ const BodyContent = () => {
                   <h3>
                     <Link href="/pages/portfolio/details">{data.title}</Link>
                   </h3>
-                  <p className="font-roboto">{data.details}</p>
+                  <p className="font-primary">{data.details}</p>
                   <Link href="/pages/portfolio/details" className="btn btn-gradient btn-pill">
                     Read More
                   </Link>

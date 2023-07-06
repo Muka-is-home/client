@@ -1,4 +1,8 @@
 // path: home/slider-filter-search
+/* Muka content*/
+export const VendorServices = "Connect with Minority Vendors";
+export const VendorServicesDesc = "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry";
+
 export const MainTitle = "Reality Properties solve your problems";
 export const LatestForSale = "Latest For Sale";
 export const SubmitProperty = "submit property";
@@ -54,3 +58,6 @@ export const providerServices = "Provided <span>Services</span>";
 export const propertyDescription = "Residences can be classified into different types of housing tenure can used for same physical type.";
 export const Realestate = "Realestate";
 export const WhatAreYouLookingFor = "What Are You Looking For";
+export const OurStory = "Our Story"
+export const OurStoryHeadline = "Built for you by a family of minority realtors."
+export const OurStoryDesc = "We’re carrying on the legacy of the matriarch of our family who sowed a seed as an African-American realtor in the 1980’s and 1990’s. Muka is that seed fully bloomed."

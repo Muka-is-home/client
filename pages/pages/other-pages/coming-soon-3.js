@@ -15,7 +15,7 @@ const ComingSoon3 = () => {
             <div className='coming-soon-detail'>
               <div>
                 <Logo9 />
-                <h2 className='font-roboto'>
+                <h2 className='font-primary'>
                   <span>Counter </span> site is coming soon...
                 </h2>
                 <div className='timer'>

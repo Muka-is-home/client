@@ -19,7 +19,7 @@ const ListingPropertySection = ({ value }) => {
             <div className='title-3 text-start d-flex'>
               <div>
                 <h2>{ListingProperty}</h2>
-                <p className='font-roboto'>{LatestPropertyDetail}</p>
+                <p className='font-primary'>{LatestPropertyDetail}</p>
               </div>
               <ul className='nav nav-tabs pagination-tab' id='top-tab' role='tablist'>
                 <li className='nav-item'>

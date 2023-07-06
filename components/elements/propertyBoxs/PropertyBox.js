@@ -46,7 +46,7 @@ const PropertyBox = ({ data, relativeSlider, video }) => {
           </div>
 
           <div className="property-details">
-            <span className="font-roboto">{data.country || "USA"} </span>
+            <span className="font-primary">{data.country || "USA"} </span>
             <Link href={Array.isArray(data.img) ? `/property/image-slider/?id=${data.id}` : `/property/image-box/?id=${data.id}`}>
               <h3>{data.title}</h3>
             </Link>
@@ -54,7 +54,7 @@ const PropertyBox = ({ data, relativeSlider, video }) => {
               {symbol}
               {(data.price * currencyValue).toFixed(2) || (48596.0 * currencyValue).toFixed(2)}*
             </h6>
-            <p className="font-roboto">{data.details || "This home provides wonderful entertaining spaces with a chef kitchen opening. Elegant retreat in a quiet Coral Gables setting.."} </p>
+            <p className="font-primary">{data.details || "This home provides wonderful entertaining spaces with a chef kitchen opening. Elegant retreat in a quiet Coral Gables setting.."} </p>
             <ul>
               <li>
                 <img src="/assets/images/svg/icon/double-bed.svg" className="img-fluid" alt="" />

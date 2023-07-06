@@ -53,7 +53,7 @@ const Login = () => {
                     <label className="d-block mb-0" htmlFor="chk-ani">
                       <input className="checkbox_animated" id="chk-ani" type="checkbox" /> <span>Remember me</span>
                     </label>
-                    <Link href="/pages/other-pages/forgot-password" className="font-rubik">
+                    <Link href="/pages/other-pages/forgot-password" className="font-secondary">
                       Forgot password ?
                     </Link>
                   </div>
