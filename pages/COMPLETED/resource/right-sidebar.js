@@ -1,6 +1,6 @@
 
 import BodyContent from "../../../components/pages/blogDetailPages";
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
+import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
 import FooterThree from "../../../layout/footers/FooterThree";
 import NavbarThree from "../../../layout/headers/NavbarOne";
 import Img from "../../../utils/BackgroundImageRatio";
