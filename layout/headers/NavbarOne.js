@@ -8,7 +8,6 @@ import { Col, Row, Container } from "reactstrap";
 import { Logo } from "../../components/elements/Logo";
 import useStickyBar from "../../utils/useStickyBar";
 import MainNav from "./elements/MainNav";
-// import RightNav from "./elements/RightNav";
 
 const NavbarOne = ({ logo, fixed }) => {
   const fix = useStickyBar();
@@ -20,7 +19,6 @@ const NavbarOne = ({ logo, fixed }) => {
             <div className='menu'>
               {logo || <Logo />}
               <MainNav />
-              {/* <RightNav /> */}
             </div>
           </Col>
         </Row>
