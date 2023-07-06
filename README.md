@@ -1,5 +1,9 @@
 # Muka Client
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72f805b1-2561-498d-9b77-2d78eabf8c5f/deploy-status)](https://app.netlify.com/sites/muka-web/deploys)
+
+Deployed Site: https://muka-web.netlify.app/
+
 ## Get Started
 1. Clone the repo
 ```bash
