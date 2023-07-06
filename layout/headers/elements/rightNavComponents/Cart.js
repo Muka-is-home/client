@@ -16,7 +16,7 @@ const Cart = () => {
 
   const { ref, isComponentVisible, setIsComponentVisible } = useOutsideDropdown(false);
   useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
       .then((res) => {
         setProducts(
           Object.keys(res.data)

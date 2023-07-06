@@ -17,7 +17,7 @@ const BodyContent = ({ side }) => {
   const [value, setValue] = useState();
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
       .then((res) => {
         setValue(res.data?.LatestBlogInCorporate);
       })
