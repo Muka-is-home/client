@@ -12,7 +12,7 @@ const AgencyProfile = () => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/client-agent`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data.agencyList);
       })

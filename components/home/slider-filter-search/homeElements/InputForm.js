@@ -16,20 +16,20 @@ const InputForm = ({ label, lg, sm, lastSm }) => {
 
   const [value, setValue] = useState();
 
-  useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
-      .then((res) => {
-        setValue(
-          res.data &&
-            res.data !== undefined &&
-            Object.keys(res.data)
-              .map((key) => [res.data[key]])
-              .flat(2)
-              .filter((arrData) => Array.isArray(arrData.img)),
-        );
-      })
-      .catch((error) => console.log("Error", error));
-  }, []);
+  // useEffect(() => {
+  //   getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+  //     .then((res) => {
+  //       setValue(
+  //         res.data &&
+  //           res.data !== undefined &&
+  //           Object.keys(res.data)
+  //             .map((key) => [res.data[key]])
+  //             .flat(2)
+  //             .filter((arrData) => Array.isArray(arrData.img)),
+  //       );
+  //     })
+  //     .catch((error) => console.log("Error", error));
+  // }, []);
 
   // let minPrice =
   //   value?.length !== 0 &&

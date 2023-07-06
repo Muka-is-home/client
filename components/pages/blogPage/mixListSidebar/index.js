@@ -18,7 +18,7 @@ const BodyContent = ({ side }) => {
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
       .then((res) => {
         setValue(res.data.LatestBlogInCorporate);
         gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.LatestBlogInCorporate.length / 4) });
