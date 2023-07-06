@@ -16,14 +16,27 @@ export const MainNavMenuItems = [
   {
     title: "AGENTS",
     icon: <Home />,
-    type: "link",
-    path: "/COMPLETED/agents"
+    path: "/COMPLETED/agents",
+    type: "sub",
+    children: [
+      {
+        path: "/agent/agent-profile",
+        title: "Agent Profile",
+        type: "link",
+      }
+    ],
   },
   {
     title: "RESOURCES",
     icon: <Home />,
     type: "link",
     path: "/COMPLETED/resources"
+  },
+  {
+    title: "CONTACT",
+    icon: <Home />,
+    type: "link",
+    path: "/COMPLETED/contact"
   },
   {
     title: "PAGES",
@@ -345,63 +358,13 @@ export const MainNavMenuItems = [
     icon: <Zap />,
     type: "sub",
     children: [
-      {
-        path: "/modules/button",
-        title: "Button",
-        type: "link",
-      },
-      { path: "/modules/label", title: "Label", type: "link" },
-      { path: "/modules/title", title: "Title", type: "link" },
-      {
-        path: "/modules/image-ratio",
-        title: "Image Ratio",
-        type: "link",
-        icon: "true",
-      },
-      { path: "/modules/footer", title: "Footer", type: "link" },
-      { path: "/modules/blog", title: "Blog", type: "link" },
       { path: "/modules/brand", title: "Brand", type: "link" },
+      { path: "/modules/button", title: "Button", type: "link"},
+      { path: "/modules/footer", title: "Footer", type: "link" },
+      { path: "/modules/image-ratio", title: "Image Ratio", type: "link", icon: "true"},
+      { path: "/modules/label", title: "Label", type: "link" },
       { path: "/modules/testimonial", title: "Testimonial", type: "link" },
-      { path: "/modules/full-banner", title: "Full Banner", type: "link" },
-      { path: "/modules/about", title: "About", type: "link" },
-      { path: "/modules/service", title: "Service", type: "link" },
-      { path: "/modules/property", title: "Property", type: "link" },
-      { path: "/modules/feature", title: "Feature", type: "link" },
-      { path: "/modules/others", title: "others", type: "link" },
+      { path: "/modules/title", title: "Title", type: "link" }
     ],
-  },
-  {
-    title: "AGENT",
-    icon: <User />,
-    type: "sub",
-    children: [
-      {
-        path: "/agent/agent-profile",
-        title: "Agent Profile",
-        type: "link",
-      },
-      { path: "/agent/agent-grid", title: "Agent Grid", type: "link" },
-      { path: "/agent/agent-list", title: "Agent List", type: "link" },
-      {
-        path: "/agent/submit-property",
-        title: "Submit Property",
-        type: "link",
-        tag: "New",
-      },
-    ],
-  },
-  {
-    title: "CONTACT",
-    icon: <MapPin />,
-    type: "sub",
-    children: [
-      {
-        path: "/contact/contact-us-1",
-        title: "Contact Us 1",
-        type: "link",
-      },
-      { path: "/contact/contact-us-2", title: "Contact Us 2", type: "link" },
-      { path: "/contact/contact-us-3", title: "Contact Us 3", type: "link" },
-    ],
-  },
+  }
 ];
