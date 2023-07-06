@@ -1,21 +1,21 @@
-import React from "react";
+// import React from "react";
 
-import NavbarThree from "../../../../layout/headers/NavbarOne";
+// import NavbarThree from "../../../../layout/headers/NavbarOne";
 
 
-import FooterThree from "../../../../layout/footers/FooterThree";
-import Breadcrumb from "../../../../layout/Breadcrumb/Breadcrumb";
-import BodyContent from "../../../../components/pages/userPanel";
+// import FooterThree from "../../../../layout/footers/FooterThree";
+// import Breadcrumb from "../../../../layout/Breadcrumb/Breadcrumb";
+// import BodyContent from "../../../../components/pages/userPanel";
 
-const MyProfile = () => {
-  return (
-    <>
-      <NavbarThree />
-      <Breadcrumb />
-      <BodyContent active={"Profile"} />
-      <FooterThree />
-    </>
-  );
-};
+// const MyProfile = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <Breadcrumb />
+//       <BodyContent active={"Profile"} />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default MyProfile;
+// export default MyProfile;

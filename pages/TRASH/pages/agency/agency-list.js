@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
-import NavbarThree from "../../../layout/headers/NavbarOne";
+import NavbarThree from "../../../../layout/headers/NavbarOne";
 
 
-import FooterThree from "../../../layout/footers/FooterThree";
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
-import BodyContent from "../../../components/pages/agency/agencyGrid";
-import { getData } from "../../../utils/getData";
+import FooterThree from "../../../../layout/footers/FooterThree";
+import Breadcrumb from "../../../../layout/Breadcrumb/Breadcrumb";
+import BodyContent from "../../../../components/pages/agency/agencyGrid";
+import { getData } from "../../../../utils/getData";
 
 const AgencyList = () => {
   const [clientData, setClientData] = useState();

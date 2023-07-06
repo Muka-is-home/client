@@ -1,21 +1,21 @@
-import React from "react";
+// import React from "react";
 
-import NavbarThree from "../../../layout/headers/NavbarOne";
+// import NavbarThree from "../../../layout/headers/NavbarOne";
 
 
-import FooterThree from "../../../layout/footers/FooterThree";
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
-import BodyContent from "../../../components/pages/userPanel";
+// import FooterThree from "../../../layout/footers/FooterThree";
+// import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
+// import BodyContent from "../../../components/pages/userPanel";
 
-const UserDashboard = () => {
-  return (
-    <>
-      <NavbarThree />
-      <Breadcrumb />
-      <BodyContent active={"Dashboard"} />
-      <FooterThree />
-    </>
-  );
-};
+// const UserDashboard = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <Breadcrumb />
+//       <BodyContent active={"Dashboard"} />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default UserDashboard;
+// export default UserDashboard;
