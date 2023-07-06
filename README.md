@@ -1,4 +1,20 @@
-# real-estate-template
+# Muka Client
 
-Resources:
-https://medium.com/@danialkeimasi/django-next-js-the-easy-way-655efb6d28e1
+## Get Started
+1. Clone the repo
+```bash
+git clone git@github.com:Muka-is-home/client.git
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Modify [`next.config.js`](/next.config.js#L13) based on the environment you are developing
+
+4. Run the app
+```bash
+npm run dev
+```
+
