@@ -7,7 +7,7 @@ import React from "react";
 import GridView from "../../../components/listing/gridView/grid/GridView";
 import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
 import FooterThree from "../../../layout/footers/FooterThree";
-import NavbarThree from "../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../layout/headers/NavbarOne";
 
 
 

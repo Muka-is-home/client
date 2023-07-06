@@ -5,7 +5,7 @@
 import React from "react";
 
 import dynamic from "next/dynamic";
-import NavbarFive from "../../../../layout/headers/NavbarFive";
+import NavbarFive from "../../../../layout/headers/NavbarOne";
 
 
 import FooterThree from "../../../../layout/footers/FooterThree";

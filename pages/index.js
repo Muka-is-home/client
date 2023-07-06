@@ -8,7 +8,7 @@ const index = () => {
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
-    router.push("/home/slider-filter-search");
+    router.push("/home");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

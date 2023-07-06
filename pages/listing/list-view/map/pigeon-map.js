@@ -5,7 +5,7 @@
  */
 import React from "react";
 
-import NavbarFive from "../../../../layout/headers/NavbarFive";
+import NavbarFive from "../../../../layout/headers/NavbarOne";
 
 
 import Breadcrumb3 from "../../../../layout/Breadcrumb/Breadcrumb3";

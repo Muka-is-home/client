@@ -7,7 +7,7 @@ import React from "react";
 
 import BodyContent from "../../components/property/stickyTabOrClassic";
 import FooterThree from "../../layout/footers/FooterThree";
-import NavbarThree from "../../layout/headers/NavbarThree";
+import NavbarThree from "../../layout/headers/NavbarOne";
 
 
 

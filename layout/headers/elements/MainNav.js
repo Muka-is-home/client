@@ -44,14 +44,19 @@ const MainNav = ({ center, icon }) => {
                     icon={icon}
                   />
                 ) : (
-                  <MegaMenu navTitle={navTitle} isOpen={isOpen} setIsOpen={setIsOpen} i isOpenNestedChild={isOpenNestedChild} setIsOpenNestedChild={setIsOpenNestedChild} />
+                  <MegaMenu 
+                    navTitle={navTitle}
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    isOpenNestedChild={isOpenNestedChild}
+                    setIsOpenNestedChild={setIsOpenNestedChild} />
                 )}
               </Fragment>
             ))}
           </ul>
           {center && (
             <div className="brand-logo">
-              <Link href="/home/slider-filter-search">
+              <Link href="/">
                 <img src="/assets/images/logo/4.png" alt="" className="img-fluid for-light" />
                 <img src="/assets/images/logo/9.png" alt="" className="img-fluid for-dark" />
               </Link>

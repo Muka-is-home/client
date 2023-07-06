@@ -5,7 +5,7 @@
 import React, { useState } from "react";
 
 import dynamic from "next/dynamic";
-import NavbarThree from "../../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../../layout/headers/NavbarOne";
 
 
 import FooterThree from "../../../../layout/footers/FooterThree";

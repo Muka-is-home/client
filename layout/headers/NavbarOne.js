@@ -20,7 +20,6 @@ const NavbarOne = ({ logo, fixed }) => {
             <div className='menu'>
               {logo || <Logo />}
               <MainNav />
-              {/* <RightNav /> */}
             </div>
           </Col>
         </Row>

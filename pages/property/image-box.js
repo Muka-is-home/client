@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 import BodyContent from "../../components/property/tabPanelPages";
 import FooterThree from "../../layout/footers/FooterThree";
-import NavbarFive from "../../layout/headers/NavbarFive";
+import NavbarFive from "../../layout/headers/NavbarOne";
 
 
 import ImgBox from "../../components/property/tabPanelPages/ImageBox";

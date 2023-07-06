@@ -9,7 +9,7 @@ import React from "react";
 
 import BodyContent from "../../components/property/tabPanelPages";
 import FooterThree from "../../layout/footers/FooterThree";
-import NavbarFive from "../../layout/headers/NavbarFive";
+import NavbarFive from "../../layout/headers/NavbarOne";
 
 
 

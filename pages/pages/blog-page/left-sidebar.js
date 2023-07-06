@@ -11,7 +11,7 @@ import React from "react";
 import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
 import BodyContent from "../../../components/pages/blogPage/sidebarPage";
 import FooterThree from "../../../layout/footers/FooterThree";
-import NavbarThree from "../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../layout/headers/NavbarOne";
 
 
 

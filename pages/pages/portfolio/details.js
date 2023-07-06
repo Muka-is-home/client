@@ -7,7 +7,7 @@ import React from "react";
 import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
 import BodyContent from "../../../components/pages/portfolio/details";
 import FooterThree from "../../../layout/footers/FooterThree";
-import NavbarThree from "../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../layout/headers/NavbarOne";
 
 
 

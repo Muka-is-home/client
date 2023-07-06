@@ -8,7 +8,7 @@ import React from "react";
 import BodyContent from "../../components/property/tabPanelPages";
 import VideoSection from "../../components/property/tabPanelPages/Video";
 import FooterThree from "../../layout/footers/FooterThree";
-import NavbarFive from "../../layout/headers/NavbarFive";
+import NavbarFive from "../../layout/headers/NavbarOne";
 
 
 

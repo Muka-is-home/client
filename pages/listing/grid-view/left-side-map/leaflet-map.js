@@ -2,7 +2,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
-import NavbarThree from "../../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../../layout/headers/NavbarOne";
 
 
 import Breadcrumb from "../../../../layout/Breadcrumb/Breadcrumb";

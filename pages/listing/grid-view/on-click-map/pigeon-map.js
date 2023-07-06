@@ -6,7 +6,7 @@
  */
 import React, { useState } from "react";
 
-import NavbarThree from "../../../../layout/headers/NavbarThree";
+import NavbarThree from "../../../../layout/headers/NavbarOne";
 
 
 import FooterThree from "../../../../layout/footers/FooterThree";

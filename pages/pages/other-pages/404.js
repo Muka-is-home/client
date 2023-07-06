@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "reactstrap";
 
 import Link from "next/link";
-import NavbarFive from "../../../layout/headers/NavbarFive";
+import NavbarFive from "../../../layout/headers/NavbarOne";
 
 
 
