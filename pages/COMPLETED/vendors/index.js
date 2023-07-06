@@ -3,7 +3,7 @@
  * @returns The data is being returned from the API.
  */
 
-// UPDATE TO ONLY CALL AGENTS 
+// UPDATE TO ONLY CALL VENDORS 
 import React, { useEffect, useState } from "react";
 
 import BodyContent from "../../../components/pages/agency/agencyGrid";
