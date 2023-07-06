@@ -1,21 +1,21 @@
-import React from "react";
+// import React from "react";
 
-import BodyContent from "../../components/modules/feature";
-import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
-import FooterThree from "../../layout/footers/FooterThree";
-import NavbarThree from "../../layout/headers/NavbarOne";
+// import BodyContent from "../../components/modules/feature";
+// import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
+// import FooterThree from "../../layout/footers/FooterThree";
+// import NavbarThree from "../../layout/headers/NavbarOne";
 
 
 
-const Feature = () => {
-  return (
-    <>
-      <NavbarThree />
-      <Breadcrumb />
-      <BodyContent />
-      <FooterThree />
-    </>
-  );
-};
+// const Feature = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <Breadcrumb />
+//       <BodyContent />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default Feature;
+// export default Feature;

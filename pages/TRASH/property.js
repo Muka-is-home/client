@@ -1,21 +1,21 @@
-import React from "react";
+// import React from "react";
 
-import BodyContent from "../../components/modules/property";
-import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
-import FooterThree from "../../layout/footers/FooterThree";
-import NavbarThree from "../../layout/headers/NavbarOne";
+// import BodyContent from "../../components/modules/property";
+// import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
+// import FooterThree from "../../layout/footers/FooterThree";
+// import NavbarThree from "../../layout/headers/NavbarOne";
 
 
 
-const Property = () => {
-  return (
-    <>
-      <NavbarThree />
-      <Breadcrumb />
-      <BodyContent />
-      <FooterThree />
-    </>
-  );
-};
+// const Property = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <Breadcrumb />
+//       <BodyContent />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default Property;
+// export default Property;

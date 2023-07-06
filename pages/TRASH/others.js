@@ -1,21 +1,21 @@
-import React from "react";
+// import React from "react";
 
-import NavbarThree from "../../layout/headers/NavbarOne";
+// import NavbarThree from "../../layout/headers/NavbarOne";
 
 
-import FooterThree from "../../layout/footers/FooterThree";
-import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
-import BodyContent from "../../components/modules/others";
+// import FooterThree from "../../layout/footers/FooterThree";
+// import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
+// import BodyContent from "../../components/modules/others";
 
-const Others = () => {
-  return (
-    <>
-      <NavbarThree />
-      <Breadcrumb />
-      <BodyContent />
-      <FooterThree />
-    </>
-  );
-};
+// const Others = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <Breadcrumb />
+//       <BodyContent />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default Others;
+// export default Others;

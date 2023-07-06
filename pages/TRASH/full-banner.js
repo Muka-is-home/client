@@ -1,19 +1,19 @@
-import React from "react";
+// import React from "react";
 
-import FooterThree from "../../layout/footers/FooterThree";
-import NavbarThree from "../../layout/headers/NavbarOne";
+// import FooterThree from "../../layout/footers/FooterThree";
+// import NavbarThree from "../../layout/headers/NavbarOne";
 
 
-import BodyContent from "../../components/modules/fullBanner";
+// import BodyContent from "../../components/modules/fullBanner";
 
-const FullBanner = () => {
-  return (
-    <>
-      <NavbarThree />
-      <BodyContent />
-      <FooterThree />
-    </>
-  );
-};
+// const FullBanner = () => {
+//   return (
+//     <>
+//       <NavbarThree />
+//       <BodyContent />
+//       <FooterThree />
+//     </>
+//   );
+// };
 
-export default FullBanner;
+// export default FullBanner;
