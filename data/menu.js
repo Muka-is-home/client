@@ -20,7 +20,7 @@ export const MainNavMenuItems = [
     type: "sub",
     children: [
       {
-        path: "/agent/agent-profile",
+        path: "/COMPLETED/agent/agent-profile",
         title: "Agent Profile",
         type: "link",
       }

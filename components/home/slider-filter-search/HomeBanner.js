@@ -26,14 +26,6 @@ const HomeBannerSection = () => {
                     {/* home main slider start*/}
                     <h1>We're bridging the gap in minority homeownership</h1>
                     <h3>Connect with minority home buyers, sellers, and industry professionals</h3>
-                    {/* <NoSsr>
-                      <Slider className="home-slider-1 arrow-light slick-shadow" {...homeSlider1}>
-                        <HomeSliderContent mainTitle="Reality Properties solve your problems" />
-                        <HomeSliderContent mainTitle="Properties Seller" />
-                      </Slider>
-                    </NoSsr> */}
-                    {/* home main slider end*/}
-                    {/* <WhatAreYouLookingFor /> */}
                   </div>
                 </div>
               </Container>

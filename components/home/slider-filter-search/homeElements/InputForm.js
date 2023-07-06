@@ -5,59 +5,17 @@
  */
 
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { Button, Col, Row } from "reactstrap";
-import { getData } from "../../../../utils/getData";
+import React, { useState } from "react";
+import { Col, Row } from "reactstrap";
 import { DropdownInputFields } from "../../../elements/DropdownInputFields";
-import RangeInputFields from "../../../elements/RangeInputFields";
 
 const InputForm = ({ label, lg, sm, lastSm }) => {
   const [filterValues, setFilterValues] = useState({});
-
-  const [value, setValue] = useState();
-
-  // useEffect(() => {
-  //   getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
-  //     .then((res) => {
-  //       setValue(
-  //         res.data &&
-  //           res.data !== undefined &&
-  //           Object.keys(res.data)
-  //             .map((key) => [res.data[key]])
-  //             .flat(2)
-  //             .filter((arrData) => Array.isArray(arrData.img)),
-  //       );
-  //     })
-  //     .catch((error) => console.log("Error", error));
-  // }, []);
-
-  // let minPrice =
-  //   value?.length !== 0 &&
-  //   value?.reduce(function (res, obj) {
-  //     return Math.round(obj?.price) < Math.round(res?.price) ? obj : res;
-  //   });
-  // let maxPrice =
-  //   value?.length !== 0 &&
-  //   value?.reduce(function (res, obj) {
-  //     return Math.round(obj?.price) > Math.round(res?.price) ? obj : res;
-  //   });
-  // let minSqft =
-  //   value?.length !== 0 &&
-  //   value?.reduce(function (res, obj) {
-  //     return Math.round(obj?.sqft) < Math.round(res?.sqft) ? obj : res;
-  //   });
-  // let maxSqft =
-  //   value?.length !== 0 &&
-  //   value?.reduce(function (res, obj) {
-  //     return Math.round(obj?.sqft) > Math.round(res?.sqft) ? obj : res;
-  //   });
 
   return (
     <Row className="gx-3">
       <p>I'm looking for..</p>
       <DropdownInputFields filterValues={filterValues} setFilterValues={setFilterValues} label={label} start={0} end={6} lg={lg} sm={sm} lastSm={lastSm} />
-      {/* <RangeInputFields label="Price" name="price" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minPrice?.price)} max={Math.round(maxPrice?.price)} lg={lg} sm={sm} />
-      <RangeInputFields label="Area" name="area" filterValues={filterValues} setFilterValues={setFilterValues} min={Math.round(minSqft?.sqft)} max={Math.round(maxSqft?.sqft)} lg={lg} sm={sm} /> */}
       <Col lg={lg || 12}>
         <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-solid mt-3">
             Search Muka Community
