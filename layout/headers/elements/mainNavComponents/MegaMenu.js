@@ -22,7 +22,8 @@ const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNes
         {navTitle.title}
         <span className="according-menu">{isOpen === navTitle.title ? "-" : "+"}</span>
       </a>
-      <div className={`mega-menu-container menu-content ${isOpen === navTitle.title ? "d-block" : ""} `}>
+      {
+        navTitle.children && <div className={`mega-menu-container menu-content ${isOpen === navTitle.title ? "d-block" : ""} `}>
         <Container>
           <Row>
             {/* loop for divide div in 5 columns */}
@@ -67,6 +68,7 @@ const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNes
           </Row>
         </Container>
       </div>
+      }
     </li>
   );
 };
