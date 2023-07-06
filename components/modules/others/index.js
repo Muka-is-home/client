@@ -6,6 +6,7 @@ import VideoSection from "../../home/classic/Video";
 import PricingSection from "../../home/corporate/Pricing";
 import PropertyOfTheDaySection from "../../home/enterprise/PropertyOfTheDay";
 import CitiesWisePropertySection from "../../home/slider-filter-search/CitiesWiseProperty";
+// import OfferSection from "../../home/slider-filter-search/Offer";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -20,6 +21,7 @@ const BodyContent = () => {
   return (
     <>
       <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
+      {/* <OfferSection value={AppPropertyData.OurNewOffer} /> */}
       <VideoSection />
       <PropertyOfTheDaySection value={value?.PropertyOfTheDay} />
       <PricingSection value={AppPropertyData.PricingPlan} />

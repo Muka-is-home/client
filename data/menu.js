@@ -4,30 +4,7 @@ export const MainNavMenuItems = [
   {
     title: "HOME",
     icon: <Home />,
-    type: "link",
-    children: [
-      // {
-      //   path: "/home/slider-filter-search",
-      //   title: "Slider Filter Search",
-      //   type: "link",
-      // },
-      // { path: "/home/corporate", title: "Corporate", type: "link" },
-      // { path: "/home/enterprise", title: "Enterprise", type: "link" },
-      // {
-      //   path: "/home/classic",
-      //   title: "Classic",
-      //   type: "link",
-      //   tag: "New",
-      // },
-      // { path: "/home/image-with-content", title: "Image With Content", type: "link" },
-      // { path: "/home/modern", title: "Modern", type: "link", tag: "New" },
-      // { path: "/home/parallax-image", title: "Parallax Image", type: "link" },
-      // { path: "/home/search-tab", title: "Search Tab", type: "link" },
-      // { path: "/home/typed-image", title: "Typed Image", type: "link" },
-      // { path: "/home/modern-video", title: "Modern Video", type: "link" },
-      // { path: "/home/map-with-V-search", title: "Map With V-Search", type: "link" },
-      // { path: "/home/map-with-H-search", title: "Map With H-Search", type: "link" },
-    ],
+    type: "link"
   },
   // {
   //   title: "LISTING",
