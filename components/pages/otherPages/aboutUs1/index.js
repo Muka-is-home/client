@@ -6,6 +6,8 @@ import BlogSection from "../../../home/corporate/Blog";
 import BrandSection from "../../../home/enterprise/Brand";
 import VendorServicesSection from "../../../home/enterprise/Propertyservices";
 import AboutUsSection from "./AboutUs";
+import SubscribeSection from "../../../home/classic/Subscribe";
+import FounderSection from "./FounderSection";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -26,14 +28,16 @@ const BodyContent = () => {
   return (
     <>
       <AboutUsSection />
-      <div className="bg-light">
+      <FounderSection />
+      <SubscribeSection />
+      {/* <div className="bg-light">
         <VendorServicesSection value={AppPropertyData.PropertyServices} />
       </div>
       <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />
       <div className="bg-light">
         <BlogSection value={value?.LatestBlogInCorporate} />
       </div>
-      <BrandSection />
+      <BrandSection /> */}
     </>
   );
 };

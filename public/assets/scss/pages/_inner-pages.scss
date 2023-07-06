@@ -3402,7 +3402,6 @@ input[type='date'] {
         }
 
         h5 {
-          text-transform: capitalize;
           margin-bottom: 0;
           margin-top: 5px;
           font-family: $font_primary_regular, sans-serif;
@@ -3532,6 +3531,16 @@ input[type='date'] {
         }
       }
     }
+  }
+}
+
+//founder detail section
+.founder-detail {
+  .row {
+    align-items: center;
+  }
+  .founder-img {
+    text-align: center;
   }
 }
 
