@@ -880,7 +880,7 @@ header {
         }
         > a {
           display: block;
-          color: white;
+          color: var(--theme-default1);
           font-size: 14px;
           font-family: $font_primary_regular, sans-serif;
           font-weight: 500;

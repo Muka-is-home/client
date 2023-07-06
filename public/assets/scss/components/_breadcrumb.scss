@@ -8,6 +8,11 @@
     z-index: 1;
     background-position: top left !important;
 
+    &.breadcrumb-simple {
+        height: 100px;
+        background-color: var(--theme-background-light);
+    }
+
     &.breadcrumb-sm {
         height: auto;
         background-image: var(--theme-gradient3);
