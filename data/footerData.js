@@ -34,8 +34,6 @@ export const FooterData = {
     title: "Useful Links",
     children: [
       { title: "About us", link: "/pages/other-pages/about-us-2" },
-      { title: "New Arrivals", link: "/listing/grid-view/2-grid/left-sidebar" },
-      { title: "Agency", link: "/pages/agency/agency-grid" },
       { title: "Faq", link: "/pages/other-pages/faq" },
       { title: "Contact", link: "/contact/contact-us-2" },
     ],
@@ -46,8 +44,6 @@ export const FooterData = {
       { title: "Services", link: "/pages/other-pages/services" },
       { title: "Agency", link: "/pages/agency/agency-list" },
       { title: "Agents", link: "/agent/agent-grid" },
-      { title: "Pricing", link: "/pages/other-pages/pricing" },
-      { title: "Favorites", link: "/pages/user-panel/favourites" },
     ],
   },
   social: {
@@ -56,8 +52,6 @@ export const FooterData = {
       { title: "Facebook", link: "https://www.facebook.com/" },
       { title: "Instagram", link: "https://www.instagram.com/" },
       { title: "Twitter", link: "https://twitter.com/" },
-      { title: "Mail chimp", link: "https://login.mailchimp.com/" },
-      { title: "Gmail", link: "https://myaccount.google.com/." },
     ],
   },
   buy: {
