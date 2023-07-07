@@ -20,7 +20,6 @@ const FooterThree = () => {
                 <FooterLink value={FooterData.usefulLinks} isActive={isActive} setIsActive={setIsActive} />
                 <FooterLink value={FooterData.social} isActive={isActive} setIsActive={setIsActive} />
               </Row>
-              <FooterBlog />
             </Col>
           </Row>
         </Container>

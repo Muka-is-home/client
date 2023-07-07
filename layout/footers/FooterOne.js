@@ -24,7 +24,7 @@ const FooterOne = ({ logo }) => {
           </Row>
         </Container>
       </div>
-      <SubFooter />
+
     </footer>
   );
 };
