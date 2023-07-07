@@ -5,7 +5,7 @@ import AboutSection from "./About";
 import VendorServicesSection from "./VendorServicesSection";
 import HomeBannerSection from "./HomeBanner";
 import UserSection from "./Users";
-import { HomePageData } from "../../data/homePage";
+import { HomePageData } from "../../data/pages/homePage";
 
 const BodyContent = () => {
   const [value, setValue] = useState();

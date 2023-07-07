@@ -4,9 +4,9 @@
  */
 
 import { useEffect } from "react";
-import BodyContent from "../../../components/home";
-import FooterOne from "../../../layout/footers/FooterThree";
-import Navbar from "../../../layout/headers/NavbarOne";
+import BodyContent from "../../components/home";
+import FooterOne from "../../layout/footers/FooterThree";
+import Navbar from "../../layout/headers/NavbarOne";
 
 
 

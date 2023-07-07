@@ -7,32 +7,32 @@ export const MainNavMenuItems = [
   {
     title: "ABOUT",
     type: "link",
-    path: "/COMPLETED/about"
+    path: "/WIP/about"
   },
   {
     title: "AGENTS",
-    path: "/COMPLETED/agents",
+    path: "/WIP/agents",
     type: "link"
   },
   {
     title: "Vendors",
-    path: "/COMPLETED/vendors",
+    path: "/WIP/vendors",
     type: "link",
   },
   {
     title: "AGENT/VENDOR Details",
-    path: "/COMPLETED/pro/id",
+    path: "/WIP/pro/id",
     type: "link",
   },
   {
     title: "RESOURCES",
     type: "link",
-    path: "/COMPLETED/resources"
+    path: "/WIP/resources"
   },
   {
     title: "CONTACT",
     type: "link",
-    path: "/COMPLETED/contact"
+    path: "/WIP/contact"
   },
   // BELOW IS AN EXAMPLE OF A SUB MENU
   // {
@@ -43,7 +43,7 @@ export const MainNavMenuItems = [
   //     {
   //       title: "CONTACT",
   //       type: "link",
-  //       path: "/COMPLETED/contact"
+  //       path: "/WIP/contact"
   //     },
   //   ]
   // }
