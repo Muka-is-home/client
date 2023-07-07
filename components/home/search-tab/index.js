@@ -7,7 +7,7 @@ import { AppPropertyData } from "../../../data/appPropertyData";
 import { getData } from "../../../utils/getData";
 import FeaturedPropertySection from "../classic/FeaturedProperty";
 import LatestPropertySection from "../classic/LatestProperty";
-import VendorServicesSection from "../classic/PropertyServices";
+import PropertyServicesSection from "../classic/PropertyServices";
 import SubscribeSection from "../classic/Subscribe";
 import TestimonialSection from "../classic/Testimonial";
 import VideoSection from "../classic/Video";
@@ -21,12 +21,12 @@ const BodyContent = () => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    getData(`${process.env.API_URL}/property`)
       .then((res) => {
         setValue(res.data);
       })
       .catch((error) => console.log("Error", error));
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
+    getData(`${process.env.API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })
@@ -37,7 +37,7 @@ const BodyContent = () => {
       <HomeBannerSection />
       <SalePropertySection value={value?.LatestForSalePropertyData} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
-      <VendorServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
       <LatestPropertySection value={value?.LatestPropertyInClassicLayout} />
       <VideoSection />
       <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />

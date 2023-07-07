@@ -2,9 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import Link from "next/link";
 import { Button, Col, Container, Row } from "reactstrap";
-import { UserType } from "../../../constValues/constValues";
-import { offerSlider } from "../../../data/slickSlider";
-import NoSsr from "../../../utils/NoSsr";
+import { offerSlider } from "../../data/slickSlider";
+import NoSsr from "../../utils/NoSsr";
 
 const UserSection = ({ value }) => {
   return (

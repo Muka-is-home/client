@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "reactstrap";
-import InputForm from "../../home/slider-filter-search/homeElements/InputForm";
+import InputForm from "../../home/homeElements/InputForm";
 
 const MapModal = (props) => {
   return (

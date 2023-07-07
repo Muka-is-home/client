@@ -28,7 +28,7 @@ const FeaturePropertySection = ({ value }) => {
               <h2>
                 Featured <span>Property</span>
               </h2>
-              <p className="font-primary">Residences can be classified into different type of housing tenure can used for same physical type.</p>
+              <p className="font-roboto">Residences can be classified into different type of housing tenure can used for same physical type.</p>
             </div>
             <Gallery>
               <NoSsr>
@@ -61,7 +61,7 @@ const FeaturePropertySection = ({ value }) => {
                                     <Link href="/property/image-box">{data.title}</Link>
                                   </h3>
                                   <span>{data.details}</span>
-                                  <p className="font-primary">{data.moreDetails}</p>
+                                  <p className="font-roboto">{data.moreDetails}</p>
                                 </div>
                                 <ul className="detail-list">
                                   <li>

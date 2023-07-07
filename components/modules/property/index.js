@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
 import LatestPropertySection from "../../home/enterprise/LatestProperty";
 import LatestPropertySectionOne from "../../home/classic/LatestProperty";
-import PropertySection from "../../home/slider-filter-search/Property";
+import PropertySection from "../../home/Property";
 import PropertySectionOne from "../../home/corporate/Property";
-import SalePropertySection from "../../home/slider-filter-search/SaleProperty";
+import SalePropertySection from "../../home/SaleProperty";
 
 const BodyContent = () => {
   const [value, setValue] = useState();

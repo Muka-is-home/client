@@ -25,10 +25,10 @@ const HomeBannerSection = () => {
                   <br />
                   professionals
                 </h1>
-                <h6 className="font-primary mb-0">Residences can be classified by and connected to residences. Different types of housing can be use same physical type.</h6>
+                <h6 className="font-roboto mb-0">Residences can be classified by and connected to residences. Different types of housing can be use same physical type.</h6>
               </div>
               <div className="search-with-tab">
-                {/* <ul className="nav nav-tabs" id="home-tab" role="tablist">
+                <ul className="nav nav-tabs" id="home-tab" role="tablist">
                   <li className="nav-item">
                     <a className={`nav-link ${propertyStatus === "For Sell" && "active"}`} onClick={() => dispatch({ type: "propertyStatus", payload: "For Sell" })}>
                       For sell
@@ -39,7 +39,7 @@ const HomeBannerSection = () => {
                       For rent
                     </a>
                   </li>
-                </ul> */}
+                </ul>
                 <div className="tab-content" id="home-tabContent">
                   <div className="tab-pane fade show active active" id="sell">
                     <div className="row review-form gx-3">

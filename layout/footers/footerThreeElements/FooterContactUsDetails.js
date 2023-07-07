@@ -1,14 +1,14 @@
-import Link from "next/link";
 import React from "react";
 import { Col } from "reactstrap";
 import { Logo } from "../../../components/elements/Logo";
+import { FooterData } from "../../../data/footerData";
 
-const FooterContactUsDetails = () => {
+const FooterContactUsDetails = ({ value }) => {
   return (
     <Col xl="3">
       <div className="footer-details text-center">
         <Logo />
-        <p>Elegant retreat in a quiet Coral Gables setting. This home provides wonderful entertaining spaces with a chef kitchen opening</p>
+        <p>{value}</p>
       </div>
     </Col>
   );

@@ -10,8 +10,8 @@ import BannerSection from "../slider-filter-search/Banner";
 import CitiesWisePropertySection from "../slider-filter-search/CitiesWiseProperty";
 import TestimonialSection from "../slider-filter-search/Testimonial";
 import AboutSection from "../slider-filter-search/About";
-// import OfferSection from "../slider-filter-search/Offer";
-// import { AppPropertyData } from "../../../data/appPropertyData";
+import OfferSection from "../slider-filter-search/Offer";
+import { AppPropertyData } from "../../../data/appPropertyData";
 import BrandSection from "./Brand";
 import HomeBannerSection from "./HomeBanner";
 
@@ -20,12 +20,12 @@ const BodyContent = () => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    getData(`${process.env.API_URL}/property`)
       .then((res) => {
         setValue(res.data);
       })
       .catch((error) => console.log("Error", error));
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
+    getData(`${process.env.API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })
@@ -41,7 +41,7 @@ const BodyContent = () => {
       <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
       <TestimonialSection value={clientData?.HappyClient} normal={false} />
       <AboutSection value={clientData?.MeetOurAgent} />
-      {/* <OfferSection value={AppPropertyData.OurNewOffer} /> */}
+      <OfferSection value={AppPropertyData.OurNewOffer} />
       <BrandSection />
     </>
   );

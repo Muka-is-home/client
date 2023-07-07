@@ -12,7 +12,7 @@ import LatestBlogSection from "./LatestBlog";
 import LatestPropertySection from "./LatestProperty";
 import ParallaxBannerSection from "./ParallaxBanner";
 import PropertyOfTheDaySection from "./PropertyOfTheDay";
-import VendorServicesSection from "./Propertyservices";
+import PropertyServicesSection from "./Propertyservices";
 import PropertyTabSection from "./PropertyTab";
 import TestimonialSection from "./Testimonial";
 
@@ -21,12 +21,12 @@ const BodyContent = () => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    getData(`${process.env.API_URL}/property`)
       .then((res) => {
         setValue(res.data);
       })
       .catch((error) => console.log("Error", error));
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
+    getData(`${process.env.API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })
@@ -36,7 +36,7 @@ const BodyContent = () => {
   return (
     <>
       <HomeBannerSection />
-      <VendorServicesSection value={AppPropertyData.PropertyServices} />
+      <PropertyServicesSection value={AppPropertyData.PropertyServices} />
       <PropertyOfTheDaySection value={value?.PropertyOfTheDay} />
       <LatestPropertySection value={value?.LatestPropertyListingInEnterprise} />
       <PropertyTabSection value={value} />

@@ -1,7 +1,7 @@
 import { Bell, BookOpen, DollarSign, Home, MapPin, Settings, Truck } from "react-feather";
 
 export const AppPropertyData = {
-  /* Muka Conten */
+  /* Muka Content */
   UserType: [
     { title: "Looking for a Realtor?", details: "At Muka, we are deeply aware of the persistent disparity between minority and white homeownership. As disheartening as these statistics may be, they fuel our commitment to effect positive change.", img: "/assets/images/others/icon-1.png" },
     { title: "Are you a Realtor looking to connect", details: "Through our online directory, we will provide a centralized hub where individuals can easily locate and engage with a network of trusted professionals.", img: "/assets/images/others/icon-2.png" },

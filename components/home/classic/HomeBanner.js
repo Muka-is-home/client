@@ -34,11 +34,11 @@ const HomeBannerSection = ({ value }) => {
                                   <h1 data-delay-in="0.6" data-animation-in="fadeInUp">
                                     {data.title}
                                   </h1>
-                                  <p data-delay-in="0.8" data-animation-in="fadeInUp" className="font-primary">
+                                  <p data-delay-in="0.8" data-animation-in="fadeInUp" className="font-roboto">
                                     {data.details}
                                   </p>
 
-                                  <h6 data-delay-in="0.8" data-animation-in="fadeInUp" className="font-primary mb-0">
+                                  <h6 data-delay-in="0.8" data-animation-in="fadeInUp" className="font-roboto mb-0">
                                     <img src="/assets/images/icon/bed.png" className="img-icon me-2" alt="" />
                                     {data.bedroom} Bedroom
                                     <span className="mx-2">|</span>

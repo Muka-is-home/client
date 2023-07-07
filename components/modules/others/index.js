@@ -5,8 +5,7 @@ import SubscribeSection from "../../home/classic/Subscribe";
 import VideoSection from "../../home/classic/Video";
 import PricingSection from "../../home/corporate/Pricing";
 import PropertyOfTheDaySection from "../../home/enterprise/PropertyOfTheDay";
-import CitiesWisePropertySection from "../../home/slider-filter-search/CitiesWiseProperty";
-// import OfferSection from "../../home/slider-filter-search/Offer";
+import CitiesWisePropertySection from "../../home/CitiesWiseProperty";
 
 const BodyContent = () => {
   const [value, setValue] = useState();

@@ -4,7 +4,7 @@
  */
 import Link from "next/link";
 import React, { Fragment, useState } from "react";
-import { MainNavMenuItems } from "../../../data/menu";
+import { MainNavMenuItems } from "../../../data/navMenu";
 import DropdownMenus from "./mainNavComponents/DropdownMenus";
 import MegaMenu from "./mainNavComponents/MegaMenu";
 

@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { Container, Row, Col } from "reactstrap";
-import { AppPropertyData } from "../../../data/appPropertyData";
-import { slide1 } from "../../../data/slickSlider";
-import NoSsr from "../../../utils/NoSsr";
+import { AppPropertyData } from "../../data/appPropertyData";
+import { slide1 } from "../../data/slickSlider";
+import NoSsr from "../../utils/NoSsr";
 
 const BrandSection = () => {
   return (

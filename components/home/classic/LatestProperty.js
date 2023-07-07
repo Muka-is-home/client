@@ -19,7 +19,7 @@ const LatestPropertySection = ({ value }) => {
           <Col>
             <div className="title-3 text-start">
               <h2>Latest Property</h2>
-              <p className="font-primary">{LatestPropertyDetail}</p>
+              <p className="font-roboto">{LatestPropertyDetail}</p>
             </div>
             <NoSsr>
               <Slider className="property-4 arrow-gradient arrow-right list-property" {...property4}>
