@@ -137,3 +137,12 @@ Author URI: https://themeforest.net/user/pixelstrap
 
 // font-awesome
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+button.rest-btn, a.ff-powered-img img {
+	display: none !important;
+}
+
+#ff-submit-root {
+	display: block !important;
+}
