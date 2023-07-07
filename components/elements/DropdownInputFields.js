@@ -1,57 +1,46 @@
-/**
- * It takes in a label and filterValues, and returns a dropdown menu with the options from the
- * InputForm array
- * @returns A dropdown menu with the options of the array in the InputForm.
- */
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Col, Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap";
-import { InputForm } from "../../data/inputForm";
+import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap";
 
-const DropdownInputFields = ({ label, filterValues, setFilterValues, lg, sm, start, end, lastSm }) => {
-  const dispatch = useDispatch();
+const DropdownInputFields = ({ data, label, query, filterValues, setFilterValues }) => {
   const [isOpen, setIsOpen] = useState("true");
-  const inputFilter = useSelector((state) => state.inputsReducer);
+  const [value, setValue] = useState(data.label);
 
   return (
-    <>
-      {InputForm.slice(`${start && start}`, `${end && end}`).map((value, i) => (
-        <Col lg={lg || value.size} sm={sm ? sm : lastSm ? i > 1  && lastSm : ''} key={i}>
-          <div className='form-group'>
-            {label && <label>{value.label}</label>}
-            <Dropdown
-              isOpen={isOpen === value.label ? true : false}
-              toggle={function noRefCheck() {
-                setIsOpen(value.label);
-                isOpen === value.label && setIsOpen();
-              }}>
-              <DropdownToggle className="font-secondary" caret>
-                {inputFilter[`${value.name}`] || value.label}
-                <i className='fas fa-angle-down'></i>
-              </DropdownToggle>
-              <DropdownMenu>
-                {value.options.map((option, i) => (
-                  <div
-                    key={i}
-                    onClick={() => {
-                      filterValues = { ...filterValues, ...{ [`${value.name}`]: `${option}` } };
-                      setIsOpen();
-                    }}>
-                    <DropdownItem
-                      onClick={() => {
-                        setFilterValues({ ...filterValues, ...{ [`${value.name}`]: option } });
-                        dispatch({ type: `${value.name}`, payload: option });
-                      }}>
-                      {option}
-                    </DropdownItem>
-                  </div>
-                ))}
-              </DropdownMenu>
-            </Dropdown>
-          </div>
-        </Col>
-      ))}
-    </>
+    <div className='form-group'>
+      {label && <label>{data.label}</label>}
+      <Dropdown
+        isOpen={isOpen === data.label ? true : false}
+        toggle={function noRefCheck() {
+          setIsOpen(data.label);
+          isOpen === data.label && setIsOpen();
+        }}>
+        <DropdownToggle className="font-secondary" caret>
+          {value}
+          <i className='fas fa-angle-down'></i>
+        </DropdownToggle>
+        <DropdownMenu>
+          {data.options.map((option, i) => (
+            <div
+              key={i}
+              onClick={() => {
+                filterValues = { ...filterValues, ...{ [`${data.name}`]: `${option}` } };
+                setIsOpen();
+              }}
+            >
+              <DropdownItem
+                onClick={() => {
+                  setFilterValues({ ...filterValues, ...{ [`${data.name}`]: option.toLowerCase() } });
+                  query(option);
+                  setValue(option);
+                }}
+                >
+                {option}
+              </DropdownItem>
+            </div>
+          ))}
+        </DropdownMenu>
+      </Dropdown>
+    </div>
   );
 };
 
