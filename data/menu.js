@@ -17,14 +17,19 @@ export const MainNavMenuItems = [
     title: "AGENTS",
     icon: <Home />,
     path: "/COMPLETED/agents",
-    type: "sub",
-    children: [
-      {
-        path: "/COMPLETED/agent/agent-profile",
-        title: "Agent Profile",
-        type: "link",
-      }
-    ],
+    type: "link"
+  },
+  {
+    title: "Vendors",
+    icon: <Home />,
+    path: "/COMPLETED/vendors",
+    type: "link",
+  },
+  {
+    title: "AGENT/VENDOR Details",
+    icon: <Home />,
+    path: "/COMPLETED/pro/id",
+    type: "link",
   },
   {
     title: "RESOURCES",
