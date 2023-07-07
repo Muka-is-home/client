@@ -9,10 +9,8 @@ import React, { useEffect, useReducer, useState } from "react";
 import { MapPin } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
 import Pagination from "../../../../layout/Pagination";
-import Category from "../../../../layout/sidebarLayout/Category";
 import PopularTags from "../../../../layout/sidebarLayout/PopularTags";
-import RecentlyAdded from "../../../../layout/sidebarLayout/RecentlyAdded";
-import SearchBar from "../../../../layout/sidebarLayout/SearchBar";
+import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import Img from "../../../../utils/BackgroundImageRatio";
 import { getData } from "../../../../utils/getData";
@@ -36,9 +34,7 @@ const BodyContent = ({ side }) => {
         <Row>
           {side && (
             <Sidebar side={side}>
-              <SearchBar />
-              <Category />
-              <RecentlyAdded />
+              <Filter />
               <PopularTags />
             </Sidebar>
           )}
@@ -59,11 +55,11 @@ const BodyContent = ({ side }) => {
                             <MapPin /> {data.place}
                           </span>
                           <h3>
-                            <Link href="/pages/blog-detail-pages/left-sidebar">{data.title}</Link>
+                            <Link href="/WIP/resource/add-id">{data.title}</Link>
                           </h3>
                           <p className="font-primary">{data.detail}</p>
 
-                          <Link href="/pages/blog-detail-pages/left-sidebar">read more</Link>
+                          <Link href="/WIP/resource/add-id">read more</Link>
                         </div>
                       </div>
                     </div>

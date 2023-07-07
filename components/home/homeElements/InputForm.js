@@ -42,6 +42,9 @@ const InputForm = () => {
     console.log(searchType, county)
   }
 
+  const statesExist = Object.keys(states).length;
+  const countiesExist = Object.keys(counties).length;
+
   return (
     <Row className="gx-3">
       <p>I'm looking for a..</p>
@@ -52,7 +55,7 @@ const InputForm = () => {
         data={SearchForm} 
       />
        {
-        Object.keys(states).length ? (
+        statesExist ? (
         <DropdownInputFields 
           data={states} 
           query={getCounty} 
@@ -61,7 +64,7 @@ const InputForm = () => {
         />) : null
       }
       {
-        Object.keys(counties).length ? (
+        countiesExist ? (
         <DropdownInputFields 
           data={counties} 
           filterValues={filterValues} 
@@ -69,11 +72,16 @@ const InputForm = () => {
           setFilterValues={setFilterValues} 
         />) : null
       }
-      <Col lg={12}>
-        <Link href="/listing/list-view/listing/left-sidebar" className="btn btn-solid mt-3">
+      {
+        (statesExist && filterValues.countyList) ? (
+          <Col lg={12}>
+        <Link href="/WIP/agents" className="btn btn-solid mt-3">
             Search Muka Community
         </Link>
       </Col>
+        ) : null
+      }
+      
     </Row>
   );
 };

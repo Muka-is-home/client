@@ -28,7 +28,7 @@ const PropertyBoxFour = ({ data }) => {
           </div>
           <div className="agent-content">
             <h3>
-              <Link href="/pages/agency/agency-profile">{data?.name}</Link>
+              <Link href="/WIP/pro/agent-profile">{data?.name}</Link>
             </h3>
             <p className="font-primary">Real estate Agent</p>
             <ul className="agent-contact">
@@ -51,7 +51,7 @@ const PropertyBoxFour = ({ data }) => {
                 <i className="fas fa-fax"></i> {data?.pinCode}
               </li>
             </ul>
-            <Link href="/agent/agent-profile">
+            <Link href="/WIP/pro/agent-profile">
               View profile <i className="fas fa-arrow-right"></i>
             </Link>
           </div>

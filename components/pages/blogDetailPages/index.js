@@ -1,14 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import Category from "../../../layout/sidebarLayout/Category";
-import PopularTags from "../../../layout/sidebarLayout/PopularTags";
-import RecentlyAdded from "../../../layout/sidebarLayout/RecentlyAdded";
-import SearchBar from "../../../layout/sidebarLayout/SearchBar";
 import Sidebar from "../../../layout/sidebarLayout/Sidebar";
 import BlogTitle from "./BlogTitle";
-import CommentSection from "./CommentSection";
 import DetailsProperty from "./DetailsProperty";
-import LeaveComment from "./LeaveComment";
 import Filter from "../../../layout/sidebarLayout/Filter";
 
 const BodyContent = (props) => {
@@ -21,8 +15,6 @@ const BodyContent = (props) => {
               {props.children}
               <BlogTitle />
               <DetailsProperty />
-              <CommentSection />
-              <LeaveComment />
             </div>
           </Col>
           {props.side && (

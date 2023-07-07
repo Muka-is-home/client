@@ -3,18 +3,13 @@
  * @returns a React component.
  */
 import React from "react";
-
 import BodyContent from "../../../components/pages/blogPage/creativeSidebarPage";
-import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
+import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
 import FooterThree from "../../../layout/footers/FooterThree";
-import Navbar from "../../../layout/headers/NavbarOne";
 
-
-
-const NoSidebar = () => {
+const CreativeLeftSidebar = () => {
   return (
     <>
-      <Navbar />
       <Breadcrumb />
       <BodyContent side={"left"} />
       <FooterThree />
@@ -22,4 +17,4 @@ const NoSidebar = () => {
   );
 };
 
-export default NoSidebar;
+export default CreativeLeftSidebar;
