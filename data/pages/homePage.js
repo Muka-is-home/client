@@ -31,7 +31,7 @@ export const HomePageData = {
   ],
   FeaturedAgents: [
     {
-      img: "https://github.com/Muka-is-home/client/assets/29741570/354d6c25-7df7-4909-8063-95b226aa9211",
+      img: "https://github.com/Muka-is-home/client/assets/29741570/fde6a04b-c24e-4665-9e20-aa982717784b",
       name: "Ty R. Leeva",
       work: "Communicating with..",
       email: "Leeva@inspirythemes.com",
@@ -39,7 +39,7 @@ export const HomePageData = {
         "A real estate agent or broker is a person who represents sellers or buyers advised to consult a licensed.",
     },
     {
-      img: "https://github.com/Muka-is-home/client/assets/29741570/397b19d4-21bc-4046-9a42-ac5e02e17f86",
+      img: "https://github.com/Muka-is-home/client/assets/29741570/195f7f50-7134-44a6-955d-f6722540ea38",
       name: "Mark Andry",
       work: "Sellers of property.",
       email: "John@inspirythemes.com",
@@ -47,7 +47,7 @@ export const HomePageData = {
         "They are responsible for managing employees and overseeing daily productivity.",
     },
     {
-      img: "https://github.com/Muka-is-home/client/assets/29741570/264b1e8b-45ae-4725-830d-63bfce9e65d6",
+      img: "https://github.com/Muka-is-home/client/assets/29741570/31d7157f-bac8-41ca-8045-b0eecac3a8b1",
       name: "John David",
       work: "Advised to consult",
       email: "John@inspirythemes.com",
