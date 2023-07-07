@@ -5,13 +5,9 @@
  * @returns The HomeBannerSection component is being returned.
  */
 import React from "react";
-import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { homeSlider1 } from "../../../data/slickSlider";
-import NoSsr from "../../../utils/NoSsr";
-import WhatAreYouLookingFor from "../../elements/WhatAreYouLookingFor";
-import HomeSliderContent from "./homeElements/HomeSliderContent";
 import InputForm from "./homeElements/InputForm";
+import { HomePageData } from "../../data/homePage";
 
 const HomeBannerSection = () => {
   return (
@@ -24,8 +20,8 @@ const HomeBannerSection = () => {
                 <div className="home-left">
                   <div>
                     {/* home main slider start*/}
-                    <h1>We're bridging the gap in minority homeownership</h1>
-                    <h3>Connect with minority home buyers, sellers, and industry professionals</h3>
+                    <h1>{HomePageData.mainHeading}</h1>
+                    <h3>{HomePageData.subHeading}</h3>
                   </div>
                 </div>
               </Container>

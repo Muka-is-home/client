@@ -9,10 +9,10 @@ import React from "react";
 import { Eye, Heart, Mail } from "react-feather";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { Connect, ViewProfile, OurStory, OurStoryHeadline, OurStoryDesc } from "../../../constValues/constValues";
-import { about1 } from "../../../data/slickSlider";
-import NoSsr from "../../../utils/NoSsr";
-import SocialAccounts from "../../elements/SocialAccounts";
+import { Connect, ViewProfile, OurStory, OurStoryHeadline, OurStoryDesc } from "../../constValues/constValues";
+import { about1 } from "../../data/slickSlider";
+import NoSsr from "../../utils/NoSsr";
+import SocialAccounts from "../elements/SocialAccounts";
 
 const AboutSection = ({ value }) => {
   return (

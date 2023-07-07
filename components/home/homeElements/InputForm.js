@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Col, Row } from "reactstrap";
-import { DropdownInputFields } from "../../../elements/DropdownInputFields";
-import { SearchForm } from "../../../../data/searchForm";
+import { DropdownInputFields } from "../../elements/DropdownInputFields";
+import { SearchForm } from "../../../data/searchForm";
 
 const InputForm = () => {
   const [filterValues, setFilterValues] = useState({});

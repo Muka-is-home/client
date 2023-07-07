@@ -1,7 +1,5 @@
 // path: home/slider-filter-search
 /* Muka content*/
-export const VendorServices = "Connect with Minority Vendors";
-export const VendorServicesDesc = "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry";
 export const Resources = "Resources";
 export const ResourcesDetail = "Browse our educational resources on budgeting, credit and savings to build generational wealth, and more."
 export const StayUpToDate = "Stay Up to Date";

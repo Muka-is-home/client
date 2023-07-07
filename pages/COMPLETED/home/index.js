@@ -4,9 +4,9 @@
  */
 
 import { useEffect } from "react";
-import BodyContent from "../../../components/home/slider-filter-search";
+import BodyContent from "../../../components/home";
 import FooterOne from "../../../layout/footers/FooterThree";
-import NavbarOne from "../../../layout/headers/NavbarOne";
+import Navbar from "../../../layout/headers/NavbarOne";
 
 
 
@@ -14,7 +14,7 @@ const SliderFilterSearch = () => {
   useEffect(() => {}, []);
   return (
     <>
-      <NavbarOne />
+      <Navbar />
       <BodyContent />
       <FooterOne />
     </>
