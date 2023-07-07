@@ -7,7 +7,7 @@ export const MainNavMenuItems = [
   {
     title: "ABOUT",
     type: "link",
-    path: "/WIP/about"
+    path: "/about"
   },
   {
     title: "AGENTS",
@@ -32,7 +32,7 @@ export const MainNavMenuItems = [
   {
     title: "CONTACT",
     type: "link",
-    path: "/WIP/contact"
+    path: "/contact"
   },
   // BELOW IS AN EXAMPLE OF A SUB MENU
   // {

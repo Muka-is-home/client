@@ -5,12 +5,12 @@
  */
 import React from "react";
 
-import Navbar from "../../../layout/headers/NavbarOne";
+import Navbar from "../../layout/headers/NavbarOne";
 
 
-import Footer from "../../../layout/footers/FooterThree";
-import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
-import BodyContent from "../../../components/contact/contactUs2";
+import Footer from "../../layout/footers/FooterThree";
+import Breadcrumb from "../../layout/Breadcrumb/BreadcrumbMukaSimple";
+import BodyContent from "../../components/contact/contactUs2";
 
 const ContactUs1 = () => {
   return (
