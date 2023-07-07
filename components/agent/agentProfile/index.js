@@ -114,12 +114,9 @@ const BodyContent = () => {
                 </Col>
               </Row>
             </div>
-            <GridView size={2} gridType={"grid-view"} gridBar={true} />
           </Col>
           <Sidebar>
-            <Exploration />
             <Filter />
-            <RecentlyAdded />
           </Sidebar>
         </Row>
       </Container>
