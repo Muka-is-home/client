@@ -24,9 +24,9 @@ const FooterTwo = () => {
                 </a>
               }
             />
-            <FooterLink value={FooterData.about} isActive={isActive} setIsActive={setIsActive} />
+            <FooterLink value={FooterData.col1} isActive={isActive} setIsActive={setIsActive} />
             <FooterMap isActive={isActive} setIsActive={setIsActive} />
-            <FooterLink value={FooterData.tag} isActive={isActive} setIsActive={setIsActive} />
+            <FooterLink value={FooterData.col2} isActive={isActive} setIsActive={setIsActive} />
             <FooterBlog isActive={isActive} setIsActive={setIsActive} img={["/assets/images/footer/4.jpg", "/assets/images/footer/5.jpg"]} />
           </Row>
         </Container>

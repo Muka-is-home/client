@@ -15,7 +15,6 @@ const NavbarOne = ({ logo, fixed }) => {
   const router = useRouter()
   const home = router.pathname.includes('/home');
 
-  console.log(home)
   return (
     <header className={`header-1 ${fixed ? "fixed-header" : "header-6"} ${fixed && fix ? "fixed" : ""} `}>
       <Container>
