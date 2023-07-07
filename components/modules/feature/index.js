@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
 import FeaturedPropertySection from "../../home/classic/FeaturedProperty";
 import FeaturedPropertySectionOne from "../../home/corporate/FeatureProperty";
-import FeatureSection from "../../home/slider-filter-search/Feature";
+import FeatureSection from "../../home/Feature";
 import FeatureSectionOne from "../../home/enterprise/Feature";
 import { AppPropertyData } from "../../../data/appPropertyData";
 

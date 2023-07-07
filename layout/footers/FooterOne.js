@@ -6,7 +6,6 @@ import FooterBlog from "./elements/FooterBlog";
 import FooterContactUsDetails from "./elements/FooterContactUsDetails";
 import FooterLink from "./elements/FooterLink";
 import FooterMap from "./elements/FooterMap";
-import SubFooter from "./elements/SubFooter";
 
 const FooterOne = ({ logo }) => {
   const [isActive, setIsActive] = useState();

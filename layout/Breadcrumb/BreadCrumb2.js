@@ -14,7 +14,7 @@ const BreadCrumb2 = () => {
             <nav aria-label="breadcrumb" className="theme-breadcrumb">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <Link href="/home/slider-filter-search">Home</Link>
+                  <Link href="/home">Home</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   About Us

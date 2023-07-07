@@ -5,7 +5,7 @@
  * text filter. Inside the div is an InputForm component.
  */
 import React from "react";
-import InputForm from "../../components/home/slider-filter-search/homeElements/InputForm";
+import InputForm from "../../components/home/homeElements/InputForm";
 
 const Filter = ({ value, sm, lg }) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
-import AboutSectionOne from "../../home/slider-filter-search/About";
+import AboutSectionOne from "../../home/About";
 import AboutSectionTwo from "../../home/corporate/About";
 import AboutSectionThree from "../../home/classic/About";
 

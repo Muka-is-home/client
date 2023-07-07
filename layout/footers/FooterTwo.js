@@ -6,7 +6,6 @@ import FooterContactUsDetails from "./elements/FooterContactUsDetails";
 // import FooterContactDetails from "./elements/FooterContactDetails";
 import FooterLink from "./elements/FooterLink";
 import FooterMap from "./elements/FooterMap";
-import SubFooter from "./elements/SubFooter";
 
 const FooterTwo = () => {
   const [isActive, setIsActive] = useState();
@@ -32,7 +31,6 @@ const FooterTwo = () => {
           </Row>
         </Container>
       </div>
-      <SubFooter values={"sub-footer-dark"} />
     </footer>
   );
 };
