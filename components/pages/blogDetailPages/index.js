@@ -9,6 +9,7 @@ import BlogTitle from "./BlogTitle";
 import CommentSection from "./CommentSection";
 import DetailsProperty from "./DetailsProperty";
 import LeaveComment from "./LeaveComment";
+import Filter from "../../../layout/sidebarLayout/Filter";
 
 const BodyContent = (props) => {
   return (
@@ -26,10 +27,7 @@ const BodyContent = (props) => {
           </Col>
           {props.side && (
             <Sidebar side={props.side}>
-              <SearchBar />
-              <Category />
-              <RecentlyAdded />
-              <PopularTags />
+             <Filter />
             </Sidebar>
           )}
         </Row>

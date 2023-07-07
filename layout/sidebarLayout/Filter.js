@@ -14,7 +14,6 @@ const Filter = ({ value, sm, lg }) => {
         <h5 className='mb-0 advance-title '>Advance search </h5>
       </div>
       <div className='advance-card'>
-        <h6>filter</h6>
         <InputForm label={false} value={value} sm={sm} lg={lg}/>
       </div>
     </>
