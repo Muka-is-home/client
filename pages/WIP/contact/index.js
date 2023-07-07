@@ -5,20 +5,20 @@
  */
 import React from "react";
 
-import NavbarThree from "../../../layout/headers/NavbarOne";
+import Navbar from "../../../layout/headers/NavbarOne";
 
 
-import FooterThree from "../../../layout/footers/FooterThree";
+import Footer from "../../../layout/footers/FooterThree";
 import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
 import BodyContent from "../../../components/contact/contactUs2";
 
 const ContactUs1 = () => {
   return (
     <>
-      <NavbarThree />
+      <Navbar />
       <Breadcrumb />
       <BodyContent />
-      <FooterThree />
+      <Footer />
     </>
   );
 };
