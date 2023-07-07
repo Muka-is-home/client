@@ -29,15 +29,6 @@ const BodyContent = () => {
     <>
       <AboutUsSection />
       <FounderSection />
-      <SubscribeSection />
-      {/* <div className="bg-light">
-        <VendorServicesSection value={AppPropertyData.PropertyServices} />
-      </div>
-      <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />
-      <div className="bg-light">
-        <BlogSection value={value?.LatestBlogInCorporate} />
-      </div>
-      <BrandSection /> */}
     </>
   );
 };
