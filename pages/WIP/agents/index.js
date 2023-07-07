@@ -11,7 +11,6 @@ import Breadcrumb from "../../../layout/Breadcrumb/BreadcrumbMukaSimple";
 import FooterThree from "../../../layout/footers/FooterThree";
 import NavbarThree from "../../../layout/headers/NavbarOne";
 
-
 import { getData } from "../../../utils/getData";
 
 const AgentList = () => {

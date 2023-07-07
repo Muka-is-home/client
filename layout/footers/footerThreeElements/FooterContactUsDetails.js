@@ -7,7 +7,7 @@ const FooterContactUsDetails = ({ value }) => {
   return (
     <Col xl="3">
       <div className="footer-details text-center">
-        <Logo />
+        <Logo url={FooterData.logo} />
         <p>{value}</p>
       </div>
     </Col>

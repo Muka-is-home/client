@@ -39,6 +39,7 @@ export const FooterData = {
     { link: "https://accounts.google.com/", class: "fab fa-google" },
   ],
   copyright: "All Right Reserved, Muka, LLC.",
+  logo: "/assets/images/logo/muka-logo-teal.svg"
 };
 
 

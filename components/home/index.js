@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../utils/getData";
-import { AppPropertyData } from "../../data/appPropertyData";
 import AboutSection from "./About";
 import VendorServicesSection from "./VendorServicesSection";
 import HomeBannerSection from "./HomeBanner";
 import UserSection from "./Users";
 import { HomePageData } from "../../data/pages/homePage";
+import { VendorServices } from "../../data/vendorServices";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -22,7 +22,7 @@ const BodyContent = () => {
     <>
       <HomeBannerSection />
       <UserSection value={HomePageData.sliders} />
-      <VendorServicesSection value={AppPropertyData.VendorServices} />
+      <VendorServicesSection value={VendorServices} />
       <div className="bg-light">
         <AboutSection value={HomePageData.FeaturedAgents} />
       </div> 

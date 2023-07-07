@@ -14,7 +14,7 @@ import { Logos } from "../../data/logos";
 const NavbarOne = ({ logo, fixed }) => {
   const fix = useStickyBar();
   const router = useRouter()
-  const home = router.pathname.includes('/home');
+  const home = router.pathname.includes('/home') || router.pathname.includes('/privacy') || router.pathname.includes('/terms-conditions');
 
   const logoUrl = home ? Logos.homepage : Logos.secondary;
 

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
-import FooterThree from "../../../layout/footers/FooterThree";
-import NavbarThree from "../../../layout/headers/NavbarOne";
+import Breadcrumb from "../layout/Breadcrumb/Breadcrumb";
+import FooterThree from "../layout/footers/FooterThree";
+import NavbarThree from "../layout/headers/NavbarOne";
 
 
 
