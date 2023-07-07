@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { HomePageData } from "../../data/homePage";
+import { HomePageData } from "../../data/pages/homePage";
 
 const VendorServicesSection = ({ value }) => {
   return (

@@ -7,7 +7,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import InputForm from "./homeElements/InputForm";
-import { HomePageData } from "../../data/homePage";
+import { HomePageData } from "../../data/pages/homePage";
 
 const HomeBannerSection = () => {
   return (

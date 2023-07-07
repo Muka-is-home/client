@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
 import { about1 } from "../../data/slickSlider";
 import NoSsr from "../../utils/NoSsr";
-import { HomePageData } from "../../data/homePage";
+import { HomePageData } from "../../data/pages/homePage";
 
 const AboutSection = ({ value }) => {
   return (
