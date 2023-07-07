@@ -9,11 +9,14 @@ import { Logo } from "../../components/elements/Logo";
 import useStickyBar from "../../utils/useStickyBar";
 import MainNav from "./elements/MainNav";
 import { useRouter } from 'next/router'
+import { Logos } from "../../data/logos";
 
 const NavbarOne = ({ logo, fixed }) => {
   const fix = useStickyBar();
   const router = useRouter()
   const home = router.pathname.includes('/home');
+
+  const logoUrl = home ? Logos.homepage : Logos.secondary;
 
   return (
     <header className={`header-1 ${fixed ? "fixed-header" : "header-6"} ${fixed && fix ? "fixed" : ""} `}>
@@ -21,7 +24,7 @@ const NavbarOne = ({ logo, fixed }) => {
         <Row>
           <Col>
             <div className='menu'>
-              {logo || <Logo />}
+              {logo || <Logo url={logoUrl} />}
               <MainNav home={home} />
             </div>
           </Col>
