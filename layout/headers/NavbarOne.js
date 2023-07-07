@@ -8,9 +8,14 @@ import { Col, Row, Container } from "reactstrap";
 import { Logo } from "../../components/elements/Logo";
 import useStickyBar from "../../utils/useStickyBar";
 import MainNav from "./elements/MainNav";
+import { useRouter } from 'next/router'
 
 const NavbarOne = ({ logo, fixed }) => {
   const fix = useStickyBar();
+  const router = useRouter()
+  const home = router.pathname.includes('/home');
+
+  console.log(home)
   return (
     <header className={`header-1 ${fixed ? "fixed-header" : "header-6"} ${fixed && fix ? "fixed" : ""} `}>
       <Container>
@@ -18,7 +23,7 @@ const NavbarOne = ({ logo, fixed }) => {
           <Col>
             <div className='menu'>
               {logo || <Logo />}
-              <MainNav />
+              <MainNav home={home} />
             </div>
           </Col>
         </Row>
