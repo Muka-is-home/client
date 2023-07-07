@@ -1,18 +1,11 @@
-/**
- * It's a function that returns a section with a container, a row, a column, a div, a slider, and a map
- * function that returns a div, a row, two columns, two divs, a link, a span, a h6, a h3, a span, a p,
- * and another link
- * @returns The AboutSection component is being returned.
- */
 import Link from "next/link";
 import React from "react";
 import { Eye, Heart, Mail } from "react-feather";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { Connect, ViewProfile, OurStory, OurStoryHeadline, OurStoryDesc } from "../../constValues/constValues";
 import { about1 } from "../../data/slickSlider";
 import NoSsr from "../../utils/NoSsr";
-import SocialAccounts from "../elements/SocialAccounts";
+import { HomePageData } from "../../data/homePage";
 
 const AboutSection = ({ value }) => {
   return (
@@ -21,11 +14,12 @@ const AboutSection = ({ value }) => {
         <Row>
           <Col>
             <div className="title-1">
-              <span className="label label-gradient">{OurStory}</span>
-              <h2>{OurStoryHeadline}</h2>
-              <p>{OurStoryDesc}</p>
+              <span className="label label-gradient">Our Story</span>
+              <h2>{HomePageData.ourStoryHeading}</h2>
+              <p>{HomePageData.ourStoryText}</p>
               <hr />
-              <p>Display video or text here?</p>
+              { HomePageData.youTubeVideoID ? (<iframe width="100%" height="600" src={`https://www.youtube.com/embed/${HomePageData.youTubeVideoID}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              ): null}
             </div>
             <NoSsr>
               <Slider className="about-wrap arrow-white" {...about1}>
@@ -35,12 +29,7 @@ const AboutSection = ({ value }) => {
                       <Row className="about-content">
                         <Col xl="6">
                           <div className="about-image">
-                            <img src={data.img} className="img-fluid" alt="" />
-                            <div className="about-overlay"></div>
-                            <div className="overlay-content">
-                              <SocialAccounts />
-                              <span>{Connect}</span>
-                            </div>
+                            <img src={data.img} className="img-fluid" style={{minHeight: '308px'}} alt="" />
                           </div>
                         </Col>
                         <Col xl="6">
@@ -61,7 +50,7 @@ const AboutSection = ({ value }) => {
                             <p className="font-primary">{data.detail}</p>
                             <Link href="/agent/agent-profile" className="btn btn-gradient btn-pill mt-2">
                               <Eye />
-                              {ViewProfile}
+                              View Profile
                             </Link>
                           </div>
                         </Col>
