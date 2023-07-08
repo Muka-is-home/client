@@ -30,7 +30,7 @@ const AgentList = () => {
       })
       .catch((error) => console.log("Error", error));
     } else {
-      console.log("get all agents")
+      console.log("get all vendors")
     }
   }, [state, county]);
 
