@@ -4,12 +4,12 @@ import { Container } from "reactstrap";
 
 const BreadcrumbMukaSimple = () => {
   return (
-    <section className="breadcrumb-section breadcrumb-simple">
+    <div className="breadcrumb-section breadcrumb-simple">
       <Container>
         <div className="breadcrumb-content">
         </div>
       </Container>
-    </section>
+    </div>
   );
 };
 
