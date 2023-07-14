@@ -47,7 +47,7 @@ const InputForm = () => {
 
   return (
     <Row className="gx-3">
-      <p>I'm looking for a..</p>
+      <h3>Search the Muka Community</h3>
       <DropdownInputFields 
         query={getState} 
         filterValues={filterValues} 
@@ -76,7 +76,7 @@ const InputForm = () => {
         (statesExist && filterValues.countyList) ? (
           <Col lg={12}>
         <Link href="/WIP/agents" className="btn btn-solid mt-3">
-            Search Muka Community
+            Search
         </Link>
       </Col>
         ) : null
