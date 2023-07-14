@@ -147,7 +147,7 @@
 
 // brand page css
 .bg-light {
-  background-color: rgba($dark-20, 0.3);
+  background-color: var(--theme-background-light) !important;
 }
 
 .bg-light-blue {
@@ -335,7 +335,7 @@
           width: 88%;
           height: 88%;
           transform: scale(0);
-          background-image: var(--theme-gradient3);
+          background-color: var(--theme-default);
           border-radius: 100%;
           z-index: -1;
         }
@@ -2116,6 +2116,12 @@
     background-position: top !important;
   }
 }
+.about-main {
+  .open-door-img {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
 .muka-agent-details {
   background-color: var(--theme-background-light);
   padding-top: 20px;
@@ -3559,6 +3565,11 @@ input[type='date'] {
   }
   .founder-img {
     text-align: center;
+    margin: 20px;
+    img {
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
   }
 }
 

@@ -275,7 +275,7 @@ body {
         }
         
         .bg-light {
-            background-color: $dark-color !important;
+            background-color: var(--theme-backgound-light);
         }
         .modal-content {
             background-color: $dark-bg;
