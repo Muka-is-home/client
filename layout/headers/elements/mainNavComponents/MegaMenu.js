@@ -75,7 +75,7 @@ const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNes
           </div>
           </>) : (
             <Link
-            className={`nav-link menu-title ${isOpen === navTitle.title && "active"} ${ !mobileSize && (home || (Headers.color === 'dark') ? 'text-white': '')}`}
+            className={`nav-link menu-title ${isOpen === navTitle.title && "active"} ${ !mobileSize && (home || (Headers.color === 'dark') ? 'text-dark': '')}`}
             href={navTitle.path}
             >
             {navTitle.title}

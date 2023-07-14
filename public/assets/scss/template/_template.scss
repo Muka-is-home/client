@@ -532,6 +532,10 @@
       }
       .vertical-search {
         justify-content: start;
+        margin: 0;
+        @media (min-width: 990px) {
+          width: 80%;
+        }
         .left-sidebar {
           background-color: #fff;
         }
