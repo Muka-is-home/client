@@ -3,6 +3,7 @@
     --theme-default: #27c1a3;
     --theme-default2: #CE22CC;
     --theme-default3: #6436B9;
+    --theme-color2: #F2CD34;
     --theme-gradient1: linear-gradient(to right, #5C37B5 0%, #B721D6 100%);
     --theme-gradient2: linear-gradient(to right, var(--theme-default) 0%, var(--theme-default2) 100%);
     --theme-gradient3: linear-gradient(48deg, var(--theme-default) 0%, var(--theme-default2) 100%);
@@ -59,6 +60,7 @@ $dark-color: #202020;
 $dark-20: #141616;
 $darken-color: #151515;
 $common-box-shadow: 3.346px 3.716px 22.5px rgba($black, 0.07);
+$yellow: #F2CD34;
 
 // layouts main color
 // $theme-color1: #6432b8;

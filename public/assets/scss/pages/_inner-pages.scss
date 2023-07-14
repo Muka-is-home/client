@@ -298,9 +298,12 @@
   }
   .offer-wrapper {
     padding: 50px;
-    background-color: rgba($black, 0.4);
+    background-color: rgba($white, 1);
     border-radius: 10px;
+    
     .media {
+      text-align: center;
+      flex-direction: column;
       .offer-icon {
         width: 90px;
         height: 90px;
@@ -313,7 +316,8 @@
         @extend %flex-center;
         position: relative;
         transition: 0.5s;
-        background-color: rgba($white, 0.1);
+        background-color: $yellow;
+        margin: 0 auto;
 
         &::before,
         &::after {
@@ -382,7 +386,7 @@
         h3,
         h6,
         p {
-          color: $white;
+          color: $black;
         }
       }
     }
@@ -413,7 +417,7 @@
       .media {
         .offer-icon {
           &::before {
-            background-image: var(--theme-gradient4);
+            background-image: var(--theme-default3);
           }
         }
       }
@@ -433,7 +437,7 @@
       .media {
         .offer-icon {
           &::before {
-            background-image: var(--theme-gradient3);
+            background-color: var(--theme-default3);
           }
         }
       }

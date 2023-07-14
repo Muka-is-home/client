@@ -13,19 +13,19 @@ export const HomePageData = {
     {
       title: "Looking for a Realtor?",
       details:
-        "At Muka, we are deeply aware of the persistent disparity between minority and white homeownership. As disheartening as these statistics may be, they fuel our commitment to effect positive change.",
+        "We're creating a safe place for you to get connected with the sellers and trusted realtors that you're looking for.",
       img: "/assets/images/others/icon-1.png",
     },
     {
-      title: "Are you a Realtor looking to connect",
+      title: "Are you a Minority Realtor?",
       details:
-        "Through our online directory, we will provide a centralized hub where individuals can easily locate and engage with a network of trusted professionals.",
+        "Muka gives you the platform to reach your community and share your expertise with clients that you can relate to. Apply now or some other CTA",
       img: "/assets/images/others/icon-2.png",
     },
     {
-      title: "Looking for minority owned vendors?",
+      title: "Looking for Minority-Owned Vendors?",
       details:
-        "Through our online directory, we will provide a centralized hub where individuals can easily locate and engage with a network of trusted professionals",
+        "Through our online directory, individuals can easily locate and engage with a network of trusted professionals",
       img: "/assets/images/others/icon-1.png",
     },
   ],
