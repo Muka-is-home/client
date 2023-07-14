@@ -2116,6 +2116,20 @@
     background-position: top !important;
   }
 }
+.muka-agent-details {
+  background-color: var(--theme-background-light);
+  padding-top: 20px;
+  .our-agent {
+    background-color: $white;
+    border-radius: 6px;
+    .our-agent-details {
+      h3 {
+        font-size: 30px;
+        color: darken($green, 5%);
+      }
+    }
+  }
+}
 
 .agent-property {
   margin-top: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
