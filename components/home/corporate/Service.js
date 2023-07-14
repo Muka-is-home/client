@@ -19,7 +19,7 @@ const ServiceSection = ({ value }) => {
                 <use xlinkHref="/assets/svg/icons.svg#title-line"></use>
               </svg>
               <h2 dangerouslySetInnerHTML={{ __html: providerServices }} />
-              <p className="font-primary">{LatestPropertyDetail}</p>
+              <p className="font-roboto">{LatestPropertyDetail}</p>
             </div>
             <Row className=" property-service column-space">
               {value &&
@@ -39,7 +39,7 @@ const ServiceSection = ({ value }) => {
                       <Link href="/pages/other-pages/services">
                         <h3>{data.title}</h3>
                       </Link>
-                      <p className="font-primary">{data.details}</p>
+                      <p className="font-roboto">{data.details}</p>
                       <Link href="/pages/other-pages/services" className="btn btn-light-bg btn-flat">
                         <span>view more</span>
                       </Link>

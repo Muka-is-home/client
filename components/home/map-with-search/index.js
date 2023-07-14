@@ -13,7 +13,7 @@ import BrandSection from "../classic/Brand";
 import FeaturedPropertySection from "../classic/FeaturedProperty";
 import LatestPropertySection from "../classic/LatestProperty";
 import ListingPropertySection from "../classic/ListingProperty";
-import VendorServicesSection from "../classic/PropertyServices";
+import PropertyServicesSection from "../classic/PropertyServices";
 import SubscribeSection from "../classic/Subscribe";
 import TestimonialSection from "../classic/Testimonial";
 import VideoSection from "../classic/Video";
@@ -27,12 +27,12 @@ const BodyContent = ({ map }) => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    getData(`${process.env.API_URL}/property`)
       .then((res) => {
         setValue(res.data);
       })
       .catch((error) => console.log("Error", error));
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
+    getData(`${process.env.API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })
@@ -44,7 +44,7 @@ const BodyContent = ({ map }) => {
       {map !== "VSearch" && <MapFilter />}
       <LatestPropertySection value={value?.LatestPropertyInClassicLayout} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
-      <VendorServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
       <ListingPropertySection value={value?.ListingPropertyInClassicLayout} />
       <VideoSection />
       <AboutSection value={clientData?.OurAgentInClassicLayout} />

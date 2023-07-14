@@ -21,7 +21,7 @@ const About = ({ value }) => {
           <Col>
             <div className="title-3 text-start">
               <h2>{MeetOurAgent}</h2>
-              <p className="font-primary">{PropertyServicesDetail}</p>
+              <p className="font-roboto">{PropertyServicesDetail}</p>
             </div>
             <NoSsr>
               <Slider className="arrow-gradient arrow-right" {...about3}>
@@ -42,8 +42,8 @@ const About = ({ value }) => {
                                 </h6>
                               </Link>
                               <h5>{data.title}</h5>
-                              <p className="font-primary">{data.details}</p>
-                              <span className="font-primary">{data.email}</span>
+                              <p className="font-roboto">{data.details}</p>
+                              <span className="font-roboto">{data.email}</span>
                               <SocialAccounts />
                             </div>
                           </div>

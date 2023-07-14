@@ -4,7 +4,7 @@ import { getData } from "../../../../utils/getData";
 import BlogSection from "../../../home/corporate/Blog";
 import ServiceSection from "../../../home/corporate/Service";
 import TestimonialSection from "../../../home/enterprise/Testimonial";
-import AboutSection from "../../../home/slider-filter-search/About";
+import AboutSection from "../../../home/About";
 import AboutUsSection from "./AboutUs";
 
 const BodyContent = () => {

@@ -5,7 +5,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { Realestate, StayUpToDate, SubscribeDetails } from "../../../constValues/constValues";
+import { Realestate, StayUpToDate, VideoDetail } from "../../../constValues/constValues";
 
 const SubscribeSection = () => {
   return (
@@ -14,9 +14,9 @@ const SubscribeSection = () => {
         <Row>
           <Col>
             <div className='video-details'>
-              {/* <span className='label label-light label-flat'># {Realestate}</span> */}
+              <span className='label label-light label-flat'># {Realestate}</span>
               <h2>{StayUpToDate}</h2>
-              <p className='font-primary'>{SubscribeDetails}</p>
+              <p className='font-roboto'>{VideoDetail}</p>
               <form>
                 <div className='form-group'>
                   <input type='email' className='form-control' placeholder='Enter Your Email Address' required />

@@ -6,8 +6,9 @@ import React from "react";
 import Link from "next/link";
 import { Col, Container, Row } from "reactstrap";
 import useMobileSize from "../../../../utils/useMobileSize";
+import { Headers } from "../../../../data/headers";
 
-const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNestedChild }) => {
+const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNestedChild, home }) => {
   const mobileSize = useMobileSize();
   return (
     <li className="mega-menu">
@@ -74,11 +75,11 @@ const MegaMenu = ({ navTitle, isOpen, setIsOpen, isOpenNestedChild, setIsOpenNes
           </div>
           </>) : (
             <Link
-            className={`nav-link menu-title ${isOpen === navTitle.title && "active"}`}
+            className={`nav-link menu-title ${isOpen === navTitle.title && "active"} ${ !mobileSize && (home || (Headers.color === 'dark') ? 'text-white': '')}`}
             href={navTitle.path}
             >
             {navTitle.title}
-            <span className="according-menu">{isOpen === navTitle.title ? "-" : "+"}</span>
+            {/* <span className="according-menu">{isOpen === navTitle.title ? "-" : "+"}</span> */}
           </Link>
           )
       }

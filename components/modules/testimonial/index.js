@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
 import TestimonialSectionOne from "../../home/enterprise/Testimonial";
-import TestimonialSectionTwo from "../../home/slider-filter-search/Testimonial";
+import TestimonialSectionTwo from "../../home/Testimonial";
 import TestimonialSectionThree from "../../home/corporate/Testimonial";
 import TestimonialSectionFour from "../../home/classic/Testimonial";
 

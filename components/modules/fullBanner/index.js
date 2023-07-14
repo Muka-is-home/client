@@ -1,6 +1,6 @@
 import React from "react";
 import ParallaxBannerSection from "../../home/enterprise/ParallaxBanner";
-import BannerSectionOne from "../../home/slider-filter-search/Banner";
+import BannerSectionOne from "../../home/Banner";
 import BannerSectionTwo from "../../home/corporate/Banner";
 import BrandSection from "../../home/enterprise/Brand";
 

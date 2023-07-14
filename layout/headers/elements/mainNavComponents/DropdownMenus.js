@@ -8,13 +8,12 @@ import Link from "next/link";
 import useMobileSize from "../../../../utils/useMobileSize";
 import { useRouter } from "next/router";
 
-const DropdownMenus = ({ navTitle, isOpen, setIsOpen, isOpenChild, setIsOpenChild, isOpenNestedChild, setIsOpenNestedChild, icon }) => {
+const DropdownMenus = ({ navTitle, isOpen, setIsOpen, isOpenChild, setIsOpenChild, isOpenNestedChild, home, setIsOpenNestedChild, icon }) => {
   const router = useRouter();
   // get window width
   const mobileSize = useMobileSize();
   return (
     <li className="dropdown">
-      {/* menuItems : HOME, LISTING, PROPERTY, MODULES, AGENT, CONTACT */}
       <a
         className={`nav-link menu-title ${isOpen === navTitle.title ? "active" : ""}`}
         onClick={(e) => {

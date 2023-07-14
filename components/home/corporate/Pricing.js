@@ -20,7 +20,7 @@ const PricingSection = ({ value }) => {
                 <use xlinkHref="/assets/svg/icons.svg#title-line"></use>
               </svg>
               <h2 dangerouslySetInnerHTML={{ __html: pricingPlan }}></h2>
-              <p className="font-primary">{LatestPropertyDetail}</p>
+              <p className="font-roboto">{LatestPropertyDetail}</p>
             </div>
             <NoSsr>
               <Slider className="pricing-slider" {...pricingSlider}>
@@ -35,7 +35,7 @@ const PricingSection = ({ value }) => {
                             </svg>
                           </div>
                           <h3>{data.title}</h3>
-                          <p className="font-primary">{data.details}</p>
+                          <p className="font-roboto">{data.details}</p>
                         </div>
                         <ul>
                           {data.moreDetails.map((detail, i) => (

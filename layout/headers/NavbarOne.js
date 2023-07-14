@@ -8,17 +8,24 @@ import { Col, Row, Container } from "reactstrap";
 import { Logo } from "../../components/elements/Logo";
 import useStickyBar from "../../utils/useStickyBar";
 import MainNav from "./elements/MainNav";
+import { useRouter } from 'next/router'
+import { Logos } from "../../data/logos";
 
 const NavbarOne = ({ logo, fixed }) => {
   const fix = useStickyBar();
+  const router = useRouter()
+  const home = router.pathname.includes('/home') || router.pathname.includes('/privacy') || router.pathname.includes('/terms-conditions');
+
+  const logoUrl = home ? Logos.homepage : Logos.secondary;
+
   return (
     <header className={`header-1 ${fixed ? "fixed-header" : "header-6"} ${fixed && fix ? "fixed" : ""} `}>
       <Container>
         <Row>
           <Col>
             <div className='menu'>
-              {logo || <Logo />}
-              <MainNav />
+              {logo || <Logo url={logoUrl} />}
+              <MainNav home={home} />
             </div>
           </Col>
         </Row>

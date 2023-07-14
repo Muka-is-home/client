@@ -25,7 +25,7 @@ const AboutSection = ({ value }) => {
               <h2>
                 Our <span>Agent</span>
               </h2>
-              <p className="font-primary">{LatestPropertyDetail}</p>
+              <p className="font-roboto">{LatestPropertyDetail}</p>
             </div>
             <NoSsr>
               <Slider className="about-wrap about-2" {...about2}>
@@ -53,11 +53,11 @@ const AboutSection = ({ value }) => {
                             </h6>
                           </Link>
                           <h3>{data.work}</h3>
-                          <span className="font-primary">
+                          <span className="font-roboto">
                             <Mail className="me-1" />
                             {data.email}
                           </span>
-                          <p className="font-primary">{data.details}</p>
+                          <p className="font-roboto">{data.details}</p>
                           <Link href="/agent/agent-profile" className="btn btn-solid btn-flat mt-2">
                             <Eye />
                             View Portfolio

@@ -25,7 +25,7 @@ const HomeBannerSection = () => {
                 </div>
                 <div className="role">
                   <div className="block"></div>
-                  <p className="font-primary">Limited time offer.Hurry up !!</p>
+                  <p className="font-roboto">Limited time offer.Hurry up !!</p>
                 </div>
               </div>
               <form className="video-search">
@@ -37,7 +37,7 @@ const HomeBannerSection = () => {
                 </div>
                 <Dropdown isOpen={toggle} toggle={() => setToggle(!toggle)}>
                   <DropdownToggle>
-                    <Fragment className="dropdown-toggle font-primary">
+                    <Fragment className="dropdown-toggle font-roboto">
                       {dropDownInput}
                       <i className="fas fa-angle-down"></i>
                     </Fragment>

@@ -24,10 +24,10 @@ const FooterFour = () => {
               liteFooter="true"
             />
 
-            <FooterLink value={FooterData.about} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
-            <FooterLink value={FooterData.buy} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
-            <FooterLink value={FooterData.sell} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
-            <FooterLink value={FooterData.relandEstate} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
+            <FooterLink value={FooterData.col1} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
+            <FooterLink value={FooterData.col2} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
+            <FooterLink value={FooterData.col3} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
+            <FooterLink value={FooterData.col1} isActive={isActive} setIsActive={setIsActive} liteFooter={6} />
           </Row>
         </Container>
       </div>

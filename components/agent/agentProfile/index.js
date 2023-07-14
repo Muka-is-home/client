@@ -2,10 +2,7 @@ import React from "react";
 import { Link, Mail, MapPin, PhoneCall } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
 import Sidebar from "../../../layout/sidebarLayout/Sidebar";
-import Exploration from "../../../layout/sidebarLayout/Exploration";
 import Filter from "../../../layout/sidebarLayout/Filter";
-import RecentlyAdded from "../../../layout/sidebarLayout/RecentlyAdded";
-import GridView from "../../listing/gridView/grid/GridView";
 import Img from "../../../utils/BackgroundImageRatio";
 
 const BodyContent = () => {
@@ -114,12 +111,9 @@ const BodyContent = () => {
                 </Col>
               </Row>
             </div>
-            <GridView size={2} gridType={"grid-view"} gridBar={true} />
           </Col>
           <Sidebar>
-            <Exploration />
             <Filter />
-            <RecentlyAdded />
           </Sidebar>
         </Row>
       </Container>

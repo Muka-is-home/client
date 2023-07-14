@@ -69,7 +69,7 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
             )}
           </li>
 
-          <li>
+          {/* <li>
             <Dropdown isOpen={isOpen} toggle={() => setIsOpen(!isOpen)}>
               <DropdownToggle className=" font-secondary">
                 <span>{sortBy || "Sort by Newest"}</span> <i className="fas fa-angle-down ms-lg-3 ms-2"></i>
@@ -81,7 +81,7 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
                 <DropdownItem onClick={() => dispatch({ type: "sortBy", payload: "Low to High price" })}>Low to High price</DropdownItem>
               </DropdownMenu>
             </Dropdown>
-          </li>
+          </li> */}
           {gridBar && (
             <>
               <li className={`collection-grid-view ${mapView ? "d-none" : "d-block"}`} style={{ opacity: `${grid?.gridStyle === "grid-view" ? "1" : "0"}` }}>

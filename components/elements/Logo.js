@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
 
-export const Logo = () => {
+export const Logo = ({ url }) => {
   return (
     <div className="brand-logo">
       <Link href="/">
-        <img src="/assets/images/logo/muka-logo-teal.svg" alt="" className="img-fluid" />
+        <img src={url} alt="" className="img-fluid" />
       </Link>
     </div>
   );

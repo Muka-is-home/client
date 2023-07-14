@@ -6,7 +6,6 @@ import FooterBlog from "./elements/FooterBlog";
 import FooterContactUsDetails from "./elements/FooterContactUsDetails";
 import FooterLink from "./elements/FooterLink";
 import FooterMap from "./elements/FooterMap";
-import SubFooter from "./elements/SubFooter";
 
 const FooterOne = ({ logo }) => {
   const [isActive, setIsActive] = useState();
@@ -17,14 +16,14 @@ const FooterOne = ({ logo }) => {
         <Container>
           <Row className='row'>
             <FooterContactUsDetails isActive={isActive} setIsActive={setIsActive} logo={logo || <Logo />} />
-            <FooterLink value={FooterData.about} isActive={isActive} setIsActive={setIsActive} />
+            <FooterLink value={FooterData.col1} isActive={isActive} setIsActive={setIsActive} />
             <FooterMap isActive={isActive} setIsActive={setIsActive} />
-            <FooterLink value={FooterData.tag} isActive={isActive} setIsActive={setIsActive} />
+            <FooterLink value={FooterData.col2} isActive={isActive} setIsActive={setIsActive} />
             <FooterBlog isActive={isActive} setIsActive={setIsActive} img={["/assets/images/footer/1.jpg", "/assets/images/footer/2.jpg"]} />
           </Row>
         </Container>
       </div>
-      <SubFooter />
+
     </footer>
   );
 };

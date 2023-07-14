@@ -4,11 +4,11 @@
  */
 import Link from "next/link";
 import React, { Fragment, useState } from "react";
-import { MainNavMenuItems } from "../../../data/menu";
+import { MainNavMenuItems } from "../../../data/navMenu";
 import DropdownMenus from "./mainNavComponents/DropdownMenus";
 import MegaMenu from "./mainNavComponents/MegaMenu";
 
-const MainNav = ({ center, icon }) => {
+const MainNav = ({ center, icon, home }) => {
   const [openNavbar, setOpenNavbar] = useState(false);
   const [isOpen, setIsOpen] = useState();
   const [isOpenChild, setIsOpenChild] = useState();
@@ -34,6 +34,7 @@ const MainNav = ({ center, icon }) => {
               <Fragment key={index}>
                 {navTitle.type === "sub" ? (
                   <DropdownMenus
+                    home={home}
                     navTitle={navTitle}
                     isOpen={isOpen}
                     setIsOpen={setIsOpen}
@@ -45,6 +46,7 @@ const MainNav = ({ center, icon }) => {
                   />
                 ) : (
                   <MegaMenu 
+                    home={home}
                     navTitle={navTitle}
                     isOpen={isOpen}
                     setIsOpen={setIsOpen}

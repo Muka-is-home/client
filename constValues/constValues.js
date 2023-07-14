@@ -1,13 +1,11 @@
 // path: home/slider-filter-search
 /* Muka content*/
-export const VendorServices = "Connect with Minority Vendors";
-export const VendorServicesDesc = "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry";
 export const Resources = "Resources";
 export const ResourcesDetail = "Browse our educational resources on budgeting, credit and savings to build generational wealth, and more."
 export const StayUpToDate = "Stay Up to Date";
 export const SubscribeDetails =
   "If there is already a newsletter form, can we use this to capture more emails?";
-  
+export const ViewProfile = "View Profile";
 
 /* Template data */
 export const MainTitle = "Reality Properties solve your problems";
@@ -28,7 +26,6 @@ export const BannerDetail = "Looking to Buy a new property or Sell an existing o
 export const BrowseProperty = "Browse property";
 export const MeetOurAgent = "Meet Our Agents";
 export const Agent = "Agent";
-export const ViewPortfolio = "View Portfolio";
 export const Connect = "Connect";
 export const HappyClients = "Happy clients";
 export const Our = "Our";

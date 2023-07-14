@@ -5,14 +5,12 @@
 import React, { useEffect, useReducer } from "react";
 import { Col, Container, Row } from "reactstrap";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
-import Exploration from "../../../../layout/sidebarLayout/Exploration";
-import RecentlyAdded from "../../../../layout/sidebarLayout/RecentlyAdded";
-import Featured from "../../../../layout/sidebarLayout/Featured";
 import PropertyBoxFour from "../../../elements/propertyBoxs/PropertyBoxFour";
 import Header from "../../../../layout/sidebarLayout/Header";
 import { gridReducer, initialGrid } from "../../../listing/gridView/grid/gridReducer";
+import Filter from "../../../../layout/sidebarLayout/Filter";
 
-const BodyContent = ({ clientData, listSize, size, style }) => {
+const BodyContent = ({ title, clientData, listSize, size, style }) => {
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
   useEffect(() => {
     gridDispatch({ type: "gridSize", payload: size });
@@ -24,7 +22,7 @@ const BodyContent = ({ clientData, listSize, size, style }) => {
       <Container>
         <Row className="row ratio2_3">
           <Col className="property-grid-3 agent-grids">
-            <Header title={"Agency Listing"} grid={grid} gridDispatch={gridDispatch} gridBar={true} />
+            <Header title={title} grid={grid} gridDispatch={gridDispatch} gridBar={true} />
             <div className={`property-wrapper-grid ${grid.gridStyle === "list-view" ? "list-view" : ""}`}>
               <div className={`property-2 row column-sm property-label property-grid ${grid.gridStyle === "list-view" ? "list-view" : ""} `}>
                 {clientData &&
@@ -43,11 +41,9 @@ const BodyContent = ({ clientData, listSize, size, style }) => {
               </div>
             </div>
           </Col>
-          {/* <Sidebar>
-            <Exploration />
-            <Featured />
-            <RecentlyAdded />
-          </Sidebar> */}
+          <Sidebar>
+           <Filter />
+          </Sidebar>
         </Row>
       </Container>
     </section>
