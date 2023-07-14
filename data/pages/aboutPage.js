@@ -1,5 +1,5 @@
 export const AboutPageData = {
-  mainHeading: "Opening Doors and Closing the Gap",
+  mainHeading: "Muka is a virtual community dedicated to bridging the gap in minority homeownership",
   subHeading1:
     "When you join our community we are welcoming you into our family. We’re creating a safe place for you to get connected with the home buyers, sellers and trusted realtors that you’re looking for. We strive to provide you with the education and connections to make informed decisions that will set you up for lifetime success.",
   subHeading2:
