@@ -525,25 +525,49 @@
     }
   }
 
+  &.muka-home {
+    .home-main {
+      @media (max-width: 990px) {
+        background-image: none !important;
+      }
+      .vertical-search {
+        justify-content: start;
+        margin: 0;
+        @media (min-width: 990px) {
+          width: 80%;
+        }
+        .left-sidebar {
+          background-color: #fff;
+        }
+      }
+    }
+    .muka-hero-spot {
+      display: none;
+      @media (max-width: 990px) {
+        display: block
+      }
+
+    }
+  }
   &.layout-6 {
     background-image: unset;
     padding: 0;
     height: unset;
     .home-main {
-      background-image: url(../../images/muka/shutterstock_1115322428.jpg);
-      background-color: rgba($black, 0.8);
-      background-blend-mode: overlay;
+      background-image: url(../../images/muka/muka-graphic-full.png);
+      background-color: var(--theme-background-light);
+      //background-blend-mode: overlay;
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       height: 100vh;
       min-height: 900px;
-      padding-top: 50px;
+      //padding-top: 50px;
       h1{
         margin: .67em 0;
       }
       h1,h2, h3, h4, h5, h6 {
-        color: $white;        
+        color: $theme-main-font-color;        
       }
       h6 {
         margin-top: 20px;
@@ -591,9 +615,11 @@
         }
         .dropdown {
           background-color: transparent;
-          border-color: #696161;
+          border-color: var(--theme-default);
           .dropdown-toggle {
-            color: rgba($white, 0.8);
+            color: $theme-font-color;
+            font-size: 18px;
+            padding: 10px 15px;
           }
         }
       }
@@ -1253,6 +1279,13 @@
   background-color: rgba($black, 0.5);
   background-blend-mode: overlay;
 }
+.muka-users-banner {
+  position: relative;
+  z-index: 1;
+  // background-color: $yellow;
+  background-color: #c3a011;
+}
+
 
 .video-layout {
   width: 100%;

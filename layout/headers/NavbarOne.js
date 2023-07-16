@@ -19,7 +19,7 @@ const NavbarOne = ({ logo, fixed }) => {
   const logoUrl = home ? Logos.homepage : Logos.secondary;
 
   return (
-    <header className={`header-1 ${fixed ? "fixed-header" : "header-6"} ${fixed && fix ? "fixed" : ""} `}>
+    <header className={`header-1 ${fixed ? "fixed-header" : "header-6 muka-header"} ${fixed && fix ? "fixed" : ""} `}>
       <Container>
         <Row>
           <Col>

@@ -147,7 +147,7 @@
 
 // brand page css
 .bg-light {
-  background-color: rgba($dark-20, 0.3);
+  background-color: var(--theme-background-light) !important;
 }
 
 .bg-light-blue {
@@ -298,9 +298,12 @@
   }
   .offer-wrapper {
     padding: 50px;
-    background-color: rgba($black, 0.4);
+    background-color: rgba($white, 1);
     border-radius: 10px;
+    
     .media {
+      text-align: center;
+      flex-direction: column;
       .offer-icon {
         width: 90px;
         height: 90px;
@@ -313,7 +316,8 @@
         @extend %flex-center;
         position: relative;
         transition: 0.5s;
-        background-color: rgba($white, 0.1);
+        background-color: $yellow;
+        margin: 0 auto;
 
         &::before,
         &::after {
@@ -331,7 +335,7 @@
           width: 88%;
           height: 88%;
           transform: scale(0);
-          background-image: var(--theme-gradient3);
+          background-color: var(--theme-default);
           border-radius: 100%;
           z-index: -1;
         }
@@ -382,7 +386,7 @@
         h3,
         h6,
         p {
-          color: $white;
+          color: $black;
         }
       }
     }
@@ -413,7 +417,7 @@
       .media {
         .offer-icon {
           &::before {
-            background-image: var(--theme-gradient4);
+            background-image: var(--theme-default3);
           }
         }
       }
@@ -433,7 +437,7 @@
       .media {
         .offer-icon {
           &::before {
-            background-image: var(--theme-gradient3);
+            background-color: var(--theme-default3);
           }
         }
       }
@@ -2112,6 +2116,26 @@
     background-position: top !important;
   }
 }
+.about-main {
+  .open-door-img {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+.muka-agent-details {
+  background-color: var(--theme-background-light);
+  padding-top: 20px;
+  .our-agent {
+    background-color: $white;
+    border-radius: 6px;
+    .our-agent-details {
+      h3 {
+        font-size: 30px;
+        color: darken($green, 5%);
+      }
+    }
+  }
+}
 
 .agent-property {
   margin-top: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
@@ -3541,6 +3565,11 @@ input[type='date'] {
   }
   .founder-img {
     text-align: center;
+    margin: 20px;
+    img {
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
   }
 }
 

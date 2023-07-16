@@ -6,12 +6,12 @@ import { Headers } from "../../data/headers";
 
 const BreadcrumbMukaSimple = () => {
   return (
-    <section className="breadcrumb-section breadcrumb-simple">
-      <Img src={Headers.image} className="bg-img img-fluid" alt="" />
+    <div className="breadcrumb-section breadcrumb-simple">
+    {/* <Img src={Headers.image} className="bg-img img-fluid" alt="" /> */}
       <Container>
         <div className="breadcrumb-content"></div>
       </Container>
-    </section>
+    </div>
   );
 };
 

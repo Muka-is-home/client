@@ -11,6 +11,7 @@ const AboutUsSection = () => {
         <Row>
           <div className='col'>
             <div className='title-1'>
+              <img src="/assets/images/muka/open-door.png" className="img-fluid open-door-img" alt="" />
               <h2>{AboutPageData.mainHeading}</h2>
               <h4 className='font-primary'>{AboutPageData.subHeading1}</h4>
               <div className="row ratio_portrait gy-md-4 gy-3 py-3">

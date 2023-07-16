@@ -1,5 +1,5 @@
 export const FooterData = {
-  brand_description: "Elegant retreat in a quiet Coral Gables setting. This home provides wonderful entertaining spaces with a chef kitchen opening",
+  brand_description: "A community connecting minority homebuyers, sellers, and realtors",
   contactDetails: [
     { iconsClass: "fas fa-map-marker-alt", detail: "A-32, Albany, Newyork." },
     { iconsClass: "fas fa-phone-alt", detail: "(+066) 518 - 457 - 5181" },
@@ -9,18 +9,18 @@ export const FooterData = {
     title: "About",
     children: [
       { title: "About us", link: "/pages/other-pages/about-us-2" },
-      { title: "Module", link: "/modules/property" },
-      { title: "Contact", link: "/contact/contact-us-2" },
+      { title: "Get Listed on Muka", link: "/modules/property" },
+      { title: "Etc.", link: "/contact/contact-us-2" },
       { title: "Blog", link: "/pages/blog-page/left-sidebar" },
     ],
   },
   col2: {
-    title: "Tag",
+    title: "Connect",
     children: [
-      { title: "Blog", link: "/pages/blog-page/no-sidebar" },
-      { title: "Blog list", link: "/pages/blog-page/left-sidebar" },
-      { title: "Details", link: "/pages/blog-detail-pages/detail-with-gallery" },
-      { title: "Video", link: "/pages/blog-detail-pages/detail-with-video" },
+      { title: "Instagram", link: "#" },
+      { title: "Twitter", link: "#" },
+      { title: "Etc.", link: "#" },
+      { title: "Etc.", link: "#" },
     ],
   },
   col3: {
@@ -39,7 +39,8 @@ export const FooterData = {
     { link: "https://accounts.google.com/", class: "fab fa-google" },
   ],
   copyright: "All Right Reserved, Muka, LLC.",
-  logo: "/assets/images/logo/muka-logo-teal.svg"
+  logo: "/assets/images/logo/muka-logo-teal.svg",
+  logoWhite: "https://github-production-user-asset-6210df.s3.amazonaws.com/29741570/251847573-3ff39745-5d53-429c-a412-1f77336d1b65.png"
 };
 
 

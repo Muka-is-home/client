@@ -17,7 +17,6 @@ footer {
         }
 
         .sub-footer {
-            background-color: $sub-footer-dark;
             .copy-right{
                 p{
                     svg{
@@ -69,7 +68,7 @@ footer {
         .footer-links {
             .footer-content {
                 p {
-                    color: rgba($white, 0.7);
+                    color: rgba($white, 1);
                 }
             }
         }
@@ -79,6 +78,7 @@ footer {
         }
 
         .sub-footer {
+            background-color: darken($green, 10%);
             .footer-social {
                 ul {
                     li {
@@ -165,7 +165,7 @@ footer {
         .sub-footer-link {
             li {
                 a {
-                    color: $gray-30;
+                    color: $white;
                     font-weight: 500;
 
                     &:hover {
@@ -180,10 +180,9 @@ footer {
         }
 
         &.footer-light {
-            background-color: $dark-color;
-
+            background-color: darken($green, 20%);
             p {
-                color: $gray-30;
+                color: $white;
             }
         }
 
@@ -199,9 +198,9 @@ footer {
             .sub-footer-link {
                 li {
                     a {
-                        color: $gray-30;
+                        color: $white;
                         &:hover {
-                            color: $white;
+                            color: $yellow;
                         }
                     }
                 }
@@ -389,7 +388,8 @@ footer {
 }
 
 .footer-bg {
-    background-image: url(../../images/footer-bg.jpg);
+    // background-image: url(../../images/footer-bg.jpg);
+    background-color: darken($green, 10%);
     @extend %background-common;
 
     p {
@@ -397,16 +397,20 @@ footer {
     }
 
     .footer-details {
-        background-color: $dark-color;
-        padding: 30px;
+        padding: 0;
+        background-color: transparent;
 
         p {
             margin-top: 6px;
             margin-bottom: 30px;
+            color: $white;
+            font-size: 20px;
+            line-height: 125%;
         }
 
         img {
-            margin-top: -8px;
+            margin: 0 0 20px 0;
+            width: 70%;
         }
 
         h6 {
@@ -454,7 +458,10 @@ footer {
 
             li {
                 a {
-                    color: $gray-30;
+                    color: $white;
+                    &:hover {
+                        color: rgba($yellow, 1) !important;
+                    }
                 }
 
                 +li {

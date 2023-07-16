@@ -8,7 +8,7 @@ const SubFooterTwo = ({value}) => {
     <div className="sub-footer footer-light">
       <Container>
         <Row>
-          <div className="col-xl-6 col-md-6">
+          <div className="col-xl-4 col-md-4">
             <div className="copy-right">
               <p className="mb-0">Copyright {new Date().getFullYear()}, {value}</p>
             </div>
@@ -28,15 +28,17 @@ const SubFooterTwo = ({value}) => {
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>
+          </div>
+          <div className="col-xl-2 col-md-2">
             <ul className='footer-social sub-footer-link'>
-                {FooterData.sub_footer.map((value, index) => (
-                  <li key={index}>
-                    <a href={value.link}>
-                      <i className={value.class}></i>
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              {FooterData.sub_footer.map((value, index) => (
+                <li key={index}>
+                  <a href={value.link}>
+                    <i className={value.class}></i>
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </Row>
       </Container>
