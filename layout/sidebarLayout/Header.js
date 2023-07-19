@@ -62,16 +62,16 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
           <li>
             {(AdvancedSearchShow || mobileSize) && (
               <div className="filter-bottom-title">
-                <h6 className="mb-0 font-roboto" onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
+                <h6 className="mb-0 font-primary" onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
                   Advance search <AlignCenter className="float-end ms-2" />
                 </h6>
               </div>
             )}
           </li>
 
-          <li>
+          {/* <li>
             <Dropdown isOpen={isOpen} toggle={() => setIsOpen(!isOpen)}>
-              <DropdownToggle className=" font-rubik">
+              <DropdownToggle className=" font-secondary">
                 <span>{sortBy || "Sort by Newest"}</span> <i className="fas fa-angle-down ms-lg-3 ms-2"></i>
               </DropdownToggle>
               <DropdownMenu className=" text-start">
@@ -81,7 +81,7 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
                 <DropdownItem onClick={() => dispatch({ type: "sortBy", payload: "Low to High price" })}>Low to High price</DropdownItem>
               </DropdownMenu>
             </Dropdown>
-          </li>
+          </li> */}
           {gridBar && (
             <>
               <li className={`collection-grid-view ${mapView ? "d-none" : "d-block"}`} style={{ opacity: `${grid?.gridStyle === "grid-view" ? "1" : "0"}` }}>

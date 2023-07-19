@@ -4,11 +4,11 @@
  */
 import Link from "next/link";
 import React, { Fragment, useState } from "react";
-import { MainNavMenuItems } from "../../../data/menu";
+import { MainNavMenuItems } from "../../../data/navMenu";
 import DropdownMenus from "./mainNavComponents/DropdownMenus";
 import MegaMenu from "./mainNavComponents/MegaMenu";
 
-const MainNav = ({ center, icon }) => {
+const MainNav = ({ center, icon, home }) => {
   const [openNavbar, setOpenNavbar] = useState(false);
   const [isOpen, setIsOpen] = useState();
   const [isOpenChild, setIsOpenChild] = useState();
@@ -20,7 +20,7 @@ const MainNav = ({ center, icon }) => {
         <div id="mainnav">
           {/* open navbar button in mobile size */}
           <div className="toggle-nav">
-            <i className="fa fa-bars sidebar-bar" onClick={() => setOpenNavbar(true)}></i>
+            <i className="fa fa-bars sidebar-bar text-dark" onClick={() => setOpenNavbar(true)}></i>
           </div>
           <ul className={`nav-menu ${openNavbar ? "open" : ""}`}>
             {/* close navbar button in mobile size */}
@@ -34,6 +34,7 @@ const MainNav = ({ center, icon }) => {
               <Fragment key={index}>
                 {navTitle.type === "sub" ? (
                   <DropdownMenus
+                    home={home}
                     navTitle={navTitle}
                     isOpen={isOpen}
                     setIsOpen={setIsOpen}
@@ -44,14 +45,20 @@ const MainNav = ({ center, icon }) => {
                     icon={icon}
                   />
                 ) : (
-                  <MegaMenu navTitle={navTitle} isOpen={isOpen} setIsOpen={setIsOpen} i isOpenNestedChild={isOpenNestedChild} setIsOpenNestedChild={setIsOpenNestedChild} />
+                  <MegaMenu 
+                    home={home}
+                    navTitle={navTitle}
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    isOpenNestedChild={isOpenNestedChild}
+                    setIsOpenNestedChild={setIsOpenNestedChild} />
                 )}
               </Fragment>
             ))}
           </ul>
           {center && (
             <div className="brand-logo">
-              <Link href="/home/slider-filter-search">
+              <Link href="/">
                 <img src="/assets/images/logo/4.png" alt="" className="img-fluid for-light" />
                 <img src="/assets/images/logo/9.png" alt="" className="img-fluid for-dark" />
               </Link>

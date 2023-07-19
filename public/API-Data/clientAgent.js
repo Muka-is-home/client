@@ -1,5 +1,5 @@
 export const clientAgentData = {
-  MeetOurAgent: [
+  MeetOurAgents: [
     {
       img: '/assets/images/about/1.jpg',
       name: 'Ty R. Leeva',

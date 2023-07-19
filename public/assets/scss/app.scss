@@ -45,6 +45,43 @@ Author URI: https://themeforest.net/user/pixelstrap
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i");
 
+@font-face {
+    font-family: 'Averta Light';
+	src: url('../fonts/Averta-Light.eot') format('opentype');
+  	src: url('../fonts/Averta-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Averta-Light.woff2') format('woff2'),
+       url('../fonts/Averta-Light.woff') format('woff'),
+       url('../fonts/Averta-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Averta Regular';
+	src: url('../fonts/Averta-Regular.eot') format('opentype');
+  	src: url('../fonts/Averta-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Averta-Regular.woff2') format('woff2'),
+       url('../fonts/Averta-Regular.woff') format('woff'),
+       url('../fonts/Averta-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Averta Bold';
+	src: url('../fonts/Averta-Bold.eot') format('opentype');
+  	src: url('../fonts/Averta-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Averta-Bold.woff2') format('woff2'),
+       url('../fonts/Averta-Bold.woff') format('woff'),
+       url('../fonts/Averta-Bold.ttf') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+@font-face {
+    font-family: 'Averta Extra Bold';
+    src: url('../fonts/Averta-ExtraBold.eot') format('opentype');
+  	src: url('../fonts/Averta-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Averta-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Averta-ExtraBold.woff') format('woff'),
+       url('../fonts/Averta-ExtraBold.ttf') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
 // utils
 @import "utils/variables";
 @import "utils/mixins";
@@ -100,3 +137,12 @@ Author URI: https://themeforest.net/user/pixelstrap
 
 // font-awesome
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+button.rest-btn, a.ff-powered-img img {
+	display: none !important;
+}
+
+#ff-submit-root {
+	display: block !important;
+}

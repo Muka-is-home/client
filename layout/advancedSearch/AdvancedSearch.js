@@ -4,7 +4,7 @@
  * @returns A React component.
  */
 import React from "react";
-import InputForm from "../../components/home/slider-filter-search/homeElements/InputForm";
+import InputForm from "../../components/home/homeElements/InputForm";
 import useMobileSize from "../../utils/useMobileSize";
 
 const AdvancedSearch = ({ advancedSearchOpen, setAdvancedSearchOpen, value }) => {

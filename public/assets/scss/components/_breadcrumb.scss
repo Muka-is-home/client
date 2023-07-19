@@ -8,6 +8,12 @@
     z-index: 1;
     background-position: top left !important;
 
+    &.breadcrumb-simple {
+        height: 100px;
+        background-color: var(--theme-background-light);
+        border-bottom: 2px solid var(--theme-background-light);
+    }
+
     &.breadcrumb-sm {
         height: auto;
         background-image: var(--theme-gradient3);
@@ -67,7 +73,7 @@
                     color: rgba($white, 0.8);
                     text-transform: capitalize;
                     font-weight: 500;
-                    font-family: $font_2, $font_3;
+                    font-family: $font_primary_regular, sans-serif;
 
                     a {
                         color: rgba($white, 0.8);

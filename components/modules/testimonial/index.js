@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
 import TestimonialSectionOne from "../../home/enterprise/Testimonial";
-import TestimonialSectionTwo from "../../home/slider-filter-search/Testimonial";
+import TestimonialSectionTwo from "../../home/Testimonial";
 import TestimonialSectionThree from "../../home/corporate/Testimonial";
 import TestimonialSectionFour from "../../home/classic/Testimonial";
 
 const BodyContent = () => {
   const [clientData, setClientData] = useState();
   useEffect(() => {
-    getData(`${process.env.API_URL}/client-agent`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })

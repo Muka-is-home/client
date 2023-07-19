@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../../utils/getData";
-import AboutSectionOne from "../../home/slider-filter-search/About";
+import AboutSectionOne from "../../home/About";
 import AboutSectionTwo from "../../home/corporate/About";
 import AboutSectionThree from "../../home/classic/About";
 
@@ -8,7 +8,7 @@ const BodyContent = () => {
   const [clientData, setClientData] = useState();
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/client-agent`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/client-agent`)
       .then((res) => {
         setClientData(res.data);
       })

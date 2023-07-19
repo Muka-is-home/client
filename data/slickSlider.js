@@ -1,6 +1,23 @@
 /*=====================
      slick slider js
      ==========================*/
+
+export const usersSlider = {
+  dots: false,
+  infinite: false,
+  speed: 500,
+  arrows: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
 export const slide1 = {
   dots: false,
   infinite: true,
@@ -697,7 +714,7 @@ export const offerSlider = {
   dots: false,
   infinite: true,
   speed: 500,
-  arrows: false,
+  arrows: true,
   slidesToShow: 2,
   slidesToScroll: 1,
   responsive: [

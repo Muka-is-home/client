@@ -25,7 +25,7 @@ const GridView = ({ side, size, gridType, listSize, mapModal, mapView, relativeS
   }, []);
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
       .then((res) => {
         relativeSlider
           ? setValue(res.data?.LatestPropertyListingInEnterprise)

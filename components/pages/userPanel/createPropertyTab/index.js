@@ -54,7 +54,6 @@ const CreatePropertyTab = () => {
           landmark: Yup.string().required(),
         })}
         onSubmit={(values) => {
-          console.log(values);
           alert("Your data is submitted check console");
         }}
         render={() => (

@@ -12,7 +12,7 @@ const PropertyCompare = () => {
   const notify = () => toast(`This product added to wish list`, { type: "success" });
 
   useEffect(() => {
-    getData(`${process.env.API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
       .then((res) => {
         setValue(
           Object.keys(res.data)

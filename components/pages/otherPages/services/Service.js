@@ -18,7 +18,7 @@ const ServiceSection = () => {
                   Providing <br />
                   the best customer service
                 </h2>
-                <p className='font-roboto'>
+                <p className='font-primary'>
                   Residences can be classified by and how they are connected to neighbouring residences and land. Different types of housing tenure can be used for the same physical type. For example,
                   connected residences might be owned by a single entity and leased out, or owned separately with an agreement covering the relationship between units and common areas and concerns.
                   Residences can be classified by and ow they are connected to neighbouring residences and land.
