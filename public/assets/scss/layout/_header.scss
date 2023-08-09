@@ -11,6 +11,18 @@
     top: 0;
   }
 }
+
+/*putting some Muka specific styles here for now */
+.muka-header {
+  .main-navbar {
+    .toggle-nav {
+      i {
+        font-size: 30px;
+      }
+    }
+    
+  }
+}
 .header-2 {
   z-index: 7;
 }

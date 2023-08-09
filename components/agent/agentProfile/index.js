@@ -7,7 +7,7 @@ import Img from "../../../utils/BackgroundImageRatio";
 
 const BodyContent = () => {
   return (
-    <section className="agent-section property-section agent-profile-wrap">
+    <section className="agent-section property-section agent-profile-wrap muka-agent-details">
       <Container>
         <Row className=" ratio_55">
           <Col xl="9" lg="8" className=" property-grid-2">
@@ -16,13 +16,13 @@ const BodyContent = () => {
                 <Col sm="6" className=" ratio_landscape">
                   <div className="agent-image bg-size">
                     <Img src="/assets/images/avatar/5.jpg" className="img-fluid bg-img" alt="" />
-                    <span className="label label-shadow">4 Properties</span>
+                    {/* <span className="label label-shadow">4 Properties</span> */}
                   </div>
                 </Col>
                 <Col sm="6">
                   <div className="our-agent-details">
                     <h3 className="f-w-600">Jonathan Scott</h3>
-                    <h6>Real estate Property Agent</h6>
+                    <h6>Real Estate Agent</h6>
                     <ul>
                       <li>
                         <div className="media">
@@ -30,7 +30,7 @@ const BodyContent = () => {
                             <MapPin />
                           </div>
                           <div className="media-body">
-                            <h6>A-32, Albany, Newyork.</h6>
+                            <h6>Nashville, TN</h6>
                           </div>
                         </div>
                       </li>
@@ -40,7 +40,7 @@ const BodyContent = () => {
                             <PhoneCall />
                           </div>
                           <div className="media-body">
-                            <h6>(+066) 518 - 457 - 5181</h6>
+                            <h6>(615)518-4571</h6>
                           </div>
                         </div>
                       </li>
@@ -61,7 +61,7 @@ const BodyContent = () => {
                           </div>
                           <div className="media-body">
                             <h6>
-                              <a>https://www.sheltos.com</a>
+                              <a>https://www.jonathanscott.com</a>
                             </h6>
                           </div>
                         </div>
@@ -80,11 +80,6 @@ const BodyContent = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://account.google.com" className="google">
-                        <i className="fab fa-google"></i>
-                      </a>
-                    </li>
-                    <li>
                       <a href="https://www.linkedin.com/" className="linkedin">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
@@ -95,21 +90,8 @@ const BodyContent = () => {
             </div>
             <div className="about-agent theme-card">
               <h3>About the agent</h3>
-              <Row>
-                <Col sm="4">
-                  <p className="font-primary">
-                    Residences can be classified by and how they are connected residences and land. Different types of housing tenure can be used for the same physical type.
-                  </p>
-                </Col>
-                <Col sm="4">
-                  <p className="font-primary">
-                    Connected residences owned by a single entity leased out, or owned separately with an agreement covering the relationship between units and common areas.
-                  </p>
-                </Col>
-                <Col sm="4">
-                  <p className="font-primary">Residential real estate may contain either a single family or multifamily structure that is available for occupation or for non-business purposes.</p>
-                </Col>
-              </Row>
+              <p className="font-primary">
+              I'm Jonathan Scott, your Nashville Realtor specializing in helping minority buyers find their perfect homes. As an African American Realtor, I understand the unique challenges and needs faced by minority buyers in the real estate market. With years of experience under my belt, I have honed my skills in various specialties, including VA loans and assisting first-time homebuyers. I am well-versed in navigating the intricacies of VA loans, ensuring our deserving veterans and their families receive the benefits they are entitled to. Additionally, I take pride in guiding first-time buyers through the entire process, making it smooth and stress-free.<br/><br/>Being deeply knowledgeable about the Nashville housing market, I stay up-to-date on the latest trends, prices, and neighborhood developments. My goal is to provide personalized attention and tailored solutions that match the specific requirements of each client. Whether you're a minority buyer, a veteran, or a first-time homebuyer, I am committed to empowering you with the knowledge and resources needed to make informed decisions. My dedication to clients goes beyond the transaction itself.<br/><br/>I believe in building long-lasting relationships and maintaining open lines of communication, even after the deal is closed. Professionalism, integrity, and exceptional service are the cornerstones of my work, and I have earned a reputation as a trusted Realtor in Nashville's diverse communities.<br/><br/>If you're ready to embark on your homebuying journey, I'm here to be your advocate and guide. Contact me today, and let's work together to turn your dreams of homeownership into a reality.</p>
             </div>
           </Col>
           <Sidebar>

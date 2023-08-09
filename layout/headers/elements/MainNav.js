@@ -20,7 +20,7 @@ const MainNav = ({ center, icon, home }) => {
         <div id="mainnav">
           {/* open navbar button in mobile size */}
           <div className="toggle-nav">
-            <i className="fa fa-bars sidebar-bar" onClick={() => setOpenNavbar(true)}></i>
+            <i className="fa fa-bars sidebar-bar text-dark" onClick={() => setOpenNavbar(true)}></i>
           </div>
           <ul className={`nav-menu ${openNavbar ? "open" : ""}`}>
             {/* close navbar button in mobile size */}

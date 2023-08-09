@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import Link from "next/link";
 import { Button, Col, Container, Row } from "reactstrap";
-import { offerSlider } from "../../data/slickSlider";
+import { usersSlider } from "../../data/slickSlider";
 import NoSsr from "../../utils/NoSsr";
 
 const UserSection = ({ value }) => {
   return (
-    <section className="offer-section banner-section banner-4 slick-between ">
+    <section className="offer-section banner-section slick-between muka-users-banner">
       <Container>
         <Row>
           <Col>
@@ -17,7 +17,7 @@ const UserSection = ({ value }) => {
               <hr />
             </div> */}
             <NoSsr>
-              <Slider className="offer-slider" {...offerSlider}>
+              <Slider className="offer-slider" {...usersSlider}>
                 {value &&
                   value.map((data, i) => (
                     <div key={i}>

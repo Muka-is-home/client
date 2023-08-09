@@ -11,6 +11,7 @@
     &.breadcrumb-simple {
         height: 100px;
         background-color: var(--theme-background-light);
+        border-bottom: 2px solid var(--theme-background-light);
     }
 
     &.breadcrumb-sm {
