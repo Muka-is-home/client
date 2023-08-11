@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalBody } from "reactstrap";
 
-import BodyContent from "../../../components/pages/blogDetailPages";
-import Breadcrumb from "../../../layout/Breadcrumb/Breadcrumb";
-import FooterThree from "../../../layout/footers/FooterThree";
-import NavbarThree from "../../../layout/headers/NavbarOne";
+import BodyContent from "../../components/pages/blogDetailPages";
+import Breadcrumb from "../../layout/Breadcrumb/Breadcrumb";
+import FooterThree from "../../layout/footers/FooterThree";
+import NavbarThree from "../../layout/headers/NavbarOne";
 
 
-import Img from "../../../utils/BackgroundImageRatio";
+import Img from "../../utils/BackgroundImageRatio";
 
 const DetailWithVideo = () => {
   const [modal, setModal] = useState(false);

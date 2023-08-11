@@ -21,13 +21,13 @@ export const MainNavMenuItems = [
   },
   {
     title: "AGENT/VENDOR Details",
-    path: "/WIP/pro/id",
+    path: "/pro/id",
     type: "link",
   },
   {
     title: "RESOURCES",
     type: "link",
-    path: "/WIP/resources"
+    path: "/resources"
   },
   {
     title: "CONTACT",

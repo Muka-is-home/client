@@ -28,6 +28,7 @@ const AgentList = () => {
       .catch((error) => console.log("Error", error));
     } else {
       console.log("get all agents")
+      // TODO: ADD API CALL TO GET ALL AGENTS
     }
   }, [state, county]);
     

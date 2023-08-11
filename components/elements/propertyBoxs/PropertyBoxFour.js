@@ -51,7 +51,7 @@ const PropertyBoxFour = ({ data }) => {
                 <i className="fas fa-fax"></i> {data?.pinCode}
               </li>
             </ul>
-            <Link href="/WIP/pro/agent-profile">
+            <Link href={`/pro/${data?.id}`}>
               View profile <i className="fas fa-arrow-right"></i>
             </Link>
           </div>

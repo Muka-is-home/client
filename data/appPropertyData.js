@@ -7,15 +7,7 @@ export const AppPropertyData = {
     { title: "Are you a Realtor looking to connect", details: "Through our online directory, we will provide a centralized hub where individuals can easily locate and engage with a network of trusted professionals.", img: "/assets/images/others/icon-2.png" },
     { title: "Looking for minority owned vendors?", details: "Through our online directory, we will provide a centralized hub where individuals can easily locate and engage with a network of trusted professionals", img: "/assets/images/others/icon-1.png" },
   ],
-  VendorServices: [
-    { title: "General Contractors", img: <Home />, details: "Property management is the control, maintenance of real estate and physical property." },
-    { title: "Mortgage Services", img: <DollarSign />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
-    { title: "HVAC", img: <Truck />, details: "A currency is standardization of money in any form when use or circulation as medium of exchange." },
-    { title: "Plumbing", img: <Bell />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
-    { title: "Electric", img: <Bell />, details: "Apartments or flats on each floor and with shared entrance stairway access found in Britain." },
-    { title: "ETC.", img: <MapPin />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
-  ],
-
+ 
   WhatAreYouLookingFor: [
     { title: "House", img: "/assets/svg/icons.svg#home-lock", path: "/listing/grid-view/2-grid/left-sidebar" },
     { title: "Booking", img: "/assets/svg/icons.svg#home-heart", path: "/pages/user-panel/create-property" },

@@ -5,7 +5,8 @@ import Sidebar from "../../../layout/sidebarLayout/Sidebar";
 import Filter from "../../../layout/sidebarLayout/Filter";
 import Img from "../../../utils/BackgroundImageRatio";
 
-const BodyContent = () => {
+const BodyContent = ({ proObject }) => {
+
   return (
     <section className="agent-section property-section agent-profile-wrap muka-agent-details">
       <Container>
@@ -16,13 +17,12 @@ const BodyContent = () => {
                 <Col sm="6" className=" ratio_landscape">
                   <div className="agent-image bg-size">
                     <Img src="/assets/images/avatar/5.jpg" className="img-fluid bg-img" alt="" />
-                    {/* <span className="label label-shadow">4 Properties</span> */}
                   </div>
                 </Col>
                 <Col sm="6">
                   <div className="our-agent-details">
-                    <h3 className="f-w-600">Jonathan Scott</h3>
-                    <h6>Real Estate Agent</h6>
+                    <h3 className="f-w-600">{proObject.name}</h3>
+                    <h6>{proObject.title}</h6>
                     <ul>
                       <li>
                         <div className="media">

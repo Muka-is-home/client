@@ -9,13 +9,23 @@ import NavbarThree from "../../layout/headers/NavbarOne";
 import FooterThree from "../../layout/footers/FooterThree";
 import Breadcrumb from "../../layout/Breadcrumb/BreadcrumbMukaSimple";
 import BodyContent from "../../components/agent/agentProfile";
+import { useRouter } from "next/router";
 
 const AgentProfile = () => {
+  const router = useRouter()
+  const {id} = router.query;
+
+  // TODO: MODIFY TO MAKE CALL TO API USING THE ID AND GET USER DETAILS
+  const proObject = {
+    name: "Jonathan Scott",
+    title: "Real Estate Agent"
+  }
+
   return (
     <>
       <NavbarThree />
       <Breadcrumb />
-      <BodyContent />
+      <BodyContent proObject={proObject}/>
       <FooterThree />
     </>
   );
