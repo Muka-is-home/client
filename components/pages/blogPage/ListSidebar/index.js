@@ -37,7 +37,6 @@ const BodyContent = ({ side }) => {
               <SearchBar />
               <Category />
               <RecentlyAdded />
-              <PopularTags />
             </Sidebar>
           )}
           <Col xl={side ? "9" : "12"} lg={side ? "8" : "12"}>

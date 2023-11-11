@@ -7,7 +7,7 @@ export const VendorServices = [
   {
     title: "Mortgage Services",
     details:
-      "Residences can be classified by and how they are connected to neighbouring residences and land.",
+      "Residences can be classified by and how they are connected to residences and land.",
   },
   {
     title: "HVAC",

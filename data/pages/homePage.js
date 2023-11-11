@@ -15,18 +15,32 @@ export const HomePageData = {
       details:
         "We're creating a safe place for you to get connected with the sellers and trusted realtors that you're looking for.",
       img: "/assets/images/others/icon-1.png",
+      buttonText: "Button Text",
+      url: "/"
     },
     {
       title: "Are you a Minority Realtor?",
       details:
         "Muka gives you the platform to reach your community and share your expertise with clients that you can relate to. Apply now or some other CTA",
       img: "/assets/images/others/icon-2.png",
+      buttonText: "Button Text",
+      url: "/"
     },
     {
       title: "Looking for Minority-Owned Vendors?",
       details:
         "Through our online directory, individuals can easily locate and engage with a network of trusted professionals",
       img: "/assets/images/others/icon-1.png",
+      buttonText: "Button Text",
+      url: "/"
+    },
+    {
+      title: "Looking for Minority-Owned Vendors?",
+      details:
+        "Through our online directory, individuals can easily locate and engage with a network of trusted professionals",
+      img: "/assets/images/others/icon-1.png",
+      buttonText: "Button Text",
+      url: "/"
     },
   ],
   FeaturedAgents: [

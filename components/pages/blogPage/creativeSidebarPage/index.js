@@ -9,7 +9,6 @@ import React, { useEffect, useReducer, useState } from "react";
 import { MapPin } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
 import Pagination from "../../../../layout/Pagination";
-import PopularTags from "../../../../layout/sidebarLayout/PopularTags";
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import Img from "../../../../utils/BackgroundImageRatio";
@@ -35,7 +34,6 @@ const BodyContent = ({ side }) => {
           {side && (
             <Sidebar side={side}>
               <Filter />
-              <PopularTags />
             </Sidebar>
           )}
           <Col xl={side ? "9" : "12"} lg={side ? "8" : "12"}>
@@ -59,7 +57,7 @@ const BodyContent = ({ side }) => {
                           </h3>
                           <p className="font-primary">{data.detail}</p>
 
-                          <Link href="/WIP/resource/add-id">read more</Link>
+                          <Link href={`/resource/${data.id}`}>read more</Link>
                         </div>
                       </div>
                     </div>

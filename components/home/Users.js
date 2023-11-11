@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Link from "next/link";
-import { Button, Col, Container, Row } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 import { usersSlider } from "../../data/slickSlider";
 import NoSsr from "../../utils/NoSsr";
 
@@ -11,11 +11,6 @@ const UserSection = ({ value }) => {
       <Container>
         <Row>
           <Col>
-            {/* <div className="title-1 text-white">
-              <span className="label label-gradient">{NewOffer}</span>
-              <h2>{OurNewOffer}</h2>
-              <hr />
-            </div> */}
             <NoSsr>
               <Slider className="offer-slider" {...usersSlider}>
                 {value &&
@@ -29,8 +24,8 @@ const UserSection = ({ value }) => {
                           <div className="media-body">
                             <h3>{data.title}</h3>
                             <p>{data.details}</p>
-                            <Link href="/" className="btn btn-solid mt-3">
-                                Find a Realtor
+                            <Link href={data.url} className="btn btn-solid mt-3">
+                                {data.buttonText}
                             </Link>
                           </div>
                         </div>

@@ -5,6 +5,7 @@ const DropdownInputFields = ({ data, label, query, filterValues, setFilterValues
   const [isOpen, setIsOpen] = useState("true");
   const [value, setValue] = useState(data.label);
 
+
   return (
     <div className='form-group'>
       {label && <label>{data.label}</label>}

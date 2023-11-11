@@ -8,7 +8,7 @@ import ContentLoader from "react-content-loader";
 import Img from "../../../utils/BackgroundImageRatio";
 import SocialAccounts from "../SocialAccounts";
 
-const PropertyBoxFour = ({ data }) => {
+const PropertyBoxFour = ({ data, type }) => {
   const [load, setLoad] = useState(true);
   const [show, setShow] = useState();
   return (
@@ -28,7 +28,7 @@ const PropertyBoxFour = ({ data }) => {
           </div>
           <div className="agent-content">
             <h3>
-              <Link href="/WIP/pro/agent-profile">{data?.name}</Link>
+              <Link href={`/pro/${type}/${data?.id}`}>{data?.name}</Link>
             </h3>
             <p className="font-primary">Real estate Agent</p>
             <ul className="agent-contact">
@@ -51,7 +51,7 @@ const PropertyBoxFour = ({ data }) => {
                 <i className="fas fa-fax"></i> {data?.pinCode}
               </li>
             </ul>
-            <Link href="/WIP/pro/agent-profile">
+            <Link href={`/pro/${type}/${data?.id}`}>
               View profile <i className="fas fa-arrow-right"></i>
             </Link>
           </div>
