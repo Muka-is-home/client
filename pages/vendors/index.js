@@ -30,8 +30,11 @@ const AgentList = () => {
       })
       .catch((error) => console.log("Error", error));
     } else {
-      // TODO: ADD API CALL TO GET ALL AGENTS
-      console.log("get all vendors")
+      getData(`${process.env.NEXT_PUBLIC_API_URL}/vendors`)
+      .then((res) => {
+        setClientData(res.data);
+      })
+      .catch((error) => console.log("Error", error));
     }
   }, [state, county]);
 
