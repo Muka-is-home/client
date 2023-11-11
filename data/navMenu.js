@@ -20,11 +20,6 @@ export const MainNavMenuItems = [
     type: "link",
   },
   {
-    title: "AGENT/VENDOR Details",
-    path: "/pro/id",
-    type: "link",
-  },
-  {
     title: "RESOURCES",
     type: "link",
     path: "/resources"
