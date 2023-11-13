@@ -21,6 +21,7 @@ const AgentList = () => {
   const searchParams = useSearchParams()
   const state = searchParams.get('state')
   const county = searchParams.get('county')
+  const specialty = searchParams.get('specialty')
 
   useEffect(() => {
     if (state && county) {
@@ -29,6 +30,11 @@ const AgentList = () => {
         setClientData(res.data);
       })
       .catch((error) => console.log("Error", error));
+    } else if (specialty) {
+      getData(`${process.env.NEXT_PUBLIC_API_URL}/vendors?specialty=${specialty}`)
+      .then((res) => {
+        setClientData(res.data);
+      })
     } else {
       getData(`${process.env.NEXT_PUBLIC_API_URL}/vendors`)
       .then((res) => {

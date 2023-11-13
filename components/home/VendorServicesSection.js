@@ -19,9 +19,9 @@ const VendorServicesSection = ({ value }) => {
                   <div className="service-box">
                     {/* <div className="icon-round">{data.img}</div> */}
                     <h3>
-                      <Link href="/pages/other-pages/services">{data.title}</Link>
+                      <Link href={`/vendors?specialty=${data.tag_name}`}>{data.tag_name}</Link>
                     </h3>
-                    <p>{data.details}</p>
+                    <p>{data.description}</p>
                   </div>
                 </Col>
               ))}

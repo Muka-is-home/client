@@ -2,11 +2,10 @@
  * It's a function that returns a div with a bunch of other divs and spans inside it
  * @returns A React component
  */
-import Link from "next/link";
-import React, { useState } from "react";
-import ContentLoader from "react-content-loader";
-import Img from "../../../utils/BackgroundImageRatio";
-import SocialAccounts from "../SocialAccounts";
+import Link from 'next/link';
+import React, { useState } from 'react';
+import ContentLoader from 'react-content-loader';
+import Img from '../../../utils/BackgroundImageRatio';
 
 const PropertyBoxFour = ({ data, type }) => {
   const [load, setLoad] = useState(true);
@@ -14,57 +13,46 @@ const PropertyBoxFour = ({ data, type }) => {
   return (
     <>
       {!load ? (
-        <div className="property-box">
-          <div className="agent-image">
+        <Link href={`/pro/${type}/${data?.id}`}><div className='property-box'>
+          <div className='agent-image'>
             <div>
-              <Img src={data?.img} className="bg-img" alt="" />
-              <span className="label label-shadow">{data?.property} properties</span>
-              <div className="agent-overlay"></div>
-              <div className="overlay-content">
-                <SocialAccounts />
-                <span>Connect</span>
-              </div>
+              <Img src={data?.image || ''} className='bg-img' alt='' />
+              {data?.featured && <span className='label label-shadow'>FEATURED</span>}
             </div>
           </div>
-          <div className="agent-content">
+          <div className='agent-content'>
             <h3>
-              <Link href={`/pro/${type}/${data?.id}`}>{data?.name}</Link>
+              {data?.name}
             </h3>
-            <p className="font-primary">Real estate Agent</p>
-            <ul className="agent-contact">
+            <ul className='agent-contact'>
               <li>
-                <i className="fas fa-phone-alt"></i>
-                <span className="character">+91 {data?.mobile === show ? data?.mobile : data?.mobile.slice(0, 5) + "*****"}</span>
+                <i className='fas fa-envelope'></i>
+                <span className='character'>{data?.email === show ? data?.email : data?.email.slice(0, 5) + '*****'}</span>
                 <span
-                  className="label label-light label-flat"
+                  className='label label-light label-flat'
                   onClick={() => {
-                    setShow(data?.mobile);
-                    data?.mobile === show && setShow();
-                  }}>
-                  {show === data?.mobile ? "show" : "hide"}
+                    setShow(data?.email);
+                    data?.email === show && setShow();
+                  }}
+                >
+                  {show === data?.email ? 'show' : 'hide'}
                 </span>
-              </li>
-              <li>
-                <i className="fas fa-envelope"></i> {data?.mail}
-              </li>
-              <li>
-                <i className="fas fa-fax"></i> {data?.pinCode}
               </li>
             </ul>
             <Link href={`/pro/${type}/${data?.id}`}>
-              View profile <i className="fas fa-arrow-right"></i>
+              View profile <i className='fas fa-arrow-right'></i>
             </Link>
           </div>
-        </div>
+        </div></Link>
       ) : (
-        <ContentLoader className="skeleton-svg">
+        <ContentLoader className='skeleton-svg'>
           {setTimeout(() => {
             setLoad(false);
           }, 2000)}
-          <rect className="skeleton-img" />
-          <rect className="skeleton-c1" />
-          <rect className="skeleton-c2" />
-          <rect className="skeleton-c3" />
+          <rect className='skeleton-img' />
+          <rect className='skeleton-c1' />
+          <rect className='skeleton-c2' />
+          <rect className='skeleton-c3' />
         </ContentLoader>
       )}
     </>
