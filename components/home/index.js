@@ -11,7 +11,7 @@ const BodyContent = () => {
   const [vendorServices, setVendorServices] = useState([]);
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/specializations`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/specializations?homePage=True`)
     .then((res) => {
       setVendorServices(res.data);
     })

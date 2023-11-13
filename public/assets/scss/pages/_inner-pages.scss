@@ -395,7 +395,7 @@
       .media {
         .offer-icon {
           transition: 0.5s;
-          background-color: unset;
+          background-color: var(--theme-default);
 
           &::before {
             animation-name: bubble;
