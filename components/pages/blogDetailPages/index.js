@@ -5,20 +5,19 @@ import BlogTitle from "./BlogTitle";
 import DetailsProperty from "./DetailsProperty";
 import Filter from "../../../layout/sidebarLayout/Filter";
 
-const BodyContent = (props) => {
+const BodyContent = ({ blog, side, children }) => {
   return (
     <section className="ratio_40">
       <Container>
         <Row>
-          <Col xl={props.side ? "9" : "12"} lg={props.side ? "8" : ""} className=" order-lg-1">
+          <Col xl={side ? "9" : "12"} lg={side ? "8" : ""} className=" order-lg-1">
             <div className="blog-single-detail theme-card">
-              {props.children}
-              <BlogTitle />
-              <DetailsProperty />
+              {children}
+              <DetailsProperty body={blog?.body}/>
             </div>
           </Col>
-          {props.side && (
-            <Sidebar side={props.side}>
+          {side && (
+            <Sidebar side={side}>
              <Filter />
             </Sidebar>
           )}
