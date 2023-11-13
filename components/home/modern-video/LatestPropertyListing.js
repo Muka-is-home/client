@@ -1,7 +1,7 @@
 import React from "react";
 import { Gallery } from "react-photoswipe-gallery";
 import { Col, Container, Row } from "reactstrap";
-import { Discover, property } from "../../../constValues/constValues";
+import { Discover, property } from "../../../data/constValues";
 import PropertyBoxSeven from "../../elements/propertyBoxs/PropertyBoxSeven";
 
 const LatestPropertyListingSection = ({ value }) => {

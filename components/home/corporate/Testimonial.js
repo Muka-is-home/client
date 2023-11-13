@@ -5,7 +5,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { PropertyServicesDetail } from "../../../constValues/constValues";
+import { PropertyServicesDetail } from "../../../data/constValues";
 import { testimonial3 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 import ReviewStarr from "../../elements/ReviewStarr";

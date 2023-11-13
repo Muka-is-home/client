@@ -7,7 +7,7 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { MeetOurAgent, PropertyServicesDetail } from "../../../constValues/constValues";
+import { MeetOurAgent, PropertyServicesDetail } from "../../../data/constValues";
 import { about3 } from "../../../data/slickSlider";
 import Img from "../../../utils/BackgroundImageRatio";
 import NoSsr from "../../../utils/NoSsr";

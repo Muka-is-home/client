@@ -9,7 +9,7 @@ import PropertyBoxFour from "../../../elements/propertyBoxs/PropertyBoxFour";
 import ProductBoxFour from "../../../elements/propertyBoxs/productBox";
 
 const BodyContent = () => {
-  const [style, listSize, size] = ["list-view", 2,3];
+  const [style, listSize, size] = ["grid-view", 2,3];
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
   useEffect(() => {
     gridDispatch({ type: "gridSize", payload: size });
@@ -22,19 +22,19 @@ const BodyContent = () => {
         <Row className="row ratio2_3">
           <Col className="property-grid-3 agent-grids">
 
-            <Header title="Store" grid={grid} gridDispatch={gridDispatch} gridBar={true} />
+            <Header title="Store" grid={grid} gridDispatch={gridDispatch} gridBar={false} />
             <div className={`property-wrapper-grid ${grid.gridStyle === "list-view" ? "list-view" : ""}`}>
               <div className={`property-2 row column-sm property-label property-grid ${grid.gridStyle === "list-view" ? "list-view" : ""} `}>
                 {products &&
-                  products?.map((product, i) => (
+                  products?.map((product) => (
                     <Col
                       sm={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
-                      md={grid.gridStyle === 'list-view' && '12'}
-                      lg={grid.gridStyle === "grid-view" && ((grid.gridSize === 2 && "6") || ((grid.gridSize === 3 || 4) && "4"))}
-                      xl={grid.gridStyle === "list-view" && listSize === 2 && "6"}
-                      xxl={grid.gridStyle === "grid-view" && grid.gridSize === 4 && "3"}
+                      md={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
+                      lg={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
+                      xl={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
+                      xxl={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
                       className={`${grid.gridStyle === "list-view" ? "list-view" : ""} wow fadeInUp grid-view `}
-                      key={i}>
+                      key={product.id}>
                       <ProductBoxFour data={product} />
                     </Col>
                   ))}

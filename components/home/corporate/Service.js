@@ -6,7 +6,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail, providerServices } from "../../../constValues/constValues";
+import { LatestPropertyDetail, providerServices } from "../../../data/constValues";
 
 const ServiceSection = ({ value }) => {
   return (

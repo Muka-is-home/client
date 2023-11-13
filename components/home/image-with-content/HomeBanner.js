@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { SubmitProperty } from "../../../constValues/constValues";
+import { SubmitProperty } from "../../../data/constValues";
 
 const data = [{ className: "fnc-slide-1" }, { className: "fnc-slide-2" }, { className: "fnc-slide-3" }];
 const HomeBannerSection = () => {

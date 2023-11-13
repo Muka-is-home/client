@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../../../utils/BackgroundImageRatio';
+import ProductImg from '../../../utils/ProductBackgroundImageRatio';
 
 const ProductBoxFour = ({ data }) => {
   return (
@@ -7,7 +7,7 @@ const ProductBoxFour = ({ data }) => {
       <div className='property-box'>
         <div className='agent-image'>
           <div>
-            <Img src={data?.image || ''} className='bg-img' alt='' />
+            <ProductImg src={data?.image || ''} className='bg-img' alt='' />
             {data?.sale && <span className='label label-shadow'>SALE</span>}
           </div>
         </div>

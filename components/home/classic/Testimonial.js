@@ -9,7 +9,7 @@ import { Col, Container, Row } from "reactstrap";
 import Link from "next/link";
 import { commentRight, imgTestimonial } from "../../../data/slickSlider";
 import ReviewStarr from "../../../components/elements/ReviewStarr";
-import { LatestPropertyDetail, OurHappyClient } from "../../../constValues/constValues";
+import { LatestPropertyDetail, OurHappyClient } from "../../../data/constValues";
 import NoSsr from "../../../utils/NoSsr";
 
 const TestimonialSection = ({ value }) => {

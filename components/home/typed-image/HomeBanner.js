@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "reactstrap";
 import Typed from "typed.js";
-import { WantToBuyOrRentHome } from "../../../constValues/constValues";
+import { WantToBuyOrRentHome } from "../../../data/constValues";
 import WhatAreYouLookingFor from "../../elements/WhatAreYouLookingFor";
 
 const HomeBannerSection = () => {
