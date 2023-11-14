@@ -5,7 +5,7 @@ import { gridReducer, initialGrid } from "../../../listing/gridView/grid/gridRed
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import { products } from '../../../../data/pages/storePage';
-import ProductBoxFour from "../../../elements/propertyBoxs/productBox";
+import ProductBoxFour from "../../../elements/propertyBoxs/ProductBox";
 
 const BodyContent = () => {
   const [style, listSize, size] = ["grid-view", 2,3];
