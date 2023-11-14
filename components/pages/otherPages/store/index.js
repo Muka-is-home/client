@@ -5,7 +5,6 @@ import { gridReducer, initialGrid } from "../../../listing/gridView/grid/gridRed
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import { products } from '../../../../data/pages/storePage';
-import PropertyBoxFour from "../../../elements/propertyBoxs/PropertyBoxFour";
 import ProductBoxFour from "../../../elements/propertyBoxs/productBox";
 
 const BodyContent = () => {
