@@ -5,7 +5,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { CEOofDesees, docuts, WhatPeopleSay } from "../../../constValues/constValues";
+import { CEOofDesees, docuts, WhatPeopleSay } from "../../../data/constValues";
 import { testimonial1 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 

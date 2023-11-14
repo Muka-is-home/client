@@ -6,7 +6,7 @@
  */
 import React, { useState } from "react";
 import { Col, Container, Nav, NavItem, NavLink, Row, TabContent, TabPane } from "reactstrap";
-import { Discover, WhatAreYouLookingFor } from "../../../constValues/constValues";
+import { Discover, WhatAreYouLookingFor } from "../../../data/constValues";
 import ModernTabSection from "./propertyTab/ModernTab";
 
 const PropertyTabSection = ({ value }) => {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { aboutMoving } from "../../../constValues/constValues";
+import { aboutMoving } from "../../../data/constValues";
 import InputForm from "../slider-filter-search/homeElements/InputForm";
 
 const HomeBannerSection = () => {

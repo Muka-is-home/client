@@ -6,7 +6,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { Realestate, SubmitProperty } from "../../../constValues/constValues";
+import { Realestate, SubmitProperty } from "../../../data/constValues";
 
 const BannerSection = ({ banner }) => {
   return (

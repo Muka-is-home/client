@@ -6,7 +6,7 @@
  */
 import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail, ListingProperty } from "../../../constValues/constValues";
+import { LatestPropertyDetail, ListingProperty } from "../../../data/constValues";
 import PropertyBoxSix from "../../elements/propertyBoxs/PropertyBoxSix";
 
 const ListingPropertySection = ({ value }) => {

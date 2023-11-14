@@ -4,7 +4,6 @@ import FeaturedPropertySection from "../../home/classic/FeaturedProperty";
 import FeaturedPropertySectionOne from "../../home/corporate/FeatureProperty";
 import FeatureSection from "../../home/Feature";
 import FeatureSectionOne from "../../home/enterprise/Feature";
-import { AppPropertyData } from "../../../data/appPropertyData";
 
 const BodyContent = () => {
   const [value, setValue] = useState();
@@ -18,12 +17,12 @@ const BodyContent = () => {
   }, []);
   return (
     <>
-      <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
+      {/* <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
       <div className="section-pb">
         <FeatureSection value={value?.FeaturedProperty} />
       </div>
       <FeaturedPropertySectionOne value={value?.FeaturedPropertyInCorporateLayout} />
-      <FeatureSectionOne value={AppPropertyData.FeaturedCitiesInEnterprise} />
+      <FeatureSectionOne value={AppPropertyData.FeaturedCitiesInEnterprise} /> */}
     </>
   );
 };

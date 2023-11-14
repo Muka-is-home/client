@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { Realestate } from "../../../constValues/constValues";
+import { Realestate } from "../../../data/constValues";
 import { homeNav, homeSlider4 } from "../../../data/slickSlider";
 import Img from "../../../utils/BackgroundImageRatio";
 import NoSsr from "../../../utils/NoSsr";

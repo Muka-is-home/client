@@ -5,7 +5,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { Realestate, StayUpToDate, VideoDetail } from "../../../constValues/constValues";
+import { Realestate, StayUpToDate, VideoDetail } from "../../../data/constValues";
 
 const SubscribeSection = () => {
   return (

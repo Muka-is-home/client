@@ -2,9 +2,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Col, Row } from "reactstrap";
 import { DropdownInputFields } from "../../elements/DropdownInputFields";
-import { SearchForm } from "../../../data/searchForm";
 import { getData } from "../../../utils/getData";
 import { useRouter } from "next/router";
+
+const SearchForm =  { name: "propertyStatus", label: "Select A Professional", size: "12", options: ["Realtor", "Vendor"] }
 
 const InputForm = () => {
   const [filterValues, setFilterValues] = useState({});

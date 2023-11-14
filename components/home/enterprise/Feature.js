@@ -6,7 +6,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { FeaturedCities, proCity } from "../../../constValues/constValues";
+import { FeaturedCities, proCity } from "../../../data/constValues";
 import { feature2 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 

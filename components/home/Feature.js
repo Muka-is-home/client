@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { Featured, FeaturedProperty } from "../../../constValues/constValues";
+import { Featured, FeaturedProperty } from "../../../data/constValues";
 import { feature1 } from "../../../data/slickSlider";
 import Img from "../../../utils/BackgroundImageRatio";
 import NoSsr from "../../../utils/NoSsr";

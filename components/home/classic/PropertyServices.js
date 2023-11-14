@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { PropertyServices, PropertyServicesDetail } from "../../../constValues/constValues";
+import { PropertyServices, PropertyServicesDetail } from "../../../data/constValues";
 import { serviceSlider } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 
