@@ -3,7 +3,6 @@
  * @returns The return value of the function is the value of the last expression in the function body.
  */
 import React, { useEffect, useState } from "react";
-import { AppPropertyData } from "../../../data/appPropertyData";
 import { getData } from "../../../utils/getData";
 import FeaturedPropertySection from "../classic/FeaturedProperty";
 import LatestPropertySection from "../classic/LatestProperty";
@@ -34,7 +33,7 @@ const BodyContent = () => {
   }, []);
   return (
     <>
-      <HomeBannerSection />
+      {/* <HomeBannerSection />
       <SalePropertySection value={value?.LatestForSalePropertyData} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
       <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
@@ -43,7 +42,7 @@ const BodyContent = () => {
       <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />
       <SubscribeSection />
       <AboutSection value={clientData?.OurAgentInClassicLayout} />
-      <BrandSection />
+      <BrandSection /> */}
     </>
   );
 };

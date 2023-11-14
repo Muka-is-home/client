@@ -11,7 +11,6 @@ import CitiesWisePropertySection from "../slider-filter-search/CitiesWisePropert
 import TestimonialSection from "../slider-filter-search/Testimonial";
 import AboutSection from "../slider-filter-search/About";
 import OfferSection from "../slider-filter-search/Offer";
-import { AppPropertyData } from "../../../data/appPropertyData";
 import BrandSection from "./Brand";
 import HomeBannerSection from "./HomeBanner";
 
@@ -33,7 +32,7 @@ const BodyContent = () => {
   }, []);
   return (
     <>
-      <HomeBannerSection />
+      {/* <HomeBannerSection />
       <PropertySection value={value?.LatestPropertyData} />
       <FeatureSection value={value?.FeaturedProperty} />
       <PropertySection value={value?.LatestPropertyData} range={[1, 4]} />
@@ -42,7 +41,7 @@ const BodyContent = () => {
       <TestimonialSection value={clientData?.HappyClient} normal={false} />
       <AboutSection value={clientData?.MeetOurAgent} />
       <OfferSection value={AppPropertyData.OurNewOffer} />
-      <BrandSection />
+      <BrandSection /> */}
     </>
   );
 };

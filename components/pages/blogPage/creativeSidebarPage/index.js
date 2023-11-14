@@ -20,10 +20,11 @@ const BodyContent = ({ side }) => {
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    // FIXME: update to env 
+    getData(`http://localhost:8000/api/content`)
       .then((res) => {
-        setValue(res.data.LatestBlogInCorporate);
-        gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.LatestBlogInCorporate.length / 4) });
+        setValue(res.data);
+        gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.length / 4) });
       })
       .catch((error) => console.log("Error", error));
   }, []);
@@ -44,18 +45,18 @@ const BodyContent = ({ side }) => {
                     <div className="blog-wrap wow fadeInUp">
                       <div className={`blog-image ${i % 2 !== 0 ? "order-md-1" : ""} `}>
                         <div>
-                          <Img src={data.img} className="bg-img img-fluid" alt="" />
+                          <Img src={data.image} className="bg-img img-fluid" alt="" />
                         </div>
                       </div>
                       <div className="blog-details">
                         <div>
-                          <span>
+                          {/* <span>
                             <MapPin /> {data.place}
-                          </span>
+                          </span> */}
                           <h3>
-                            <Link href="/WIP/resource/add-id">{data.title}</Link>
+                            <Link href={`/resource/${data.id}`}>{data.title}</Link>
                           </h3>
-                          <p className="font-primary">{data.detail}</p>
+                          <p className="font-primary">{data.body.slice(0, 150)}...</p>
 
                           <Link href={`/resource/${data.id}`}>read more</Link>
                         </div>

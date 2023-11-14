@@ -4,7 +4,7 @@
  */
 import Link from "next/link";
 import React from "react";
-import { SubmitProperty, WantToBuyOrRentHome } from "../../../constValues/constValues";
+import { SubmitProperty, WantToBuyOrRentHome } from "../../../data/constValues";
 
 const HomeSliderContent = ({ img, mainTitle }) => {
   return (

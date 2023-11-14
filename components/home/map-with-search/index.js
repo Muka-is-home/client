@@ -7,7 +7,6 @@
  * @returns The return value of the function is the value of the last expression in the function body.
  */
 import React, { useEffect, useState } from "react";
-import { AppPropertyData } from "../../../data/appPropertyData";
 import { getData } from "../../../utils/getData";
 import BrandSection from "../classic/Brand";
 import FeaturedPropertySection from "../classic/FeaturedProperty";
@@ -40,7 +39,7 @@ const BodyContent = ({ map }) => {
   }, []);
   return (
     <>
-      {map === "VSearch" ? <HomeBannerVSearchMapSection /> : <HomeBannerHSearchMapSection />}
+      {/* {map === "VSearch" ? <HomeBannerVSearchMapSection /> : <HomeBannerHSearchMapSection />}
       {map !== "VSearch" && <MapFilter />}
       <LatestPropertySection value={value?.LatestPropertyInClassicLayout} />
       <FeaturedPropertySection value={value?.FeaturedPropertyInClassicLayout} />
@@ -50,7 +49,7 @@ const BodyContent = ({ map }) => {
       <AboutSection value={clientData?.OurAgentInClassicLayout} />
       <SubscribeSection />
       <TestimonialSection value={clientData?.OurHappyClientInClassicLayout} />
-      <BrandSection />
+      <BrandSection /> */}
     </>
   );
 };

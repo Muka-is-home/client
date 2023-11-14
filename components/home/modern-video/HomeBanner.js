@@ -5,7 +5,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { aboutMoving, Realestate } from "../../../constValues/constValues";
+import { aboutMoving, Realestate } from "../../../data/constValues";
 import InputForm from "../slider-filter-search/homeElements/InputForm";
 
 const HomeBannerSection = () => {

@@ -3,7 +3,7 @@
  * @returns A React component
  */
 import { Col, Container, Row } from "reactstrap";
-import { propertyDescription, propertyListing } from "../../../constValues/constValues";
+import { propertyDescription, propertyListing } from "../../../data/constValues";
 import PropertyBoxThree from "../../elements/propertyBoxs/PropertyBoxThree";
 
 const PropertySection = ({ value, size }) => {

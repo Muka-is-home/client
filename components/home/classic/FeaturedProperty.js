@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import { feature4 } from "../../../data/slickSlider";
 import Img from "../../../utils/BackgroundImageRatio";
-import { FeaturedProperty } from "../../../constValues/constValues";
+import { FeaturedProperty } from "../../../data/constValues";
 import NoSsr from "../../../utils/NoSsr";
 
 const FeaturedPropertySection = ({ value }) => {

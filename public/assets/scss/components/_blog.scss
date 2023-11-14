@@ -435,9 +435,10 @@
   .details-property {
     p {
       margin-bottom: calc(10px + (25 - 10) * ((100vw - 300px) / (1920 - 300)));
-      line-height: calc(20px + (24 - 20) * ((100vw - 300px) / (1920 - 300)));
-      font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
       font-family: $font_primary_regular, sans-serif;
+      font-size: 1.4em;
+      line-height: inherit;
+      white-space: pre-wrap;
     }
   }
 

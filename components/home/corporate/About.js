@@ -7,7 +7,7 @@ import React from "react";
 import { Eye, Mail } from "react-feather";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail } from "../../../constValues/constValues";
+import { LatestPropertyDetail } from "../../../data/constValues";
 import { about2 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 import SocialAccounts from "../../elements/SocialAccounts";

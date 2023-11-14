@@ -6,7 +6,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { Discover, PropertyServices } from "../../../constValues/constValues";
+import { Discover, PropertyServices } from "../../../data/constValues";
 
 const PropertyServicesSection = ({ value }) => {
   return (

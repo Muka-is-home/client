@@ -12,7 +12,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { BannerDetail, BrowseProperty, BuyOrSell, SheltosRealEstate, SubmitProperty } from "../../constValues/constValues";
+import { BannerDetail, BrowseProperty, BuyOrSell, SheltosRealEstate, SubmitProperty } from "../../data/constValues";
 
 const BannerSection = ({ purple }) => {
   return (
