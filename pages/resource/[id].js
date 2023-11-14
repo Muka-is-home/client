@@ -15,8 +15,7 @@ const RightSidebar = () => {
   const router = useRouter();
   const { id } = router.query;
   useEffect(() => {
-  // FIXME: update to env
-    getData(`http://localhost:8000/api/content?filter=${id}&field=id`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/content?filter=${id}&field=id`)
       .then((res) => {
         setBlog(res.data[0]);
       })

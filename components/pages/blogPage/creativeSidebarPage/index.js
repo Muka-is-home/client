@@ -20,8 +20,7 @@ const BodyContent = ({ side }) => {
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
 
   useEffect(() => {
-    // FIXME: update to env 
-    getData(`http://localhost:8000/api/content`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/content`)
       .then((res) => {
         setValue(res.data);
         gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.length / 4) });
