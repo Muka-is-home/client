@@ -1,18 +1,26 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useEffect, useReducer, useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import Header from "../../../../layout/sidebarLayout/Header";
 import { gridReducer, initialGrid } from "../../../listing/gridView/grid/gridReducer";
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
-import { products } from '../../../../data/pages/storePage';
+// import { products } from '../../../../data/pages/storePage';
 import ProductBoxFour from "../../../elements/propertyBoxs/ProductBox";
+import { getData } from "../../../../utils/getData";
 
 const BodyContent = () => {
+  const [products, setProducts] = useState([]);
   const [style, listSize, size] = ["grid-view", 2,3];
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
   useEffect(() => {
     gridDispatch({ type: "gridSize", payload: size });
     gridDispatch({ type: "gridStyle", payload: style || "grid-view" });
+
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/shop`)
+      .then((res) => {
+        setProducts(res.data);
+      })
+      .catch((error) => console.log("Error", error));
   }, []);
   return (
     <>

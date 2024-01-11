@@ -23,7 +23,7 @@ export const HomePageData = {
       details:
         "Muka gives you the platform to reach your community and share your expertise with clients that you can relate to. Apply now or some other CTA",
       img: "/assets/images/others/icon-2.png",
-      buttonText: "Button Text",
+      buttonText: "Join Muka",
       url: "/"
     },
     {
