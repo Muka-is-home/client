@@ -57,7 +57,7 @@ const BodyContent = ({ proObject }) => {
                             </div>
                             <div className='media-body'>
                               <h6>
-                                <a href={`mailto:${proObject.email}?subject=Muka Site Message`} target='_blank'>
+                                <a href={`mailto:${proObject.email}?subject=Muka Site Message`}>
                                   {proObject.email}
                                 </a>
                               </h6>

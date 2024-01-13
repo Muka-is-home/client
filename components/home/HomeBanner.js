@@ -25,7 +25,7 @@ const HomeBannerSection = () => {
                     <h1>{HomePageData.subHeading}</h1>
                     {/* <h3>{HomePageData.subHeading}</h3> */}
                   </div>
-                  <div className="home-search-6">
+                  <div className="home-search-6 hide-on-mobile">
                     <div className="vertical-search">
                       <div className="left-sidebar">
                         {/* <h5>Find a trusted professional</h5> */}

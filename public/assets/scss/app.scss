@@ -146,3 +146,9 @@ button.rest-btn, a.ff-powered-img img {
 #ff-submit-root {
 	display: block !important;
 }
+
+@media (max-device-width : 980px) {
+	.hide-on-mobile {
+		display: none;
+	}
+}
