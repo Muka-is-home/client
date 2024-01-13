@@ -17,7 +17,6 @@ const ProProfile = () => {
   const router = useRouter()
   const {type, id} = router.query;
 
-  // TODO: MODIFY TO MAKE CALL TO API USING THE ID AND GET USER DETAILS
   useEffect(() => {
     getData(`${process.env.NEXT_PUBLIC_API_URL}/${type}/${id}`)
     .then((res) => {

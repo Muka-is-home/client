@@ -13,7 +13,7 @@ const ProductBoxFour = ({ data }) => {
         </div>
         <div className='agent-content'>
           <h3>{data?.name}</h3>
-          <p>{data.price}</p>
+          <p>${data.price}</p>
           <p>{data.description}</p>
           <a target='_blank' href={data.link}>
             BUY NOW <i className='fas fa-arrow-right'></i>

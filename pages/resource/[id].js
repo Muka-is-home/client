@@ -28,8 +28,10 @@ const RightSidebar = () => {
       <Breadcrumb />
       <BodyContent side={"right"} blog={blog}>
         <div className="blog-detail-image">
-          {/* <Img src={blog.image} className="bg-img img-fluid" alt="" /> */}
+          <Img src={blog.image} className="bg-img img-fluid" alt="" />
         </div>
+        <h1 style={{padding: '20px 10px 10px'}}>{blog.title}</h1>
+        <h4 style={{padding: '10px 10px', margin: '0', color: 'darkgray'}}>{blog.author}</h4>
       </BodyContent>
       <FooterThree />
     </>

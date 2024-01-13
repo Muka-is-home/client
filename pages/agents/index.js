@@ -23,7 +23,10 @@ const AgentList = () => {
     if (state && county) {
       getData(`${process.env.NEXT_PUBLIC_API_URL}/search?userType=Realtor&state=${state}&county=${county}`)
       .then((res) => {
-        setClientData(res.data);
+        const jsonObject = res.data.map(JSON.stringify);
+        const uniqueSet = new Set(jsonObject);
+        const uniqueArray = Array.from(uniqueSet).map(JSON.parse);
+        setClientData(uniqueArray);
       })
       .catch((error) => console.log("Error", error));
     } else {

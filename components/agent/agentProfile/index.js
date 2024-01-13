@@ -15,35 +15,35 @@ const BodyContent = ({ proObject }) => {
               <Row>
                 <Col sm='6' className=' ratio_landscape'>
                   <div className='agent-image bg-size'>
-                    <Img src='/assets/images/avatar/5.jpg' className='img-fluid bg-img' alt='' />
+                    <Img src={proObject.image || 'https://placehold.co/600x400?text=Image+Not+Available'} className='img-fluid bg-img' alt='' />
                   </div>
                 </Col>
                 <Col sm='6'>
                   <div className='our-agent-details'>
                     <h3 className='f-w-600'>{proObject.name}</h3>
-                    <h6>{proObject.title}</h6>
+                    <h6>{proObject.user_type?.name}</h6>
                     <ul>
-                      {proObject.state ? (
+                      {proObject.company_address ? (
                         <li>
                           <div className='media'>
                             <div className='icons-square'>
                               <MapPin />
                             </div>
                             <div className='media-body'>
-                              <h6>{proObject.state}</h6>
+                              <h6>{proObject.company_address}</h6>
                             </div>
                           </div>
                         </li>
                       ) : null}
 
-                      {proObject.phone ? (
+                      {proObject.company_phone ? (
                         <li>
                           <div className='media'>
                             <div className='icons-square'>
                               <PhoneCall />
                             </div>
                             <div className='media-body'>
-                              <h6 href={`tel:${proObject.phone}`}>${proObject.phone}</h6>
+                              <h6 href={`tel:${proObject.company_phone}`}>${proObject.company_phone}</h6>
                             </div>
                           </div>
                         </li>
@@ -85,21 +85,29 @@ const BodyContent = ({ proObject }) => {
                     </ul>
                   </div>
                   <ul className='agent-social'>
-                    <li>
-                      <a href='https://www.facebook.com/' className='facebook'>
-                        <i className='fab fa-facebook-f'></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://twitter.com/' className='twitter'>
-                        <i className='fab fa-twitter'></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://www.linkedin.com/' className='linkedin'>
-                        <i className='fab fa-linkedin-in'></i>
-                      </a>
-                    </li>
+                    {proObject.facebook && (
+                      <li>
+                        <a href={proObject.facebook} target="_blank" className='facebook'>
+                          <i className='fab fa-facebook-f'></i>
+                        </a>
+                      </li>
+                    )}
+
+                    {proObject.instagram && (
+                      <li>
+                        <a href={proObject.instagram} target="_blank" className='facebook'>
+                          <i className='fab fa-instagram'></i>
+                        </a>
+                      </li>
+                    )}
+
+                    {proObject.tiktok && (
+                      <li>
+                        <a href={proObject.tiktok} target="_blank" className='facebook'>
+                          <i className='fab fa-tiktok'></i>
+                        </a>
+                      </li>
+                    )}
                   </ul>
                 </Col>
               </Row>
