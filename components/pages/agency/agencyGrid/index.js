@@ -25,7 +25,7 @@ const BodyContent = ({ title, clientData, listSize, size, style }) => {
             <Header title={title} grid={grid} gridDispatch={gridDispatch} gridBar={true} />
             <div className={`property-wrapper-grid ${grid.gridStyle === "list-view" ? "list-view" : ""}`}>
               <div className={`property-2 row column-sm property-label property-grid ${grid.gridStyle === "list-view" ? "list-view" : ""} `}>
-                {clientData &&
+                {clientData?.length ?
                   clientData.map((data, i) => (
                     <Col
                       sm={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
@@ -37,7 +37,9 @@ const BodyContent = ({ title, clientData, listSize, size, style }) => {
                       key={i}>
                       <PropertyBoxFour type={title.toLowerCase()} data={data} />
                     </Col>
-                  ))}
+                  )):
+                  <p>NO AVAILABLE LISTINGS</p>
+                  }
               </div>
             </div>
           </Col>
