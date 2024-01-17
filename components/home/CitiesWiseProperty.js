@@ -5,7 +5,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { City, FindPropertiesInTheseCities } from "../../../constValues/constValues";
+import { City, FindPropertiesInTheseCities } from "../../../data/constValues";
 import Img from "../../../utils/BackgroundImageRatio";
 import NoSsr from "../../../utils/NoSsr";
 

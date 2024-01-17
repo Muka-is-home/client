@@ -8,7 +8,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { freeDownload, homeSearch, searchAnyTime } from "../../../constValues/constValues";
+import { freeDownload, homeSearch, searchAnyTime } from "../../../data/constValues";
 import Img from "../../../utils/BackgroundImageRatio";
 
 const ParallaxBannerSection = () => {

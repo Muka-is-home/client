@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { LatestBlog, proCity } from "../../../constValues/constValues";
+import { LatestBlog, proCity } from "../../../data/constValues";
 import { blog1 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 

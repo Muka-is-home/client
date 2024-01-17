@@ -11,23 +11,23 @@ export const MainNavMenuItems = [
   },
   {
     title: "AGENTS",
-    path: "/WIP/agents",
+    path: "/agents",
     type: "link"
   },
   {
     title: "Vendors",
-    path: "/WIP/vendors",
+    path: "/vendors",
     type: "link",
   },
   {
-    title: "AGENT/VENDOR Details",
-    path: "/WIP/pro/id",
+    title: "Shop",
+    path: "/store",
     type: "link",
   },
   {
     title: "RESOURCES",
     type: "link",
-    path: "/WIP/resources"
+    path: "/resources"
   },
   {
     title: "CONTACT",

@@ -5,7 +5,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { docuts, WhatPeopleSay } from "../../constValues/constValues";
+import { docuts, WhatPeopleSay } from "../../data/constValues";
 
 const TestimonialSection = ({ value, normal }) => {
   return (

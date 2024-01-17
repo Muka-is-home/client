@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import { useSelector } from "react-redux";
 import { Col, Container, Row } from "reactstrap";
-import { SubmitProperty } from "../../../constValues/constValues";
+import { SubmitProperty } from "../../../data/constValues";
 
 const HomeBannerHSearchMapSection = () => {
   const { symbol, currencyValue } = useSelector((state) => state.currencyReducer);

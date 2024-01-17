@@ -9,7 +9,6 @@ import React, { useEffect, useReducer, useState } from "react";
 import { MapPin } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
 import Pagination from "../../../../layout/Pagination";
-import PopularTags from "../../../../layout/sidebarLayout/PopularTags";
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import Img from "../../../../utils/BackgroundImageRatio";
@@ -21,10 +20,10 @@ const BodyContent = ({ side }) => {
   const [grid, gridDispatch] = useReducer(gridReducer, initialGrid);
 
   useEffect(() => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/property`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/content`)
       .then((res) => {
-        setValue(res.data.LatestBlogInCorporate);
-        gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.LatestBlogInCorporate.length / 4) });
+        setValue(res.data);
+        gridDispatch({ type: "totalPages", payload: Math.ceil(res.data.length / 4) });
       })
       .catch((error) => console.log("Error", error));
   }, []);
@@ -35,7 +34,6 @@ const BodyContent = ({ side }) => {
           {side && (
             <Sidebar side={side}>
               <Filter />
-              <PopularTags />
             </Sidebar>
           )}
           <Col xl={side ? "9" : "12"} lg={side ? "8" : "12"}>
@@ -46,20 +44,20 @@ const BodyContent = ({ side }) => {
                     <div className="blog-wrap wow fadeInUp">
                       <div className={`blog-image ${i % 2 !== 0 ? "order-md-1" : ""} `}>
                         <div>
-                          <Img src={data.img} className="bg-img img-fluid" alt="" />
+                          <Img src={data.image} className="bg-img img-fluid" alt="" />
                         </div>
                       </div>
                       <div className="blog-details">
                         <div>
-                          <span>
+                          {/* <span>
                             <MapPin /> {data.place}
-                          </span>
+                          </span> */}
                           <h3>
-                            <Link href="/WIP/resource/add-id">{data.title}</Link>
+                            <Link href={`/resource/${data.id}`}>{data.title}</Link>
                           </h3>
-                          <p className="font-primary">{data.detail}</p>
+                          <p className="font-primary">{data.body.slice(0, 150)}...</p>
 
-                          <Link href="/WIP/resource/add-id">read more</Link>
+                          <Link href={`/resource/${data.id}`}>read more</Link>
                         </div>
                       </div>
                     </div>

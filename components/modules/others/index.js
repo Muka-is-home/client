@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { AppPropertyData } from "../../../data/appPropertyData";
 import { getData } from "../../../utils/getData";
 import SubscribeSection from "../../home/classic/Subscribe";
 import VideoSection from "../../home/classic/Video";
@@ -19,12 +18,12 @@ const BodyContent = () => {
   }, []);
   return (
     <>
-      <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
+      {/* <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} /> */}
       {/* <OfferSection value={AppPropertyData.OurNewOffer} /> */}
-      <VideoSection />
+      {/* <VideoSection />
       <PropertyOfTheDaySection value={value?.PropertyOfTheDay} />
       <PricingSection value={AppPropertyData.PricingPlan} />
-      <SubscribeSection />
+      <SubscribeSection /> */}
     </>
   );
 };

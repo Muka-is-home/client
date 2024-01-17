@@ -9,7 +9,7 @@ import Link from "next/link";
 import React from "react";
 import { useSelector } from "react-redux";
 import { Col, Container, Row } from "reactstrap";
-import { Discover, PropertyOfTheDay } from "../../../constValues/constValues";
+import { Discover, PropertyOfTheDay } from "../../../data/constValues";
 import ImageSlider from "../../elements/ImageSlider";
 
 const PropertyOfTheDaySection = ({ value }) => {

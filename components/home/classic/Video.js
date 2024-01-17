@@ -9,7 +9,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import { Button, Modal, ModalBody } from "reactstrap";
-import { AreYouWorried, SearchNow, SlickAboutMovingOut, VideoDetail } from "../../../constValues/constValues";
+import { AreYouWorried, SearchNow, SlickAboutMovingOut, VideoDetail } from "../../../data/constValues";
 
 const VideoSection = () => {
   const [modal, setModal] = useState(false);

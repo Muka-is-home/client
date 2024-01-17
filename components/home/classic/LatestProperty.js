@@ -6,7 +6,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail } from "../../../constValues/constValues";
+import { LatestPropertyDetail } from "../../../data/constValues";
 import { property4 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 import PropertyBoxFive from "../../elements/propertyBoxs/PropertyBoxFive";

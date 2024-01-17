@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 import { Button, Col, Container, Row } from "reactstrap";
 import Link from "next/link";
 import WhatAreYouLookingFor from "../../elements/WhatAreYouLookingFor";
-import { VideoDetail, WantToBuyOrRentHome } from "../../../constValues/constValues";
+import { VideoDetail, WantToBuyOrRentHome } from "../../../data/constValues";
 
 const HomeBannerSection = () => {
   const el = useRef(null);
