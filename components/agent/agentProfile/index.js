@@ -43,7 +43,7 @@ const BodyContent = ({ proObject }) => {
                               <PhoneCall />
                             </div>
                             <div className='media-body'>
-                              <h6 href={`tel:${proObject.company_phone}`}>${proObject.company_phone}</h6>
+                              <h6 href={`tel:${proObject.company_phone}`}>{proObject.company_phone}</h6>
                             </div>
                           </div>
                         </li>
