@@ -32,7 +32,7 @@ const BodyContent = () => {
             <Header title="Store" grid={grid} gridDispatch={gridDispatch} gridBar={false} />
             <div className={`property-wrapper-grid ${grid.gridStyle === "list-view" ? "list-view" : ""}`}>
               <div className={`property-2 row column-sm property-label property-grid ${grid.gridStyle === "list-view" ? "list-view" : ""} `}>
-                {products &&
+                {products.length ?
                   products?.map((product) => (
                     <Col
                       sm={grid.gridStyle === "grid-view" && (grid.gridSize === 3 || 4) && "6"}
@@ -44,7 +44,8 @@ const BodyContent = () => {
                       key={product.id}>
                       <ProductBoxFour data={product} />
                     </Col>
-                  ))}
+                  )):
+                  <p>NO AVAILABLE PRODUCTS</p>}
               </div>
             </div>
           </Col>
