@@ -1,14 +1,14 @@
 export const HomePageData = {
   mainHeading: "We're bridging the gap in minority homeownership",
   subHeading:
-    "Connect with minority home buyers, sellers, and industry professionals",
+    "Connect with minority home buyers, sellers, and industry professionals.",
   ourStoryHeading: "Built for you by a family of minority realtors.",
   ourStoryText:
     "We're carrying on the legacy of the matriarch of our family who sowed a seed as an African-American realtor in the 1980's and 1990's. Muka is that seed fully bloomed.",
   youTubeVideoID: 'FdNstFhQHk4', // if left empty string, will not show
   vendorHeading: "Connect with Minority Vendors",
   vendorText:
-    "Our network of trusted professionals share a commitment to fostering diversity and empowerment within the industry",
+    "Our network of trusted professionals share commitment to fostering diversity and empowerment within the industry",
   sliders: [
     {
       title: "Looking for a Realtor?",
