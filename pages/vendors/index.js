@@ -15,7 +15,7 @@ import NavbarThree from "../../layout/headers/NavbarOne";
 import { getData } from "../../utils/getData";
 
 const AgentList = () => {
-  const [clientData, setClientData] = useState();
+  const [clientData, setClientData] = useState([]);
 
 
   const searchParams = useSearchParams()
@@ -48,7 +48,7 @@ const AgentList = () => {
     <>
       <NavbarThree />
       <Breadcrumb />
-      <BodyContent title={"Vendors"} clientData={clientData} style={"list-view"} listSize={2} size={3} />
+      <BodyContent title={"Vendors"} clientData={clientData} style={"list-view"} size={3} />
       <FooterThree />
     </>
   );

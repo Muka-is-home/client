@@ -36,13 +36,13 @@ const Header = ({ grid, mapView, mapModal, gridBar, tabHeader, title, AdvancedSe
         ) : (
           <div>
             <h2>{title}</h2>
-            <span className="show-result">
+            {/* <span className="show-result">
               Showing{" "}
               <span>
                 {(title === "Agency Listing" ? 9 : 6) * (grid?.toPage || 1) - (title === "Agency Listing" ? 9 : 6)}-{(title === "Agency Listing" ? 9 : 6) * (grid?.toPage || 1) > productCount ? productCount : (title === "Agency Listing" ? 9 : 6) * (grid?.toPage || 1)} of {productCount}
               </span>{" "}
               Listings
-            </span>
+            </span> */}
           </div>
         )}
 
