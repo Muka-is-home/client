@@ -24,7 +24,7 @@ export const HomePageData = {
         "Muka gives you the platform to reach your community and share your expertise with clients that you can relate to. Apply now or some other CTA",
       img: "/assets/images/others/icon-2.png",
       buttonText: "Join Muka",
-      url: "/"
+      url: "https://muka-staging-488c9e1c3e57.herokuapp.com/muka/signup"
     },
     {
       title: "Looking for Minority-Owned Vendors?",

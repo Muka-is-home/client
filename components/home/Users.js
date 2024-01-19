@@ -24,7 +24,7 @@ const UserSection = ({ value }) => {
                           <div className="media-body">
                             <h3>{data.title}</h3>
                             <p>{data.details}</p>
-                            <Link href={data.url} className="btn btn-solid mt-3">
+                            <Link href={data.url} target={data.url.includes('http') ? '_blank' : ''} className="btn btn-solid mt-3">
                                 {data.buttonText}
                             </Link>
                           </div>
