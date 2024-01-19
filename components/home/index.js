@@ -20,7 +20,7 @@ const BodyContent = () => {
     <>
       <HomeBannerSection />
       <UserSection value={HomePageData.sliders} />
-      {vendorServices.length && <VendorServicesSection value={vendorServices} />}
+      {vendorServices.length ? <VendorServicesSection value={vendorServices} /> : ''}
       <div className='bg-light'>
         <AboutSection />
       </div>
