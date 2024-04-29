@@ -281,6 +281,7 @@
     }
   }
   .slick-between {
+       max-width: 100%;
     .slick-slider {
       .slick-list {
         margin: 0 -12px;
@@ -309,6 +310,7 @@
       box-shadow: 0 0 14px rgba($black, 0.05);
     }
     &.slick-between {
+         max-width: 100%;
       .slick-slider {
         .slick-list {
           margin: -30px -12px;
