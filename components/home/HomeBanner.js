@@ -20,7 +20,7 @@ const HomeBannerSection = () => {
               <Container>
                 <img src="/assets/images/muka/muka-home-graphic.png" className="img-fluid muka-hero-spot" alt="" />
                 <div className="home-left">
-                  <img src="/assets/images/logo/4.png" alt="" className="img-fluid" style="margin-bottom:60px;" />
+                  <img src="/assets/images/logo/muka-logo-teal.svg" alt="" className="img-fluid" style="margin-bottom:60px;" />
                   <div>
                     {/* home main slider start*/}
                     <h1>{HomePageData.subHeading}</h1>
