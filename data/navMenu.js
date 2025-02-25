@@ -10,30 +10,20 @@ export const MainNavMenuItems = [
     path: "/about"
   },
   {
-    title: "AGENTS",
+    title: "REALTORS",
     path: "/agents",
     type: "link"
   },
   {
-    title: "Vendors",
+    title: "EXPERTS",
     path: "/vendors",
-    type: "link",
-  },
-  {
-    title: "Shop",
-    path: "/store",
     type: "link",
   },
   {
     title: "RESOURCES",
     type: "link",
     path: "/resources"
-  },
-  {
-    title: "CONTACT",
-    type: "link",
-    path: "/contact"
-  },
+  }
   // BELOW IS AN EXAMPLE OF A SUB MENU
   // {
   //   title: "CONTACT",
