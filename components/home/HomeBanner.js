@@ -17,7 +17,10 @@ const HomeBannerSection = () => {
         <Container>
           <Row>
             <Col lg="7">
-              <img src="/assets/images/logo/muka-logo-teal.svg" alt="" className="img-fluid" style="margin-bottom:60px;">
+              <Link href="/">
+                <img src="/assets/images/logo/4.png" alt="" className="img-fluid for-light" style="margin-bottom:60px; />
+                <img src="/assets/images/logo/9.png" alt="" className="img-fluid for-dark" style="margin-bottom:60px; />
+              </Link>
               <Container>
                 <img src="/assets/images/muka/muka-home-graphic.png" className="img-fluid muka-hero-spot" alt="" />
                 <div className="home-left">
