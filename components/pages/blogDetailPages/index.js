@@ -7,7 +7,7 @@ import Filter from "../../../layout/sidebarLayout/Filter";
 
 const BodyContent = ({ blog, side, children }) => {
   return (
-    <section className="ratio_40">
+    <section className="ratio2_3">
       <Container>
         <Row>
           <Col xl={side ? "9" : "12"} lg={side ? "8" : ""} className=" order-lg-1">
