@@ -55,6 +55,9 @@ const MainNav = ({ center, icon, home }) => {
                 )}
               </Fragment>
             ))}
+          <li className="mega-menu">
+            <a href="/" className="nav-link menu-title false text-dark">Login</a>
+          </li>
           </ul>
           {center && (
             <div className="brand-logo">
