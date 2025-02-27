@@ -18,7 +18,7 @@ const HomeBannerSection = () => {
           <Row>
             <Col lg="7">
               <Container>
-                <img src="/assets/images/muka/muka-home-graphic.png" className="img-fluid muka-hero-spot" alt="" />
+                <img src="/assets/images/logo/muka-logo-teal.svg" alt="" />
                 <div className="home-left">
                   <div>
                     {/* home main slider start*/}
