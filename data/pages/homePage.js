@@ -1,7 +1,7 @@
 export const HomePageData = {
   mainHeading: "We're bridging the gap in minority homeownership",
   subHeading:
-    "Connect with minority home buyers, sellers, and industry professionals.",
+    "Connect with minority realtors, home service providers, and real estate professionals!",
   ourStoryHeading: "Built for you by a family of minority realtors.",
   ourStoryText:
     "We're carrying on the legacy of the matriarch of our family who sowed a seed as an African-American realtor in the 1980's and 1990's. Muka is that seed fully bloomed.",
