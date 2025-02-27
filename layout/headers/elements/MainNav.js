@@ -56,10 +56,10 @@ const MainNav = ({ center, icon, home }) => {
               </Fragment>
             ))}
           <li className="mega-menu">
-            <a href="https://web.mukaishome.com/muka/signup" className="nav-link menu-title false text-dark">Signup</a>
+            <Link href="https://web.mukaishome.com/muka/signup" className="nav-link menu-title false text-dark">Signup</Link>
           </li>
           <li className="mega-menu">
-            <a href="https://web.mukaishome.com/muka/login" className="nav-link menu-title false text-dark">Login</a>
+            <Link href="https://web.mukaishome.com/muka/login" className="nav-link menu-title false text-dark">Login</Link>
           </li>
           </ul>
           {center && (
