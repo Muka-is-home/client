@@ -21,7 +21,7 @@ const UserSection = ({ value }) => {
                           <div className="offer-icon">
                             <img src={data.img} alt="" />
                           </div>
-                          <div className="media-body" style="margin-left:0">
+                          <div className="media-body" style="margin-left: 0em;">
                             <h3>{data.title}</h3>
                             <p>{data.details}</p>
                             <Link href={data.url} target={data.url.includes('http') ? '_blank' : ''} className="btn btn-solid mt-3">
