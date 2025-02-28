@@ -1,5 +1,5 @@
 export const FooterData = {
-  brand_description: "A supportive community where minority homebuyers, sellers, and real estate professionals come together",
+  brand_description: "A supportive community where minority homebuyers, sellers, and real estate professionals come together.",
   col1: {
     title: "About",
     children: [
