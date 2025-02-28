@@ -13,13 +13,13 @@ export const HomePageData = {
     {
       title: "Looking for a Realtor?",
       details:
-        "Connect with experienced professionals who understand your needs and help you find the perfect property, whether you're buying or selling. Get started today!",
+        "Connect with experienced professionals who understand your needs and help you find the perfect property, whether you're buying or selling.",
       img: "/assets/images/others/icon-1.png",
       buttonText: "Find A Realtor",
       url: "/agents"
     },
     {
-      title: "Are you a Minority Realtor?",
+      title: "Are you a Realtor or Expert?",
       details:
         "Join a network of professionals committed to empowering diverse communities and creating equitable opportunities in real estate.",
       img: "/assets/images/others/icon-2.png",
