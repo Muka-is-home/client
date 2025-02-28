@@ -5,15 +5,15 @@ export const HomePageData = {
   ourStoryHeading: "Built for you by a family of minority realtors.",
   ourStoryText:
     "We're carrying on the legacy of the matriarch of our family who sowed a seed as an African-American realtor in the 1980's and 1990's. Muka is that seed fully bloomed.",
-  youTubeVideoID: 'FdNstFhQHk4', // if left empty string, will not show
-  vendorHeading: "Connect with Minority Vendors",
+  youTubeVideoID: 'cc-cklDH7rU', // if left empty string, will not show
+  vendorHeading: "Connect with Minority Experts",
   vendorText:
     "Our network of trusted professionals share commitment to fostering diversity and empowerment within the industry",
   sliders: [
     {
       title: "Looking for a Realtor?",
       details:
-        "We're creating a safe place for you to get connected with the sellers and trusted realtors that you're looking for.",
+        "Connect with experienced professionals who understand your needs and help you find the perfect property, whether you're buying or selling. Get started today!",
       img: "/assets/images/others/icon-1.png",
       buttonText: "Find A Realtor",
       url: "/agents"
@@ -21,17 +21,17 @@ export const HomePageData = {
     {
       title: "Are you a Minority Realtor?",
       details:
-        "Muka gives you the platform to reach your community and share your expertise with clients that you can relate to. Apply now or some other CTA",
+        "Join a network of professionals committed to empowering diverse communities and creating equitable opportunities in real estate.",
       img: "/assets/images/others/icon-2.png",
       buttonText: "Join Muka",
       url: "https://web.mukaishome.com/muka/signup"
     },
     {
-      title: "Looking for Minority-Owned Vendors?",
+      title: "Want to Connect with a Home Expert?",
       details:
-        "Through our online directory, individuals can easily locate and engage with a network of trusted professionals",
+        "Find trusted real estate professionals and home service providers to guide you every step of the way.",
       img: "/assets/images/others/icon-1.png",
-      buttonText: "Find a Vendor",
+      buttonText: "Find an Expert",
       url: "/vendors"
     }
   ],
