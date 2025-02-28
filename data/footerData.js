@@ -1,5 +1,5 @@
 export const FooterData = {
-  brand_description: "A community connecting minority homebuyers, sellers, and realtors",
+  brand_description: "A supportive community where minority homebuyers, sellers, and real estate professionals come together",
   col1: {
     title: "About",
     children: [
@@ -12,7 +12,7 @@ export const FooterData = {
     children: [
       { title: "Instagram", link: "https://www.instagram.com/mukaishome" },
       { title: "TikTok", link: "https://www.tiktok.com/@mukaishome" },
-      { title: "Facebook", link: "https://www.youtube.com/mukaishome" },
+      { title: "YouTube", link: "https://www.youtube.com/mukaishome" },
     ],
   },
   col3: {
@@ -20,7 +20,6 @@ export const FooterData = {
     children: [
       { title: "Become a Muka Realtor", link: `${process.env.NEXT_PUBLIC_URL}/adminapp/signup` },
       { title: "Become a Muka Expert", link: `${process.env.NEXT_PUBLIC_URL}/adminapp/signup` },
-      { title: "Contact", link: "/contact" },
     ],
   },
   sub_footer: [ // find icons at font-awesome icons
