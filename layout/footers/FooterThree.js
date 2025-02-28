@@ -13,7 +13,7 @@ const FooterThree = () => {
         <Container>
           <Row>
             <FooterContactUsDetails value={FooterData.brand_description}/>
-            <Col xl="9">
+            <Col xl="6">
               <Row>
                 <FooterLink value={FooterData.col1} isActive={isActive} setIsActive={setIsActive} />
                 <FooterLink value={FooterData.col2} isActive={isActive} setIsActive={setIsActive} />
