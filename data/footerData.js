@@ -18,8 +18,8 @@ export const FooterData = {
   col3: {
     title: "Useful Links",
     children: [
-      { title: "Become a Muka Realtor", link: `${process.env.NEXT_PUBLIC_URL}/adminapp/signup` },
-      { title: "Become a Muka Expert", link: `${process.env.NEXT_PUBLIC_URL}/adminapp/signup` },
+      { title: "Become a Muka Realtor", link: `https://web.mukaishome.com/muka/signup` },
+      { title: "Become a Muka Expert", link: `https://web.mukaishome.com/muka/signup` },
     ],
   },
   sub_footer: [ // find icons at font-awesome icons
