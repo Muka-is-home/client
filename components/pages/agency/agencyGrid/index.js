@@ -35,7 +35,7 @@ const BodyContent = ({ title, clientData, listSize, size, style }) => {
                       xxl={grid.gridStyle === "grid-view" && grid.gridSize === 4 && "3"}
                       className={`${grid.gridStyle === "list-view" ? "list-view" : ""} wow fadeInUp grid-view `}
                       key={i}>
-                      <PropertyBoxFour type={title.toLowerCase()} data={data} />
+                      <PropertyBoxFour type={title === "Experts" ? "vendors" : title.toLowerCase()} data={data} />
                     </Col>
                   )):
                   <p>NO AVAILABLE LISTINGS</p>
