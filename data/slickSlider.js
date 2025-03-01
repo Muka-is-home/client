@@ -3,7 +3,7 @@
      ==========================*/
 
 export const usersSlider = {
-  dots: false,
+  dots: true,
   infinite: false,
   speed: 500,
   arrows: true,
@@ -19,7 +19,7 @@ export const usersSlider = {
   ],
 };
 export const slide1 = {
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 500,
   arrows: false,
@@ -49,7 +49,7 @@ export const slide1 = {
 };
 
 export const slide2 = {
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 700,
   arrows: false,
@@ -85,7 +85,7 @@ export const slide2 = {
 };
 
 export const slide3 = {
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 700,
   autoplay: true,
