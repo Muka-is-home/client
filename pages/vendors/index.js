@@ -48,7 +48,7 @@ const AgentList = () => {
     <>
       <NavbarThree />
       <Breadcrumb />
-      <BodyContent title={"Vendors"} clientData={clientData} style={"list-view"} size={3} />
+      <BodyContent title={"Experts"} clientData={clientData} style={"list-view"} size={3} />
       <FooterThree />
     </>
   );
