@@ -25,12 +25,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
         <meta name="description" content="Muka" />
         <meta name="keywords" content="Muka" />
-        <meta name="author" content="muka" />
-        <link
-          rel="icon"
-          href="/assets/images/favicon.png"
-          type="image/x-icon"
-        />
+        <meta name="author" content="Muka" />
+    
+        <meta property="og:title" content="Muka" />
+        <meta property="og:description" content="Connect with minority realtors, home service providers, and real estate professionals!" />
+        <meta property="og:url" content="https://mukaishome.com" />
+        <meta property="og:image" content="https://mukaishome.com/assets/images/logo/card.png" />
         <title>Muka</title>
       </Head>
       <Provider store={store}>
