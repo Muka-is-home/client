@@ -9,7 +9,7 @@ const SearchForm = {
   name: "propertyStatus",
   label: "Select a Professional",
   size: "12",
-  options: ["Realtor", "Expert"],
+  options: ["Realtor", "Vendor"],
 };
 
 const InputForm = () => {
