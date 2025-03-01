@@ -8,7 +8,7 @@ export const HomePageData = {
   youTubeVideoID: 'Ln8aRSoAU2I', // if left empty string, will not show
   vendorHeading: "Connect with Minority Experts",
   vendorText:
-    "Our network of trusted professionals share commitment to fostering diversity and empowerment within the industry",
+    "Our network of trusted professionals share commitment to fostering diversity and empowerment within the industry.",
   sliders: [
     {
       title: "Looking for a Realtor?",
