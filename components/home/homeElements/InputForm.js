@@ -9,7 +9,7 @@ const SearchForm = {
   name: "propertyStatus",
   label: "Select a Professional",
   size: "12",
-  options: ["Realtor", "Vendor"],
+  options: ["Realtor", "Expert"],
 };
 
 const InputForm = () => {
@@ -24,7 +24,7 @@ const InputForm = () => {
   const router = useRouter();
 
   const getState = (searchType) => {
-    getData(`${process.env.NEXT_PUBLIC_API_URL}/search?userType=${searchType}`)
+    getData(`${process.env.NEXT_PUBLIC_API_URL}/search?userType=${searchType === "Expert" ? "Vendor" : searchType}`)
       .then((res) => {
         const statesObj = {
           name: "stateList",
@@ -34,7 +34,7 @@ const InputForm = () => {
             .map((key) => [res.data[key]])
             .flat(2), //list that comes back from API
         };
-        setSearchType(searchType);
+        setSearchType(searchType === "Expert" ? "Vendor" : searchType);
         setStates(statesObj);
         setCounties({});
       })
@@ -43,7 +43,7 @@ const InputForm = () => {
 
   const getCounty = (state) => {
     getData(
-      `${process.env.NEXT_PUBLIC_API_URL}/search?userType=${searchType}&state=${state}`
+      `${process.env.NEXT_PUBLIC_API_URL}/search?userType=${searchType === "Expert" ? "Vendor" : searchType}&state=${state}`
     ).then((res) => {
       const countiesObj = {
         name: "countyList",
