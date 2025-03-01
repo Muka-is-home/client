@@ -12,7 +12,7 @@ export const FooterData = {
     children: [
       { title: "Instagram", link: "https://www.instagram.com/mukaishome" },
       { title: "TikTok", link: "https://www.tiktok.com/@mukaishome" },
-      { title: "YouTube", link: "https://www.youtube.com/mukaishome" },
+      { title: "YouTube", link: "http://www.youtube.com/@jantricejohnson2435" },
     ],
   },
   col3: {
@@ -23,7 +23,7 @@ export const FooterData = {
     ],
   },
   sub_footer: [ // find icons at font-awesome icons
-    { link: "https://www.youtube.com/mukaishome", class: "fab fa-youtube" },
+    { link: "http://www.youtube.com/@jantricejohnson2435", class: "fab fa-youtube" },
     { link: "https://www.instagram.com/mukaishome", class: "fab fa-instagram" },
     { link: "https://www.tiktok.com/@mukaishome", class: "fab fa-tiktok" },
   ],
