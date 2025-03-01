@@ -7,9 +7,9 @@ import { useRouter } from "next/router";
 
 const SearchForm = {
   name: "propertyStatus",
-  label: "Select A Professional",
+  label: "Select a Professional",
   size: "12",
-  options: ["Realtor", "Vendor"],
+  options: ["Realtor", "Expert"],
 };
 
 const InputForm = () => {
@@ -28,7 +28,7 @@ const InputForm = () => {
       .then((res) => {
         const statesObj = {
           name: "stateList",
-          label: "Select A State",
+          label: "Select a State",
           size: "12",
           options: Object.keys(res.data)
             .map((key) => [res.data[key]])
@@ -47,7 +47,7 @@ const InputForm = () => {
     ).then((res) => {
       const countiesObj = {
         name: "countyList",
-        label: "Select A County",
+        label: "Select a County",
         size: "12",
         options: Object.keys(res.data)
           .map((key) => [res.data[key]])
