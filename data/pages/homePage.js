@@ -5,7 +5,7 @@ export const HomePageData = {
   ourStoryHeading: "Built for you by a family of minority realtors.",
   ourStoryText:
     "We're carrying on the legacy of the matriarch of our family who sowed a seed as an African-American realtor in the 1980's and 1990's. Muka is that seed fully bloomed.",
-  youTubeVideoID: 'cc-cklDH7rU', // if left empty string, will not show
+  youTubeVideoID: 'Ln8aRSoAU2I', // if left empty string, will not show
   vendorHeading: "Connect with Minority Experts",
   vendorText:
     "Our network of trusted professionals share commitment to fostering diversity and empowerment within the industry",
