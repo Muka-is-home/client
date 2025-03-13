@@ -16,7 +16,8 @@ const VendorServicesSection = ({ value }) => {
             <Row className=" property-service column-space">
               {value?.map((data, i) => (
                 <Col xl="4" md="6" className=" wow fadeInUp" key={i}>
-                  <div className="service-box">
+                  <div className="service-box" onclick="location.href='/vendors?specialty=${data.tag_name}';">
+                    
                     {/*<div className="icon-round">{data.img}</div>*/}
                     <h3>
                       <Link href={`/vendors?specialty=${data.tag_name}`}>{data.tag_name}</Link>
